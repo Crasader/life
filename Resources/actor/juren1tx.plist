@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>gaint_rock.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{151,90}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{151,90}}</string>
+                <key>sourceSize</key>
+                <string>{151,90}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>juren1tx.png</string>
+            <key>size</key>
+            <string>{155,94}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:ad97f5db0490077f91f594e94fa1b04b$</string>
+            <key>textureFileName</key>
+            <string>juren1tx.png</string>
+        </dict>
+    </dict>
+</plist>

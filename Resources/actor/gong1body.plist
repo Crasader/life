@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>arrow_base.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{88,13}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{88,13}}</string>
+                <key>sourceSize</key>
+                <string>{88,13}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>gong1body.png</string>
+            <key>size</key>
+            <string>{92,17}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:7f92e479ddc7a56d37ea19bc8e36e299$</string>
+            <key>textureFileName</key>
+            <string>gong1body.png</string>
+        </dict>
+    </dict>
+</plist>
