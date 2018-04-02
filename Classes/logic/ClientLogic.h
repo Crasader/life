@@ -65,6 +65,7 @@ private:
     void ResCheckConnect(void *pMsg);
     void ResPay(void *pMsg);
     void ResExit(void *pMsg);
+    void ResServerTimeAck(void *pMsg);
     
     void UIClickLogin(void *pMsg);
     void UICheckNet(void *pMsg);

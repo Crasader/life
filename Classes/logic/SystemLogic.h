@@ -216,6 +216,7 @@ public:
     
     void clickExit();
     void exitApp();
+    void initServerTime(S2C_SERVER_TIME info);
 protected:
     virtual void onLoadFinish();
 private:

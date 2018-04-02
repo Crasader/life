@@ -57,3 +57,8 @@ void ClientLogic::ResCheckConnect(void *pMsg)
 //    ClientLogic::instance()->pass2Engine(&L2Einfo);
 }
 
+void ClientLogic::ResServerTimeAck(void *pMsg)
+{
+    S2C_SERVER_TIME *info = (S2C_SERVER_TIME*)pMsg;
+    SystemLogic::instance()->initServerTime(*info);
+}

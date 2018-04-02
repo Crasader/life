@@ -75,7 +75,7 @@ void SystemLogic::responseNetCheck(S2C_CHECK_CONNECT info)
         infoOut.value = 1;
         C2S_COMMON infoTime;
         infoTime.eProtocol = c2s_server_time_req;
-        ClientLogic::instance()->ProcessServiceResponse(&infoTime);
+        ClientLogic::instance()->pass2Service(&infoTime);
     }else{
         infoOut.value = 0;
     }
@@ -8484,4 +8484,9 @@ void SystemLogic::updateVITCD(T2L_COMMON infoTime)
     info.state = true;
     info.leftSec = infoTime.passSec;
     ClientLogic::instance()->pass2Engine(&info);
+}
+
+void SystemLogic::initServerTime(S2C_SERVER_TIME info)
+{
+    TimeUtil::setServerTime(info.timeStr);
 }

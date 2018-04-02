@@ -15,6 +15,8 @@
 #include "ChapterLogic.h"
 #include "SystemLogic.h"
 
+#include "utils/TimeUtil.h"
+
 
 ClientLogic::ClientLogic()
 {
@@ -194,6 +196,7 @@ ClientLogic::ClientLogic()
     m_Service2ClientFunc[s2c_check_connect] = &ClientLogic::ResCheckConnect;
     m_Service2ClientFunc[s2c_pay] = &ClientLogic::ResPay;
     m_Service2ClientFunc[s2c_exit] = &ClientLogic::ResExit;
+    m_Service2ClientFunc[s2c_server_time_ack] = &ClientLogic::ResServerTimeAck;
     
     m_Time2ClientFunc[t2l_restore_vit] = &ClientLogic::TimeRestoreVIT;
     m_Time2ClientFunc[t2l_update_offer_all_cd] = &ClientLogic::TimeUpdateOfferAllCD;
@@ -237,6 +240,7 @@ void ClientLogic::mainLoop(float dt)
 //        }
 //    }
 
+    TimeUtil::updateServerTime(dt);
     
     if (this->m_LogicStateFunc[m_eState] == nullptr) {
         return;

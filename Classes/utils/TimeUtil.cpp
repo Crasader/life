@@ -1,16 +1,41 @@
 #include "TimeUtil.h"
 
+double TimeUtil::serverTime = 0;
 
-int64_t TimeUtil::currentTimeMillis() {
+void TimeUtil::setServerTime(std::string timeStr)
+{
+    if (timeStr == "") {
+        serverTime = 0;
+        return;
+    }
+    tm tm_;
+    time_t t_;
+    strptime(timeStr.c_str(), "%Y-%m-%d %H:%M:%S", &tm_);
+    tm_.tm_isdst = -1;
+    t_  = mktime(&tm_); //将tm时间转换为秒时间
+    
+    serverTime = t_;
+}
 
-	struct timeval now;
-	gettimeofday(&now, NULL); 
-	int64_t when = now.tv_sec * 1000LL + now.tv_usec / 1000;
-	return when;
+void TimeUtil::updateServerTime(float dt)
+{
+    if (serverTime == 0) {
+        return;
+    }
+    
+    serverTime += dt;
 }
-int TimeUtil::currentTimeMillis(int64_t time){
-    return (int)TimeUtil::currentTimeMillis()-time;
-}
+
+//int64_t TimeUtil::currentTimeMillis() {
+//
+//    struct timeval now;
+//    gettimeofday(&now, NULL); 
+//    int64_t when = now.tv_sec * 1000LL + now.tv_usec / 1000;
+//    return when;
+//}
+//int TimeUtil::currentTimeMillis(int64_t time){
+//    return (int)TimeUtil::currentTimeMillis()-time;
+//}
 std::string TimeUtil::timeFormatToYYMMDD(long sec){
     char time[20];
     struct tm *local;
@@ -49,28 +74,31 @@ std::string TimeUtil::timeFormatToHMS(long sec)
     return time;
 }
 
-long TimeUtil::get_system_tick()
-{
-	struct timeval now;
-	gettimeofday(&now, 0);
-	return (now.tv_sec * 1000 + now.tv_usec / 1000);
-}
+//long TimeUtil::get_system_tick()
+//{
+//    struct timeval now;
+//    gettimeofday(&now, 0);
+//    return (now.tv_sec * 1000 + now.tv_usec / 1000);
+//}
 
 long TimeUtil::get_system_tick_s()
 {
+    if (serverTime != 0) {
+        return serverTime;
+    }
     struct timeval now;
 	gettimeofday(&now, 0);
 	return (now.tv_sec + now.tv_usec / 1000000);
 }
 
-bool TimeUtil::currentTimeInToday(int64_t time){
-    int64_t daytime = 60*60*24*1000;
-    auto d = currentTimeMillis(time);
-    if (d > daytime) {
-        return true;
-    }
-    return false;
-}
+//bool TimeUtil::currentTimeInToday(int64_t time){
+//    int64_t daytime = 60*60*24*1000;
+//    auto d = currentTimeMillis(time);
+//    if (d > daytime) {
+//        return true;
+//    }
+//    return false;
+//}
 
 int TimeUtil::timeFormatToDay(long sce){
     return sce/24/60/60;
