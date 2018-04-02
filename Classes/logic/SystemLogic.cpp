@@ -73,6 +73,9 @@ void SystemLogic::responseNetCheck(S2C_CHECK_CONNECT info)
     infoOut.eProtocol = l2e_show_connected;
     if (info.result) {
         infoOut.value = 1;
+        C2S_COMMON infoTime;
+        infoTime.eProtocol = c2s_server_time_req;
+        ClientLogic::instance()->ProcessServiceResponse(&infoTime);
     }else{
         infoOut.value = 0;
     }

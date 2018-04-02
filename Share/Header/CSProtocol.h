@@ -46,6 +46,11 @@ enum S2CProtocol
     s2c_max
 };
 
+typedef struct __C2S_COMMON
+{
+    C2SProtocol                     eProtocol;
+}C2S_COMMON;//  通用请求
+
 typedef struct __C2S_CHECK_CONNECT
 {
     C2SProtocol                     eProtocol;

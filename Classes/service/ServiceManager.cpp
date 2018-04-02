@@ -59,8 +59,8 @@ void ServiceManager::checkConnect(void *pMsg)
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
     info.result= iOSHelper::isConnected;
 #elif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
-//    info.result = AndroidHelper::checkConnect();
-    info.result = true;
+    info.result = AndroidHelper::checkConnect();
+//    info.result = true;
 #endif
 //    info.result = true;//暂定无须检查
     cocos2d::log("ServiceManager::checkConnect");
