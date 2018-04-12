@@ -240,6 +240,7 @@ static cocos2d::Size designResolutionSize = cocos2d::Size(960, 640);
 #define FUNC_ICON_DIR                               "ui/za/%s"
 #define HERO_HEAD_DIR                               "ui/head/%s"
 #define HOME_DIR                                    "ui/home/%s"
+#define LOAD_DIR                                    "ui/load/%s"
 
 #define ACTOR_DIR                                   "actor/%s.ExportJson"
 

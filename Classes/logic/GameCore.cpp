@@ -74,6 +74,12 @@ void GameCore::enterGameState(FIGHT_GAME_STATES nextState)
             useBottleCount = 1;
             L2E_SHOW_LOAD info;
             info.eProtocol = l2e_show_load;
+            if(Campaign::instance()->getCoreData().everydayId == 1)
+            {
+                info.loadTipImg = "loading1.png";
+            }else{
+                info.loadTipImg = "loading1.png";
+            }
             ClientLogic::instance()->pass2Engine(&info);
         }
             break;

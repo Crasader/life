@@ -262,6 +262,7 @@ void UIManager::showLoadStage(void *pMsg)
     auto scene = GameScene::create();
     Director::getInstance()->replaceScene(scene);
     scene->showLoad();
+    scene->replaceLoadImg(((L2E_SHOW_LOAD*)pMsg)->loadTipImg);
     replacing = true;
 }
 

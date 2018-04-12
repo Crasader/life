@@ -389,6 +389,12 @@ void GameScene::showLoad()
     SimpleAudioEngine::getInstance()->stopBackgroundMusic();
 }
 
+void GameScene::replaceLoadImg(std::string imgFile)
+{
+    auto img = (ImageView*)loadLayer->getChildByName("load_img");
+    img->loadTexture(GameUtils::format(LOAD_DIR, imgFile.c_str()));
+}
+
 void GameScene::updateLoad(cocos2d::EventCustom *event)
 {
     L2E_UPDATE_LOAD info = *static_cast<L2E_UPDATE_LOAD*>(event->getUserData());

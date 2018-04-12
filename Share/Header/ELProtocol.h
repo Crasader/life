@@ -382,6 +382,7 @@ typedef struct __L2E_SHOW_LOGIN
 typedef struct __L2E_SHOW_LOAD
 {
     L2EProtocol                 eProtocol;
+    std::string                 loadTipImg;
 }L2E_SHOW_LOAD;//  显示加载界面
 
 typedef struct __E2L_CLICK_LOGIN

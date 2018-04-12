@@ -44,6 +44,7 @@ public:
     void update(float dt);
     
     void showLoad();
+    void replaceLoadImg(std::string imgFile);
     void updateLoad(cocos2d::EventCustom *event);
     void showFight(cocos2d::EventCustom *event);
     void setupTmxMap(cocos2d::EventCustom *event);
