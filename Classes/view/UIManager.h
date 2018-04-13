@@ -170,6 +170,7 @@ private:
     void showCastleJob(void *pMsg);
     void changeJob(void *pMsg);
     void activeJob(void *pMsg);
+    void activeAllJob(void *pMsg);
     void updateName(void *pMsg);
     
     void showHallEveryday(void *pMsg);
@@ -207,6 +208,8 @@ private:
     
     void updateDiscountState(void *pMsg);
     void showHallDiscount(void *pMsg);
+    
+    void showCustomPackage(void *pMsg);
 public:
     bool replacing;
 //    std::vector<void*> delayMsg;

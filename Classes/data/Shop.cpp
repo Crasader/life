@@ -56,6 +56,7 @@ void Shop::readShopConfig()
         config.boundId = DICTOOL->getIntValue_json(dic, "bound_id");
         config.boundCount = DICTOOL->getIntValue_json(dic, "bound_count");
         config.payId = DICTOOL->getStringValue_json(dic, "pay_id");
+        config.showRes = DICTOOL->getStringValue_json(dic, "package_csb");
         
         shopConfigMap[config.shopId] = config;
     }

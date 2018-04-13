@@ -18,6 +18,7 @@
 #include "../layer/ForceUplevelLayer.h"
 #include "../node/TipsNode.h"
 #include "../node/EffectNode.h"
+#include "../layer/CustomPackageLayer.h"
 
 USING_NS_CC;
 using namespace ui;
@@ -79,6 +80,7 @@ HallScene::~HallScene()
     Director::getInstance()->getEventDispatcher()->removeEventListener(updateTipListener);
     Director::getInstance()->getEventDispatcher()->removeEventListener(showDiscountListener);
     Director::getInstance()->getEventDispatcher()->removeEventListener(updateDiscountListener);
+    Director::getInstance()->getEventDispatcher()->removeEventListener(showCustomPackageListener);
     
     ArmatureDataManager::destroyInstance();
     Director::getInstance()->purgeCachedData();
@@ -160,6 +162,8 @@ void HallScene::onEnter()
     Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(showDiscountListener, -1);
     updateDiscountListener = EventListenerCustom::create(UPDATE_DISCOUNT_STATE, CC_CALLBACK_1(HallScene::updateDiscount, this));
     Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(updateDiscountListener, -1);
+    showCustomPackageListener = EventListenerCustom::create(SHOW_CUSTOM_PACKAGE, CC_CALLBACK_1(HallScene::showCustomPackage, this));
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(showCustomPackageListener, -1);
     
     SimpleAudioEngine::getInstance()->preloadEffect(GameUtils::format(SOUND_DIR, "close.mp3").c_str());
     SimpleAudioEngine::getInstance()->preloadEffect(GameUtils::format(SOUND_DIR, "open.mp3").c_str());
@@ -1171,7 +1175,6 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 castleButton->addChild(point);
             }
                 break;
-                
             default:
                 break;
         }
@@ -1180,6 +1183,12 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
             text->setString(StringData::shared()->stringFromKey(GameUtils::format("guide_tip%d", info.param[4])));
             point->addChild(pointTip);
         }
+    }else if (info.type == 20) {
+        E2L_COMPLETE_PLOT infoPlot;
+        infoPlot.eProtocol = e2l_complete_plot;
+        infoPlot.missionId = info.missionId;
+        infoPlot.value = 0;
+        ClientLogic::instance()->ProcessUIRequest(&infoPlot);
     }
 }
 void HallScene::clickVip()
@@ -1885,3 +1894,9 @@ void HallScene::showDiscount(cocos2d::EventCustom *event)
     addChild(discountLayer);
 }
 
+void HallScene::showCustomPackage(cocos2d::EventCustom *event)
+{
+    auto packageLayer = CustomPackageLayer::create();
+    packageLayer->setupView(event);
+    addChild(packageLayer);
+}

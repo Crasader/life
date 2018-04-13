@@ -1074,6 +1074,43 @@ void Account::activeJob(int jobId)
     save2JobJson();
 }
 
+void Account::activeAllJob()
+{
+    if (jobStr == "") {
+        return;
+    }
+    
+    rapidjson::Document _doc;
+    std::string tempStr = decode(jobStr.c_str());
+    _doc.Parse < 0 > (tempStr.c_str());
+    if(_doc.HasParseError())
+    {
+        return;
+    }
+    
+    if(!_doc.IsArray())
+    {
+        return;
+    }
+    
+    for (auto job : jobMap) {
+        int jobId = job.second.jobId;
+        _doc[jobId-1]["active"] = 1;
+        jobMap[jobId].active = 1;
+    }
+    
+    StringBuffer buff;
+    rapidjson::Writer<StringBuffer> writer(buff);
+    _doc.Accept(writer);
+    
+    std::string s = StringUtils::format("%s", buff.GetString());
+    //    log("========================\n");
+    //    log("%s\n", s.c_str());
+    jobStr = encode(s);
+    
+    save2JobJson();
+}
+
 int Account::changeJob(int jobId)
 {
     if (jobStr == "") {

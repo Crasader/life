@@ -124,6 +124,7 @@
 #define SHOW_CASTLE_JOB                                 "SHOW_CASTLE_JOB"
 #define CHANGE_JOB                                      "CHANGE_JOB"
 #define ACTIVE_JOB                                      "ACTIVE_JOB"
+#define ACTIVE_ALL_JOB                                      "ACTIVE_ALL_JOB"
 #define SHOW_HALL_EVERYDAY                              "SHOW_HALL_EVERYDAY"
 #define UPDATE_EVERYDAY                                 "UPDATE_EVERYDAY"
 #define SHOW_EVERYDAY                                   "SHOW_EVERYDAY"
@@ -163,7 +164,7 @@
 #define SHOW_GET_TIP                                    "SHOW_GET_TIP"
 #define UPDATE_DISCOUNT_STATE                           "UPDATE_DISCOUNT_STATE"
 #define SHOW_HALL_DISCOUNT                              "SHOW_HALL_DISCOUNT"
-
+#define SHOW_CUSTOM_PACKAGE                             "SHOW_CUSTOM_PACKAGE"
 
 #define UPDATE_ARMS_TIP                                 "UPDATE_ARMS_TIP"
 #define UPDATE_EQUIP_TIP                                "UPDATE_EQUIP_TIP"

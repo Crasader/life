@@ -38,12 +38,15 @@ public:
     void showJob(cocos2d::EventCustom *event);
     void activeJob(cocos2d::EventCustom *event);
     
+    void activeAllJob(cocos2d::EventCustom *event);
+    
     CREATE_FUNC(HallCastleLayer);
 private:
     cocos2d::EventListenerCustom *startPlotListener;
     cocos2d::EventListenerCustom *showJobListener;
     cocos2d::EventListenerCustom *activeListener;
     cocos2d::EventListenerCustom *changeNameListener;
+    cocos2d::EventListenerCustom *activeAllListener;
     
     cocostudio::timeline::ActionTimeline *rootAction;
     cocos2d::ui::ImageView *jobImg1;

@@ -83,6 +83,7 @@ public:
     void showDiscount(cocos2d::EventCustom *event);
     void updateDiscount(cocos2d::EventCustom *event);
     
+    void showCustomPackage(cocos2d::EventCustom *event);
 //    static void setDelayEvent(cocos2d::EventCustom *event);
     
     void clickVip();
@@ -166,6 +167,7 @@ private:
     cocos2d::EventListenerCustom *updateTipListener;
     cocos2d::EventListenerCustom *updateDiscountListener;
     cocos2d::EventListenerCustom *showDiscountListener;
+    cocos2d::EventListenerCustom *showCustomPackageListener;
     
     cocos2d::Sprite *bgSpt;
     cocos2d::Sprite *vipTip;

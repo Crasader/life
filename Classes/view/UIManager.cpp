@@ -161,6 +161,7 @@ UIManager::UIManager()
     m_Logic2EngineFunc[l2e_show_job] = &UIManager::showCastleJob;
     m_Logic2EngineFunc[l2e_change_job] = &UIManager::changeJob;
     m_Logic2EngineFunc[l2e_active_job] = &UIManager::activeJob;
+    m_Logic2EngineFunc[l2e_active_all_job] = &UIManager::activeAllJob;
     m_Logic2EngineFunc[l2e_update_name] = &UIManager::updateName;
     
     m_Logic2EngineFunc[l2e_show_hall_everyday] = &UIManager::showHallEveryday;
@@ -205,6 +206,8 @@ UIManager::UIManager()
     m_Logic2EngineFunc[l2e_show_hall_discount] = &UIManager::showHallDiscount;
     
     m_Logic2EngineFunc[l2e_update_vit_cd] = &UIManager::updateVITCD;
+    
+    m_Logic2EngineFunc[l2e_show_custom_package] = &UIManager::showCustomPackage;
     
     replacing = false;
 //    delayMsg.clear();
@@ -1132,6 +1135,13 @@ void UIManager::activeJob(void *pMsg)
     Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
 }
 
+void UIManager::activeAllJob(void *pMsg)
+{
+    EventCustom event(ACTIVE_ALL_JOB);
+    event.setUserData(pMsg);
+    Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
+}
+
 void UIManager::showHallEveryday(void *pMsg)
 {
     EventCustom event(SHOW_HALL_EVERYDAY);
@@ -1387,6 +1397,13 @@ void UIManager::showHallDiscount(void *pMsg)
 void UIManager::updateVITCD(void *pMsg)
 {
     EventCustom event(UPDATE_VIT_CD);
+    event.setUserData(pMsg);
+    Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
+}
+
+void UIManager::showCustomPackage(void *pMsg)
+{
+    EventCustom event(SHOW_CUSTOM_PACKAGE);
     event.setUserData(pMsg);
     Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
 }

@@ -27,6 +27,7 @@ typedef struct __SHOP_CONFIG
     int boundId;
     int boundCount;
     std::string payId;
+    std::string showRes;
 }SHOP_CONFIG;
 
 typedef struct __SHOP_PACKAGE_CONFIG

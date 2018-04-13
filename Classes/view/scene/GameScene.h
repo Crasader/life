@@ -81,6 +81,7 @@ public:
     void resumtFight();
     
     void startPlot(cocos2d::EventCustom *event);
+    void showCustomPackage(cocos2d::EventCustom *event);
     void completePlot();
     CREATE_FUNC(GameScene);
 private:
@@ -148,6 +149,7 @@ private:
     cocos2d::EventListenerCustom *completePlotListener;
     cocos2d::EventListenerCustom *updateExpListener;
     cocos2d::EventListenerCustom *showWarningListener;
+    cocos2d::EventListenerCustom *showCustomPackageListener;
     
     CC_SYNTHESIZE_READONLY(cocos2d::Layer *, scrFrtLayer, scrFrtLayer);
     CC_SYNTHESIZE_READONLY(int, battleType, BattleType);

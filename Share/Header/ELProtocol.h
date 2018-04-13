@@ -339,6 +339,7 @@ enum L2EProtocol
     l2e_show_job,                                       //  显示职业说明
     l2e_change_job,                                     //  切换职业
     l2e_active_job,                                     //  激活职业
+    l2e_active_all_job,                                 //  激活所有职业
     l2e_update_name,                                    //  更新名字
     
     l2e_show_everyday,                                  //  显示7天界面
@@ -364,6 +365,7 @@ enum L2EProtocol
     l2e_show_shop,                                      //  显示商城分类
     l2e_show_package_detail,                            //  显示礼包详情界面
     l2e_show_package_result,                            //  显示礼包结果
+    l2e_show_custom_package,                            //  显示特殊礼包
     
     l2e_take_vip_bound,                                 //  领取vip奖励
     l2e_show_vip_detail,                                //  显示VIP特权
@@ -1819,6 +1821,13 @@ typedef struct __L2E_SHOW_PACKAGE_DETAIL
     std::string                 icon[20];
     int                         count[20];
 }L2E_SHOW_PACKAGE_DETAIL;
+
+typedef struct __L2E_SHOW_CUSTOM_PACKAGE
+{
+    L2EProtocol                 eProtocol;
+    int                         shopId;
+    std::string                 showRes;
+}L2E_SHOW_CUSTOM_PACKAGE;
 
 typedef struct __L2E_SHOW_PACKAGE_RESULT
 {

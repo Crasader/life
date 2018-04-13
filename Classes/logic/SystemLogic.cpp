@@ -4498,6 +4498,14 @@ void SystemLogic::plotComplete(E2L_COMPLETE_PLOT info)
                     infoNpc.missionId = missionId;
                     ClientLogic::instance()->pass2Engine(&infoNpc);
                     continue;
+                }else if(plot->plotMap[plotId].type == 20){
+                    L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                    infoPackage.eProtocol = l2e_show_custom_package;
+                    std::vector<int> packageIdVec;
+                    shop->getShopByType(9, packageIdVec);
+                    infoPackage.shopId = packageIdVec[0];
+                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    ClientLogic::instance()->pass2Engine(&infoPackage);
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -6289,6 +6297,17 @@ void SystemLogic::responseBuy(S2C_PAY info)
             takePackageBound(packageId);
         }else{
             GameCore::instance()->notRevive();
+        }
+        
+        return;
+    }
+    
+    if (shop->shopConfigMap[packageId].type == 9) {
+        if (info.success) {
+            account->activeAllJob();
+            L2E_COMMON infoOut;
+            infoOut.eProtocol = l2e_active_all_job;
+            ClientLogic::instance()->pass2Engine(&infoOut);
         }
         
         return;

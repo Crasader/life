@@ -27,6 +27,7 @@
 #include "../layer/PlotVideoLayer.h"
 #include "../layer/DialogLayer.h"
 #include "../layer/ReviveLayer.h"
+#include "../layer/CustomPackageLayer.h"
 #include "../node/EffectNode.h"
 
 USING_NS_CC;
@@ -63,6 +64,7 @@ GameScene::~GameScene()
     Director::getInstance()->getEventDispatcher()->removeEventListener(completePlotListener);
     Director::getInstance()->getEventDispatcher()->removeEventListener(updateExpListener);
     Director::getInstance()->getEventDispatcher()->removeEventListener(showWarningListener);
+    Director::getInstance()->getEventDispatcher()->removeEventListener(showCustomPackageListener);
 
     ArmatureDataManager::destroyInstance();
     Director::getInstance()->purgeCachedData();
@@ -119,6 +121,8 @@ void GameScene::onEnter()
     Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(updateExpListener, -1);
     showWarningListener = EventListenerCustom::create(SHOW_WARNING, CC_CALLBACK_1(GameScene::showWarning, this));
     Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(showWarningListener, -1);
+    showCustomPackageListener = EventListenerCustom::create(SHOW_CUSTOM_PACKAGE, CC_CALLBACK_1(GameScene::showCustomPackage, this));
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(showCustomPackageListener, -1);
 
     bulletManager = BulletManager::create();
     addChild(bulletManager);
@@ -1109,6 +1113,12 @@ void GameScene::startPlot(cocos2d::EventCustom *event)
         infoPlot.missionId = info.missionId;
         infoPlot.value = 0;
         ClientLogic::instance()->ProcessUIRequest(&infoPlot);
+    }else if (info.type == 20) {
+        E2L_COMPLETE_PLOT infoPlot;
+        infoPlot.eProtocol = e2l_complete_plot;
+        infoPlot.missionId = info.missionId;
+        infoPlot.value = 0;
+        ClientLogic::instance()->ProcessUIRequest(&infoPlot);
     }
 }
 
@@ -1138,4 +1148,11 @@ void GameScene::showWarning(cocos2d::EventCustom *event)
     effect->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
     effect->setPosition(GameUtils::winSize/2);
     addChild(effect);
+}
+
+void GameScene::showCustomPackage(cocos2d::EventCustom *event)
+{
+    auto packageLayer = CustomPackageLayer::create();
+    packageLayer->setupView(event);
+    addChild(packageLayer);
 }

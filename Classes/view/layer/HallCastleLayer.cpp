@@ -43,6 +43,8 @@ void HallCastleLayer::onEnter()
     Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(activeListener, -1);
     changeNameListener = EventListenerCustom::create(UPDATE_NAME, CC_CALLBACK_1(HallCastleLayer::changeName, this));
     Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(changeNameListener, -1);
+    activeAllListener = EventListenerCustom::create(ACTIVE_ALL_JOB, CC_CALLBACK_1(HallCastleLayer::activeAllJob, this));
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(activeAllListener, -1);
 }
 
 HallCastleLayer::~HallCastleLayer()
@@ -51,6 +53,7 @@ HallCastleLayer::~HallCastleLayer()
     Director::getInstance()->getEventDispatcher()->removeEventListener(showJobListener);
     Director::getInstance()->getEventDispatcher()->removeEventListener(activeListener);
     Director::getInstance()->getEventDispatcher()->removeEventListener(changeNameListener);
+    Director::getInstance()->getEventDispatcher()->removeEventListener(activeAllListener);
     ArmatureDataManager::destroyInstance();
     Director::getInstance()->purgeCachedData();
 }
@@ -192,6 +195,13 @@ void HallCastleLayer::activeJob(cocos2d::EventCustom *event)
     jobDescript->setString(info.jobDescript);
     jobLock[info.currJob-1]->setVisible(false);
     clickCloseBuyJob();
+}
+
+void HallCastleLayer::activeAllJob(cocos2d::EventCustom *event)
+{
+    for (int i = 1; i <= 4; i++) {
+        jobLock[i-1]->setVisible(false);
+    }
 }
 
 void HallCastleLayer::changeName(cocos2d::EventCustom *event)

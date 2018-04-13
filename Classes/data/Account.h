@@ -133,6 +133,8 @@ public:
     void unlockJob(int jobId);
     void activeJob(int jobId);
     int changeJob(int jobId);
+    void activeAllJob();
+    
 public:
     static std::map<int, int> unlockConfigIdTable;
     static std::map<int, int> jobConfigIdTable;
