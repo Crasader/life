@@ -120,6 +120,7 @@ static cocos2d::Size designResolutionSize = cocos2d::Size(960, 640);
 #define DIALOG_SEG_CONFIG_FILE                      "data/dialog/dialog%d_seg.json"
 #define DIALOG_LINE_CONFIG_FILE                     "data/dialog/dialog%d_line.json"
 #define NPC_CONFIG_FILE                             "data/dabao_npc.json"
+#define MONTH_ASSIGN_CONFIG_FILE                    "data/system_month_assign.json"
 #define EVERYDAY_CONFIG_FILE                        "data/system_everyday.json"
 #define LUCKY_CONFIG_FILE                           "data/system_lucky.json"
 #define SHOP_CONFIG_FILE                            "data/system_shop.json"

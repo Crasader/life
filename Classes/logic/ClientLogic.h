@@ -249,6 +249,7 @@ private:
     void TimeUpdateArenaTicketCD(void *pMsg);
     void TimeRefreshArenaReward(void *pMsg);
     void TimeRefreshEveryday(void *pMsg);
+    void TimeRefreshMonthAssign(void *pMsg);
     void TimeRestoreDrawNormal(void *pMsg);
     void TimeRestoreDrawSpecial(void *pMsg);
     void TimeUpdateLuckyCD(void *pMsg);

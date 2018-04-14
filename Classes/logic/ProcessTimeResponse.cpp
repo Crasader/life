@@ -108,6 +108,11 @@ void ClientLogic::TimeRefreshEveryday(void *pMsg)
     SystemLogic::instance()->refreshEveryday();
 }
 
+void ClientLogic::TimeRefreshMonthAssign(void *pMsg)
+{
+    SystemLogic::instance()->refreshMonthAssign();
+}
+
 void ClientLogic::TimeRestoreDrawNormal(void *pMsg)
 {
     SystemLogic::instance()->restoreDrawNormal();

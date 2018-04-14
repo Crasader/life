@@ -168,6 +168,8 @@ enum E2LProtocol
     e2l_click_free_diamond,                             //  点免费钻石领取
     e2l_take_mission_reward,                            //  点奖励任务领取
     e2l_click_mission_jump,                             //  点奖励任务前往
+    e2l_show_month_assign,                              //  点月签
+    e2l_take_month_assign_reward,                       //  点月签领取
     
     e2l_click_shop_button,                              //  点商城类型按钮
     e2l_shop_buy_package,                               //  购买商城礼包
@@ -361,6 +363,7 @@ enum L2EProtocol
     l2e_show_campaign_bound_mission,                    //  显示奖励中心界面
     l2e_update_campaign_tip,                            //  更新活动提示
     l2e_jump_locked,                                    //  显示跳转的功能未解锁
+    l2e_show_month_assign,                              //  显示月签
     
     l2e_show_shop,                                      //  显示商城分类
     l2e_show_package_detail,                            //  显示礼包详情界面
@@ -1737,6 +1740,18 @@ typedef struct __L2E_SHOW_EVERYDAY
     bool                        activeTip;
     bool                        boundTip;
 }L2E_SHOW_EVERYDAY;
+
+typedef struct __L2E_SHOW_MONTH_ASSIGN
+{
+    L2EProtocol                 eProtocol;
+    int                         monthAssignState;
+    int                         monthAssignId;
+    std::string                 icon[40];
+    std::string                 name[40];
+    int                         count[40];
+    int                         vipLimit[40];
+    int                         configCount;
+}L2E_SHOW_MONTH_ASSIGN;
 
 typedef struct __L2E_SHOW_LUCKY
 {

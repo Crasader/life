@@ -25,6 +25,8 @@ typedef struct __CAMPAIGN_DATA
 {
     int everydayId;
     int everydayState;
+    int monthAssignId;
+    int monthAssignState;
     int totalActiveVal;
     int boxState[4];
     int freeDiamondId;
@@ -32,6 +34,16 @@ typedef struct __CAMPAIGN_DATA
     float onlineDuration;
     int killMonsterCount;
 }CAMPAIGN_DATA;
+
+typedef struct __MONTH_ASSIGN_CONFIG
+{
+    int configId;
+    int dayId;
+    int boundType;
+    int boundId;
+    int boundCount;
+    int vipLimit;
+}MONTH_ASSIGN_CONFIG;
 
 typedef struct __ACTIVE_MISSION_CONFIG
 {
@@ -82,6 +94,7 @@ public:
     Campaign();
     ~Campaign();
     
+    void readMonthAssignConfig();
     void readEverydayConfig();
     void readActiveMissionConfig();
     void readActiveBoxConfig();
@@ -110,6 +123,9 @@ public:
     void enableEveryday();
     void takeEverydayBound();
     
+    void enableMonthAssign();
+    void takeMonthAssignBound();
+    
     void resetActive();
     void activeMission(int activeType, int activeThres);
     int takeActiveMissionBound(int missionId);
@@ -131,6 +147,7 @@ public:
     
     void checkTip();
 public:
+    static std::map<int, int> monthAssignConifgIdTable;
     static std::map<int, int> everydayConfigIdTable;
     static std::map<int, int> activeMissionIdTable;
     static std::map<int, int> activeBoxIdTable;
@@ -139,6 +156,7 @@ public:
     
     static std::map<int, int> boundDocIdTable;
     
+    std::map<int, MONTH_ASSIGN_CONFIG> monthAssignConfigMap;
     std::map<int, EVERYDAY_CONFIG> everydayConfigMap;
     std::map<int, ACTIVE_MISSION_CONFIG> activeMissionMap;
     std::map<int, ACTIVE_BOX_CONFIG> activeBoxMap;

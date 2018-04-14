@@ -214,6 +214,7 @@ ClientLogic::ClientLogic()
     m_Time2ClientFunc[t2l_update_arena_ticket_cd] = &ClientLogic::TimeUpdateArenaTicketCD;
     m_Time2ClientFunc[t2l_refresh_arena_reward] = &ClientLogic::TimeRefreshArenaReward;
     m_Time2ClientFunc[t2l_refresh_everyday] = &ClientLogic::TimeRefreshEveryday;
+    m_Time2ClientFunc[t2l_refresh_month_assign] = &ClientLogic::TimeRefreshMonthAssign;
     m_Time2ClientFunc[t2l_restore_draw_normal] = &ClientLogic::TimeRestoreDrawNormal;
     m_Time2ClientFunc[t2l_restore_draw_special] = &ClientLogic::TimeRestoreDrawSpecial;
     m_Time2ClientFunc[t2l_update_lucky_cd] = &ClientLogic::TimeUpdateLuckyCD;

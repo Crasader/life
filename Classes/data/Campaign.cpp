@@ -17,6 +17,7 @@ USING_NS_CC;
 using namespace cocostudio;
 using namespace rapidjson;
 
+std::map<int, int> Campaign::monthAssignConifgIdTable;
 std::map<int, int> Campaign::everydayConfigIdTable;
 std::map<int, int> Campaign::activeMissionIdTable;
 std::map<int, int> Campaign::activeBoxIdTable;
@@ -27,6 +28,8 @@ std::map<int, int> Campaign::boundDocIdTable;
 Campaign::Campaign():
 tip(false)
 {
+    monthAssignConifgIdTable.clear();
+    monthAssignConfigMap.clear();
     everydayConfigIdTable.clear();
     everydayConfigMap.clear();
     activeMissionIdTable.clear();
@@ -38,6 +41,28 @@ tip(false)
 Campaign::~Campaign()
 {
     
+}
+
+void Campaign::readMonthAssignConfig()
+{
+    auto doc = GameReader::getDocInstance(MONTH_ASSIGN_CONFIG_FILE);
+    if (monthAssignConifgIdTable.empty()) {
+        GameReader::initIdTable(*doc, "id", monthAssignConifgIdTable);
+    }
+    
+    monthAssignConfigMap.clear();
+    for (int i = 0; i < monthAssignConifgIdTable.size(); i++) {
+        const rapidjson::Value &dic = DICTOOL->getSubDictionary_json(*doc, i);
+        
+        MONTH_ASSIGN_CONFIG config;
+        config.configId = DICTOOL->getIntValue_json(dic, "id");
+        config.dayId = DICTOOL->getIntValue_json(dic, "day_id");
+        config.boundType = DICTOOL->getIntValue_json(dic, "bound_type");
+        config.boundId = DICTOOL->getIntValue_json(dic, "bound_id");
+        config.boundCount = DICTOOL->getIntValue_json(dic, "bound_count");
+        config.vipLimit = DICTOOL->getIntValue_json(dic, "vip_limit");
+        monthAssignConfigMap[config.configId] = config;
+    }
 }
 
 void Campaign::readEverydayConfig()
@@ -218,7 +243,8 @@ bool Campaign::parseCampaignJson()
         return false;
     }
     
-    
+    coreData.monthAssignId = DICTOOL->getIntValue_json(_doc, "month_assign_id");
+    coreData.monthAssignState = DICTOOL->getIntValue_json(_doc, "month_assign_state");
     coreData.everydayId = DICTOOL->getIntValue_json(_doc, "everyday_id");
     coreData.everydayState = DICTOOL->getIntValue_json(_doc, "everyday_state");
     coreData.totalActiveVal = DICTOOL->getIntValue_json(_doc, "total_active");
@@ -243,6 +269,8 @@ void Campaign::save2EmptyCampaignJson()
     }
     
     rapidjson::Document::AllocatorType& allocator= _doc.GetAllocator();
+    _doc.AddMember("month_assign_id", 1, allocator);
+    _doc.AddMember("month_assign_state", 1, allocator);
     _doc.AddMember("everyday_id", 1, allocator);
     _doc.AddMember("everyday_state", 1, allocator);
     _doc.AddMember("total_active", 0, allocator);
@@ -324,6 +352,77 @@ void Campaign::takeEverydayBound()
     
     _doc["everyday_id"] = coreData.everydayId;
     _doc["everyday_state"] = coreData.everydayState;
+    
+    StringBuffer buff;
+    rapidjson::Writer<StringBuffer> writer(buff);
+    _doc.Accept(writer);
+    std::string s = StringUtils::format("%s", buff.GetString());
+    //    log("========================\n");
+    //    log("%s\n", s.c_str());
+    coreStr = encode(s);
+    save2CampaignJson();
+}
+
+void Campaign::enableMonthAssign()
+{
+    if (coreStr == "") {
+        return;
+    }
+    
+    rapidjson::Document _doc;
+    std::string tempStr = decode(coreStr.c_str());
+    _doc.Parse < 0 > (tempStr.c_str());
+    if(_doc.HasParseError())
+    {
+        return;
+    }
+    
+    if(!_doc.IsObject())
+    {
+        return;
+    }
+    
+    coreData.monthAssignState = 1;
+    _doc["month_assign_state"] = 1;
+    
+    StringBuffer buff;
+    rapidjson::Writer<StringBuffer> writer(buff);
+    _doc.Accept(writer);
+    std::string s = StringUtils::format("%s", buff.GetString());
+    //    log("========================\n");
+    //    log("%s\n", s.c_str());
+    coreStr = encode(s);
+    save2CampaignJson();
+}
+
+void Campaign::takeMonthAssignBound()
+{
+    if (coreStr == "") {
+        return;
+    }
+    
+    rapidjson::Document _doc;
+    std::string tempStr = decode(coreStr.c_str());
+    _doc.Parse < 0 > (tempStr.c_str());
+    if(_doc.HasParseError())
+    {
+        return;
+    }
+    
+    if(!_doc.IsObject())
+    {
+        return;
+    }
+    coreData.monthAssignId = DICTOOL->getIntValue_json(_doc, "month_assign_id");
+    int dayId = coreData.monthAssignId-1;
+    dayId++;
+    dayId %= monthAssignConifgIdTable.size();
+    
+    coreData.monthAssignId = dayId+1;
+    coreData.monthAssignState = 2;
+    
+    _doc["month_assign_id"] = coreData.everydayId;
+    _doc["month_assign_state"] = coreData.everydayState;
     
     StringBuffer buff;
     rapidjson::Writer<StringBuffer> writer(buff);

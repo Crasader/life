@@ -45,6 +45,7 @@ public:
     void getArenaTicketCD(void *pMsg);
     void refreshArenaReward(void *pMsg);
     void refreshEveryday(void *pMsg);
+    void refreshMonthAssign(void *pMsg);
     void restoreDrawNormal(void *pMsg);
     void restoreDrawSpecial(void *pMsg);
     void getLuckyCD(void *pMsg);

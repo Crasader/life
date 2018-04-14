@@ -167,6 +167,10 @@ public:
     void showCampaignEveryday();
     void takeEverydayBound();
     void refreshEveryday();
+    void showMonthAssign();
+    void takeMonthAssignBound();
+    void refreshMonthAssign();
+    
     void showFirstRecharge();
     void takeFirstRecharge();
     void showCampaignActive();

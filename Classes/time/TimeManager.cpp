@@ -38,6 +38,7 @@ TimeManager::TimeManager()
     m_Client2TimeFunc[l2t_get_arena_ticket_cd] = &TimeManager::getArenaTicketCD;
     m_Client2TimeFunc[l2t_refresh_arena_reward] = &TimeManager::refreshArenaReward;
     m_Client2TimeFunc[l2t_refresh_everyday] = &TimeManager::refreshEveryday;
+    m_Client2TimeFunc[l2t_refresh_month_assign] = &TimeManager::refreshMonthAssign;
     m_Client2TimeFunc[l2t_restore_draw_normal] = &TimeManager::restoreDrawNormal;
     m_Client2TimeFunc[l2t_restore_draw_special] = &TimeManager::restoreDrawSpecial;
     m_Client2TimeFunc[l2t_get_lucky_cd] = &TimeManager::getLuckyCD;
@@ -355,6 +356,14 @@ void TimeManager::refreshEveryday(void *pMsg)
 {
     if (data->eventMap.find(t2l_refresh_everyday) == data->eventMap.end()) {
         data->addEvent(t2l_refresh_everyday, TimeUtil::getTimeWithTomorrowHour(1, 0));
+        saveData();
+    }
+}
+
+void TimeManager::refreshMonthAssign(void *pMsg)
+{
+    if (data->eventMap.find(t2l_refresh_month_assign) == data->eventMap.end()) {
+        data->addEvent(t2l_refresh_month_assign, TimeUtil::getTimeWithTomorrowHour(1, 0));
         saveData();
     }
 }

@@ -4956,6 +4956,267 @@ void SystemLogic::refreshEveryday()
     campaign->enableEveryday();
 }
 
+void SystemLogic::showMonthAssign()
+{
+    L2E_SHOW_MONTH_ASSIGN info;
+    info.eProtocol = l2e_show_month_assign;
+    info.monthAssignState = campaign->getCoreData().monthAssignState;
+    info.monthAssignId = campaign->getCoreData().monthAssignId;
+    info.configCount = (int)campaign->monthAssignConfigMap.size();
+    memset(info.count, 0, sizeof(int)*40);
+    memset(info.vipLimit, 0, sizeof(int)*40);
+    for (int i = 0; i < info.configCount; i++) {
+        info.count[i] = campaign->monthAssignConfigMap[i+1].boundCount;
+        info.vipLimit[i] = campaign->monthAssignConfigMap[i+1].vipLimit;
+        switch (campaign->everydayConfigMap[i+1].boundType) {
+            case 1:
+            {
+                info.icon[i] = "jinbi1.png";
+                info.name[i] = StringData::shared()->stringFromKey("gold");
+            }
+                break;
+            case 2:
+            {
+                info.icon[i] = "zuanshi1.png";
+                info.name[i] = StringData::shared()->stringFromKey("diamond");
+            }
+                break;
+            case 3:
+            {
+                info.icon[i] = "tilibiao.png";
+                info.name[i] = StringData::shared()->stringFromKey("VIT");
+            }
+                break;
+            case 4:
+            {
+                info.icon[i] = "hunshi.png";
+                info.name[i] = StringData::shared()->stringFromKey("stone");
+            }
+                break;
+            case 5:
+            {
+                info.icon[i] = "shengwang.png";
+                info.name[i] = StringData::shared()->stringFromKey("fame");
+            }
+                break;
+            case 6:
+            {
+                info.icon[i] = "saodangquan.png";
+                info.name[i] = StringData::shared()->stringFromKey("prov_ticket");
+            }
+                break;
+            case 7:
+            {
+                info.icon[i] = arms->gemsConfigMap[campaign->everydayConfigMap[i+1].boundId].icon;
+                info.name[i] = StringData::shared()->stringFromKey("gem");
+            }
+                break;
+            case 8:
+            {
+                info.icon[i] = equip->equipItemConfigMap[campaign->everydayConfigMap[i+1].boundId].icon;
+                info.name[i] = StringData::shared()->stringFromKey("equip_item_fragment");
+            }
+                break;
+            case 9:
+            {
+                info.icon[i] = pet->petConfigMap[campaign->everydayConfigMap[i+1].boundId].icon;
+                info.name[i] = pet->petConfigMap[campaign->everydayConfigMap[i+1].boundId].name;
+            }
+                break;
+            case 10:
+            {
+                info.name[i] = StringData::shared()->stringFromKey("normal_draw_ticket");
+                info.icon[i] = GameUtils::format(LUCKY_DIR, "chouqu1.png");
+            }
+                break;
+            case 11:
+            {
+                info.name[i] = StringData::shared()->stringFromKey("special_draw_ticket");
+                info.icon[i] = GameUtils::format(LUCKY_DIR, "chouqu2.png");
+            }
+                break;
+                
+            default:
+                break;
+        }
+    }
+    
+    ClientLogic::instance()->pass2Engine(&info);
+}
+
+void SystemLogic::takeMonthAssignBound()
+{
+    if (campaign->getCoreData().monthAssignState == 2) {
+        return;
+    }
+    
+    int monthAssignId = campaign->getCoreData().monthAssignId;
+    int count = campaign->monthAssignConfigMap[monthAssignId].boundCount;
+    int boundId = campaign->monthAssignConfigMap[monthAssignId].boundId;
+    int vipLimit = campaign->monthAssignConfigMap[monthAssignId].vipLimit;
+    if (vip->getCoreData().vipId >= vipLimit) {
+        count *= 2;
+    }
+    L2E_SHOW_GET infoGet;
+    infoGet.eProtocol = l2e_show_get;
+    memset(infoGet.count, 0, sizeof(int)*20);
+    infoGet.count[0] = count;
+    infoGet.frag[0] = false;
+    switch (campaign->monthAssignConfigMap[monthAssignId].boundType)
+    {
+        case 1:
+        {
+            account->changeGold(count);
+            infoGet.icon[0] = GameUtils::format(COMMON_DIR, "drop-16.png");
+            infoGet.name[0] = StringData::shared()->stringFromKey("gold");
+            
+            L2E_UPDATE_ONE_VALUE infoGold;
+            infoGold.eProtocol = l2e_update_gold;
+            infoGold.value = account->getData().gold;
+            ClientLogic::instance()->pass2Engine(&infoGold);
+            
+            C2S_UMENG_TRACK infoUmeng;
+            infoUmeng.eProtocol = c2s_umeng_track;
+            infoUmeng.eventName = "get_gold";
+            infoUmeng.count = count;
+            infoUmeng.attrMap.clear();
+            ClientLogic::instance()->pass2Service(&infoUmeng);
+            
+        }
+            break;
+        case 2:
+        {
+            account->changeDiamond(count);
+            infoGet.icon[0] = GameUtils::format(COMMON_DIR, "drop-17.png");
+            infoGet.name[0] = StringData::shared()->stringFromKey("diamond");
+            L2E_UPDATE_ONE_VALUE infoDiamond;
+            infoDiamond.eProtocol = l2e_update_diamond;
+            infoDiamond.value = account->getData().diamond;
+            ClientLogic::instance()->pass2Engine(&infoDiamond);
+        }
+            break;
+        case 3:
+        {
+            vit->addPlusVIT(count);
+            infoGet.icon[0] = GameUtils::format(COMMON_DIR, "tilibiao.png");
+            infoGet.name[0] = StringData::shared()->stringFromKey("VIT");
+            L2E_UPDATE_VIT infoVIT;
+            infoVIT.eProtocol = l2e_update_vit;
+            infoVIT.currVIT = vit->getTotalVIT();
+            infoVIT.maxVIT = vit->getMaxBaseVIT();
+            ClientLogic::instance()->pass2Engine(&infoVIT);
+        }
+            break;
+        case 4:
+        {
+            sword->addStone(count);
+            infoGet.icon[0] = GameUtils::format(COMMON_DIR, "hunshi.png");
+            infoGet.name[0] = StringData::shared()->stringFromKey("stone");
+            
+            sword->checkTip(account->getData().gold);
+            L2E_UPDATE_HALL_TIP infoTip;
+            infoTip.eProtocol = l2e_update_hall_tip;
+            infoTip.tipIndex = 3;
+            infoTip.tipValue = sword->getTip();
+            ClientLogic::instance()->pass2Engine(&infoTip);
+        }
+            break;
+        case 5:
+        {
+            account->changeFame(count);
+            infoGet.icon[0] = GameUtils::format(COMMON_DIR, "shengwang.png");
+            infoGet.name[0] = StringData::shared()->stringFromKey("fame");
+            
+            arms->checkTip(account->getData().fame);
+            L2E_UPDATE_HALL_TIP infoTip;
+            infoTip.eProtocol = l2e_update_hall_tip;
+            infoTip.tipIndex = 4;
+            infoTip.tipValue = arms->getTip();
+            ClientLogic::instance()->pass2Engine(&infoTip);
+        }
+            break;
+        case 6:
+        {
+            prov->addTicket(count);
+            infoGet.icon[0] = GameUtils::format(COMMON_DIR, "saodangquan.png");
+            infoGet.name[0] = StringData::shared()->stringFromKey("prov_ticket");
+        }
+            break;
+        case 7:
+        {
+            arms->addGem(boundId, count);
+            infoGet.icon[0] = GameUtils::format(COMMON_DIR, arms->gemsConfigMap[boundId].icon.c_str());
+            infoGet.name[0] = StringData::shared()->stringFromKey("gem");
+            
+            arms->checkTip(account->getData().fame);
+            L2E_UPDATE_HALL_TIP infoTip;
+            infoTip.eProtocol = l2e_update_hall_tip;
+            infoTip.tipIndex = 4;
+            infoTip.tipValue = arms->getTip();
+            ClientLogic::instance()->pass2Engine(&infoTip);
+        }
+            break;
+        case 8:
+        {
+            equip->addItem(boundId, count);
+            infoGet.icon[0] = GameUtils::format(COMMON_DIR, equip->equipItemConfigMap[boundId].icon.c_str());
+            infoGet.name[0] = StringData::shared()->stringFromKey("equip_item_fragment");
+            
+            equip->checkTip(account->getData().level);
+            L2E_UPDATE_HALL_TIP infoTip;
+            infoTip.eProtocol = l2e_update_hall_tip;
+            infoTip.tipIndex = 1;
+            infoTip.tipValue = equip->getTip();
+            ClientLogic::instance()->pass2Engine(&infoTip);
+        }
+            break;
+        case 9:
+        {
+            infoGet.frag[0] = true;
+            pet->addFragment(boundId, count);
+            infoGet.icon[0] = GameUtils::format(COMMON_DIR, pet->petConfigMap[boundId].icon.c_str());
+            infoGet.name[0] = StringData::shared()->stringFromKey("pet_fragment");
+            
+            pet->checkTip();
+            L2E_UPDATE_HALL_TIP infoTip;
+            infoTip.eProtocol = l2e_update_hall_tip;
+            infoTip.tipIndex = 2;
+            infoTip.tipValue = pet->getTip();
+            ClientLogic::instance()->pass2Engine(&infoTip);
+        }
+            break;
+        case 10:
+        {
+            lucky->addNormalTicket(count);
+            infoGet.icon[0] = GameUtils::format(LUCKY_DIR, "chouqu1.png");
+            infoGet.name[0] = StringData::shared()->stringFromKey("normal_draw_ticket");
+        }
+            break;
+        case 11:
+        {
+            lucky->addSpecialTicket(count);
+            infoGet.icon[0] = GameUtils::format(LUCKY_DIR, "chouqu2.png");
+            infoGet.name[0] = StringData::shared()->stringFromKey("special_draw_ticket");
+        }
+            break;
+            
+    }
+    ClientLogic::instance()->pass2Engine(&infoGet);
+    
+    campaign->takeMonthAssignBound();
+    showMonthAssign();
+    
+    L2T_COMMON infoTime;
+    infoTime.eProtocol = l2t_refresh_month_assign;
+    ClientLogic::instance()->pass2Time(&infoTime);
+}
+
+void SystemLogic::refreshMonthAssign()
+{
+    campaign->enableMonthAssign();
+
+}
+
 void SystemLogic::showCampaignActive()
 {
     L2E_SHOW_CAMPAIGN_ACTIVE info;

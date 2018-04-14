@@ -41,6 +41,7 @@ enum T2LProtocol
     t2l_update_discount_close_sec,                      //  获得折扣店打烊倒计时  25
     t2l_update_vit_restore_cd,                          //  更新体力恢复时间
     t2l_reset_petoffer_count,                           //  重置悬赏钻石更新次数
+    t2l_refresh_month_assign,                           //  刷新月签
     t2l_max
 };
 
@@ -65,6 +66,7 @@ enum L2TProtocol
     l2t_get_arena_ticket_cd,                            //  获得竞技场挑战次数回复剩余时间
     l2t_refresh_arena_reward,                           //  刷新竞技场奖励，预定明天的刷新
     l2t_refresh_everyday,                               //  刷新7天领取
+    l2t_refresh_month_assign,                           //  刷新月签
     l2t_restore_draw_normal,                            //  开始免费普通抽卡计时
     l2t_restore_draw_special,                           //  开始免费特殊抽卡计时
     l2t_get_lucky_cd,                                   //  获得免费抽卡计时
