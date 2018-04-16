@@ -103,10 +103,12 @@
           <Folder Name="shop">
             <Project Name="package_detail.csd" Type="Layer" />
             <Project Name="package_item.csd" Type="Node" />
+            <Project Name="pet_package.csd" Type="Layer" />
             <Project Name="shop.csd" Type="Layer" />
             <Project Name="shop_package1.csd" Type="Node" />
             <Project Name="shop_package2.csd" Type="Node" />
             <Project Name="shop_package3.csd" Type="Node" />
+            <Project Name="unlock_actor_package.csd" Type="Layer" />
           </Folder>
           <Folder Name="soul">
             <Project Name="soul.csd" Type="Layer" />

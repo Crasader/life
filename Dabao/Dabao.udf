@@ -14,7 +14,7 @@
         <LuaEncryptSign Value="" />
         <Android_PackageName Value="org.cocos.Dabao" />
         <AndroidkeyStore Value="" />
-        <AndroidVersion Value="" />
+        <AndroidVersion Value="android-10" />
         <iOS_Target Value="Dabao-mobile" />
         <iOS_BundleID Value="Developer ID Application: CHEN Qinfen (CNACBYUJ5D)" />
         <Platform Value="None" />
@@ -28,9 +28,11 @@
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
         <OpenedDocuments>
-          <FilePathData Path="csb/load/loading.csd" />
+          <FilePathData Path="csb/shop/unlock_actor_package.csd" />
+          <FilePathData Path="csb/shop/pet_package.csd" />
+          <FilePathData Path="csb/everyday/everyday.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="csb/load/loading.csd" />
+        <ActiveDocument Path="csb/everyday/everyday.csd" />
       </Value>
     </Item>
   </Properties>

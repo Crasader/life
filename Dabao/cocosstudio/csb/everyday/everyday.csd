@@ -990,7 +990,7 @@
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="0" B="0" />
                     <PrePosition X="0.0703" Y="0.6175" />
-                    <PreSize X="0.0350" Y="0.0425" />
+                    <PreSize X="0.0367" Y="0.0475" />
                     <FontResource Type="Normal" Path="ui/fonts/fonts2.ttf" Plist="" />
                     <OutlineColor A="255" R="0" G="0" B="0" />
                     <ShadowColor A="255" R="110" G="110" B="110" />
@@ -1002,7 +1002,7 @@
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="0" B="0" />
                     <PrePosition X="0.2567" Y="0.6175" />
-                    <PreSize X="0.0383" Y="0.0425" />
+                    <PreSize X="0.0400" Y="0.0475" />
                     <FontResource Type="Normal" Path="ui/fonts/fonts2.ttf" Plist="" />
                     <OutlineColor A="255" R="0" G="0" B="0" />
                     <ShadowColor A="255" R="110" G="110" B="110" />
@@ -1014,7 +1014,7 @@
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="0" B="0" />
                     <PrePosition X="0.4600" Y="0.6175" />
-                    <PreSize X="0.0383" Y="0.0425" />
+                    <PreSize X="0.0400" Y="0.0475" />
                     <FontResource Type="Normal" Path="ui/fonts/fonts2.ttf" Plist="" />
                     <OutlineColor A="255" R="0" G="0" B="0" />
                     <ShadowColor A="255" R="110" G="110" B="110" />
@@ -1026,7 +1026,7 @@
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="0" B="0" />
                     <PrePosition X="0.5490" Y="0.6175" />
-                    <PreSize X="0.0517" Y="0.0425" />
+                    <PreSize X="0.0533" Y="0.0475" />
                     <FontResource Type="Normal" Path="ui/fonts/fonts2.ttf" Plist="" />
                     <OutlineColor A="255" R="0" G="0" B="0" />
                     <ShadowColor A="255" R="110" G="110" B="110" />
@@ -1154,13 +1154,105 @@
                 <PreSize X="0.7500" Y="0.8000" />
                 <FileData Type="Normal" Path="ui/common/xinxidi2.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="recharge_button" ActionTag="-61010060" Tag="327" IconVisible="False" LeftMargin="23.1513" RightMargin="630.8487" TopMargin="158.4519" BottomMargin="281.5481" TouchEnable="True" FontSize="24" ButtonText="首充奖励" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="116" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="month_assign_img" ActionTag="-946884797" Tag="104" IconVisible="False" LeftMargin="155.0000" RightMargin="45.0000" TopMargin="55.0000" BottomMargin="45.0000" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="99" Scale9Height="99" ctype="ImageViewObjectData">
+                <Size X="600.0000" Y="400.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_1" ActionTag="-1021265995" Tag="107" IconVisible="False" LeftMargin="-17.9637" RightMargin="-15.0363" TopMargin="0.9500" BottomMargin="310.0500" LeftEage="208" RightEage="208" TopEage="29" BottomEage="29" Scale9OriginX="208" Scale9OriginY="29" Scale9Width="217" Scale9Height="31" ctype="ImageViewObjectData">
+                    <Size X="633.0000" Y="89.0000" />
+                    <Children>
+                      <AbstractNodeData Name="Image_3" ActionTag="-2100834291" Tag="108" IconVisible="False" LeftMargin="31.5000" RightMargin="354.5000" TopMargin="7.0000" BottomMargin="18.0000" LeftEage="81" RightEage="81" TopEage="21" BottomEage="21" Scale9OriginX="81" Scale9OriginY="21" Scale9Width="85" Scale9Height="22" ctype="ImageViewObjectData">
+                        <Size X="247.0000" Y="64.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="155.0000" Y="50.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.2449" Y="0.5618" />
+                        <PreSize X="0.3902" Y="0.7191" />
+                        <FileData Type="Normal" Path="ui/everyday/huodongzi2.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="298.5363" Y="354.5500" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.4976" Y="0.8864" />
+                    <PreSize X="1.0550" Y="0.2225" />
+                    <FileData Type="Normal" Path="ui/everyday/huodongdi.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="ok_button" ActionTag="-1055391212" Tag="125" IconVisible="False" LeftMargin="532.0000" RightMargin="22.0000" TopMargin="350.0000" BottomMargin="14.0000" TouchEnable="True" FontSize="14" ButtonText="签到" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                    <Size X="46.0000" Y="36.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="555.0000" Y="32.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.9250" Y="0.0800" />
+                    <PreSize X="0.0767" Y="0.0900" />
+                    <TextColor A="255" R="65" G="65" B="70" />
+                    <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="count_text" ActionTag="-606129053" Tag="126" IconVisible="False" LeftMargin="400.5000" RightMargin="160.5000" TopMargin="357.5000" BottomMargin="19.5000" FontSize="20" LabelText="4/29" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="39.0000" Y="23.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="420.0000" Y="31.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="165" B="0" />
+                    <PrePosition X="0.7000" Y="0.0775" />
+                    <PreSize X="0.0650" Y="0.0575" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="Text_9" ActionTag="-79172295" Tag="127" IconVisible="False" LeftMargin="285.0000" RightMargin="195.0000" TopMargin="356.5000" BottomMargin="20.5000" FontSize="20" LabelText="本月已签到：" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                    <Size X="120.0000" Y="23.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="345.0000" Y="32.0000" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5750" Y="0.0800" />
+                    <PreSize X="0.2000" Y="0.0575" />
+                    <OutlineColor A="255" R="255" G="0" B="0" />
+                    <ShadowColor A="255" R="110" G="110" B="110" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_1" ActionTag="-158613222" Tag="128" IconVisible="False" LeftMargin="13.0000" RightMargin="501.0000" TopMargin="74.0000" BottomMargin="240.0000" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="86.0000" Y="86.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_limit" ActionTag="-1683668152" Tag="129" IconVisible="False" LeftMargin="-0.2857" RightMargin="-5.7143" TopMargin="3.0730" BottomMargin="59.9270" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="92.0000" Y="23.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="45.7143" Y="71.4270" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5316" Y="0.8305" />
+                        <PreSize X="1.0698" Y="0.2674" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="56.0000" Y="283.0000" />
+                    <Scale ScaleX="0.7000" ScaleY="0.7000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.0933" Y="0.7075" />
+                    <PreSize X="0.1433" Y="0.2150" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="455.0000" Y="245.0000" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.5688" Y="0.4900" />
+                <PreSize X="0.7500" Y="0.8000" />
+                <FileData Type="Normal" Path="ui/common/xinxidi2.png" Plist="" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="recharge_button" ActionTag="-61010060" Tag="327" IconVisible="False" LeftMargin="23.0000" RightMargin="631.0000" TopMargin="206.0798" BottomMargin="233.9202" TouchEnable="True" FontSize="24" ButtonText="首充奖励" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="116" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="146.0000" Y="60.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="96.1513" Y="311.5481" />
+                <Position X="96.0000" Y="263.9202" />
                 <Scale ScaleX="0.8500" ScaleY="0.8500" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.1202" Y="0.6231" />
+                <PrePosition X="0.1200" Y="0.5278" />
                 <PreSize X="0.1825" Y="0.1200" />
                 <FontResource Type="Normal" Path="ui/fonts/fonts2.ttf" Plist="" />
                 <TextColor A="255" R="230" G="230" B="250" />
@@ -1170,13 +1262,13 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="everyday_button" ActionTag="-1935473485" Tag="325" IconVisible="False" LeftMargin="23.1513" RightMargin="630.8487" TopMargin="52.4761" BottomMargin="387.5239" TouchEnable="True" FontSize="24" ButtonText="七天登陆" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="116" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="everyday_button" ActionTag="-1935473485" Tag="325" IconVisible="False" LeftMargin="23.0000" RightMargin="631.0000" TopMargin="52.0000" BottomMargin="388.0000" TouchEnable="True" FontSize="24" ButtonText="七天登陆" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="116" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="146.0000" Y="60.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="96.1513" Y="417.5239" />
+                <Position X="96.0000" Y="418.0000" />
                 <Scale ScaleX="0.8500" ScaleY="0.8500" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.1202" Y="0.8350" />
+                <PrePosition X="0.1200" Y="0.8360" />
                 <PreSize X="0.1825" Y="0.1200" />
                 <FontResource Type="Normal" Path="ui/fonts/fonts2.ttf" Plist="" />
                 <TextColor A="255" R="230" G="230" B="250" />
@@ -1186,7 +1278,35 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="bound_button" ActionTag="-1815540667" Tag="328" IconVisible="False" LeftMargin="23.1513" RightMargin="630.8487" TopMargin="211.4398" BottomMargin="228.5602" TouchEnable="True" FontSize="24" ButtonText="开服活动" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="116" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="month_assign_button" ActionTag="-192004489" Tag="121" IconVisible="False" LeftMargin="23.0000" RightMargin="631.0000" TopMargin="103.3599" BottomMargin="336.6401" TouchEnable="True" FontSize="24" ButtonText="每月签到" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="116" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                <Size X="146.0000" Y="60.0000" />
+                <Children>
+                  <AbstractNodeData Name="tip" ActionTag="1749042712" Tag="122" IconVisible="False" LeftMargin="123.4100" RightMargin="-7.4100" TopMargin="-6.4112" BottomMargin="36.4112" LeftEage="7" RightEage="7" TopEage="7" BottomEage="7" Scale9OriginX="7" Scale9OriginY="7" Scale9Width="8" Scale9Height="8" ctype="ImageViewObjectData">
+                    <Size X="30.0000" Y="30.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="138.4100" Y="51.4112" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.9480" Y="0.8569" />
+                    <PreSize X="0.2055" Y="0.5000" />
+                    <FileData Type="Normal" Path="ui/home/tishi.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="96.0000" Y="366.6401" />
+                <Scale ScaleX="0.8500" ScaleY="0.8500" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="0.1200" Y="0.7333" />
+                <PreSize X="0.1825" Y="0.1200" />
+                <FontResource Type="Normal" Path="ui/fonts/fonts2.ttf" Plist="" />
+                <TextColor A="255" R="230" G="230" B="250" />
+                <DisabledFileData Type="Normal" Path="ui/common/xuanzhong.png" Plist="" />
+                <PressedFileData Type="Normal" Path="ui/common/xuanzhong.png" Plist="" />
+                <NormalFileData Type="Normal" Path="ui/common/weixuanzhong.png" Plist="" />
+                <OutlineColor A="255" R="255" G="0" B="0" />
+                <ShadowColor A="255" R="110" G="110" B="110" />
+              </AbstractNodeData>
+              <AbstractNodeData Name="bound_button" ActionTag="-1815540667" Tag="328" IconVisible="False" LeftMargin="23.0000" RightMargin="631.0000" TopMargin="257.4398" BottomMargin="182.5602" TouchEnable="True" FontSize="24" ButtonText="开服活动" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="116" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="146.0000" Y="60.0000" />
                 <Children>
                   <AbstractNodeData Name="tip" ActionTag="705346167" Tag="1020" IconVisible="False" LeftMargin="123.4100" RightMargin="-7.4100" TopMargin="-6.4100" BottomMargin="36.4100" LeftEage="7" RightEage="7" TopEage="7" BottomEage="7" Scale9OriginX="7" Scale9OriginY="7" Scale9Width="8" Scale9Height="8" ctype="ImageViewObjectData">
@@ -1201,10 +1321,10 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="96.1513" Y="258.5602" />
+                <Position X="96.0000" Y="212.5602" />
                 <Scale ScaleX="0.8500" ScaleY="0.8500" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.1202" Y="0.5171" />
+                <PrePosition X="0.1200" Y="0.4251" />
                 <PreSize X="0.1825" Y="0.1200" />
                 <FontResource Type="Normal" Path="ui/fonts/fonts2.ttf" Plist="" />
                 <TextColor A="255" R="230" G="230" B="250" />
@@ -1214,7 +1334,7 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="everyday_mission_button" ActionTag="-714667349" Tag="326" IconVisible="False" LeftMargin="23.1513" RightMargin="630.8487" TopMargin="105.4640" BottomMargin="334.5360" TouchEnable="True" FontSize="24" ButtonText="每日任务" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="116" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="everyday_mission_button" ActionTag="-714667349" Tag="326" IconVisible="False" LeftMargin="23.0000" RightMargin="631.0000" TopMargin="154.7199" BottomMargin="285.2801" TouchEnable="True" FontSize="24" ButtonText="每日任务" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="116" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="146.0000" Y="60.0000" />
                 <Children>
                   <AbstractNodeData Name="tip" ActionTag="2046143828" Tag="1019" IconVisible="False" LeftMargin="123.4100" RightMargin="-7.4100" TopMargin="-6.4112" BottomMargin="36.4112" LeftEage="7" RightEage="7" TopEage="7" BottomEage="7" Scale9OriginX="7" Scale9OriginY="7" Scale9Width="8" Scale9Height="8" ctype="ImageViewObjectData">
@@ -1229,10 +1349,10 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="96.1513" Y="364.5360" />
+                <Position X="96.0000" Y="315.2801" />
                 <Scale ScaleX="0.8500" ScaleY="0.8500" />
                 <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.1202" Y="0.7291" />
+                <PrePosition X="0.1200" Y="0.6306" />
                 <PreSize X="0.1825" Y="0.1200" />
                 <FontResource Type="Normal" Path="ui/fonts/fonts2.ttf" Plist="" />
                 <TextColor A="255" R="230" G="230" B="250" />
@@ -1245,7 +1365,7 @@
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="480.0000" Y="300.0320" />
-            <Scale ScaleX="0.0100" ScaleY="0.0100" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5000" Y="0.4688" />
             <PreSize X="0.8333" Y="0.7813" />

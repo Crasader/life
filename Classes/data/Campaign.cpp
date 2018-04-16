@@ -421,8 +421,8 @@ void Campaign::takeMonthAssignBound()
     coreData.monthAssignId = dayId+1;
     coreData.monthAssignState = 2;
     
-    _doc["month_assign_id"] = coreData.everydayId;
-    _doc["month_assign_state"] = coreData.everydayState;
+    _doc["month_assign_id"] = coreData.monthAssignId;
+    _doc["month_assign_state"] = coreData.monthAssignState;
     
     StringBuffer buff;
     rapidjson::Writer<StringBuffer> writer(buff);

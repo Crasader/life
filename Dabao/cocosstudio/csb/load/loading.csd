@@ -6,7 +6,7 @@
       <ObjectData Name="Layer" Tag="2961" ctype="GameLayerObjectData">
         <Size X="960.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="Image_1" ActionTag="1994229565" Tag="2963" IconVisible="False" LeftMargin="293.5710" RightMargin="275.4290" TopMargin="163.5034" BottomMargin="149.4966" LeftEage="129" RightEage="129" TopEage="107" BottomEage="107" Scale9OriginX="129" Scale9OriginY="107" Scale9Width="133" Scale9Height="113" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="load_img" ActionTag="1994229565" Tag="2963" IconVisible="False" LeftMargin="293.5710" RightMargin="275.4290" TopMargin="163.5034" BottomMargin="149.4966" LeftEage="129" RightEage="129" TopEage="107" BottomEage="107" Scale9OriginX="129" Scale9OriginY="107" Scale9Width="133" Scale9Height="113" ctype="ImageViewObjectData">
             <Size X="391.0000" Y="327.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="489.0710" Y="312.9966" />
@@ -16,10 +16,10 @@
             <PreSize X="0.4073" Y="0.5109" />
             <FileData Type="Normal" Path="ui/load/loading1.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_2" ActionTag="838124604" Tag="2965" IconVisible="False" LeftMargin="235.0023" RightMargin="234.9977" TopMargin="544.8600" BottomMargin="33.1400" LeftEage="161" RightEage="161" TopEage="20" BottomEage="20" Scale9OriginX="161" Scale9OriginY="20" Scale9Width="168" Scale9Height="22" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="load_bg" ActionTag="838124604" Tag="2965" IconVisible="False" LeftMargin="235.0023" RightMargin="234.9977" TopMargin="544.8600" BottomMargin="33.1400" LeftEage="161" RightEage="161" TopEage="20" BottomEage="20" Scale9OriginX="161" Scale9OriginY="20" Scale9Width="168" Scale9Height="22" ctype="ImageViewObjectData">
             <Size X="490.0000" Y="62.0000" />
             <Children>
-              <AbstractNodeData Name="LoadingBar_1" ActionTag="-641460731" Tag="2964" IconVisible="False" LeftMargin="52.5000" RightMargin="54.5000" TopMargin="19.5000" BottomMargin="21.5000" ProgressInfo="100" ctype="LoadingBarObjectData">
+              <AbstractNodeData Name="bar" ActionTag="-641460731" Tag="2964" IconVisible="False" LeftMargin="52.5000" RightMargin="54.5000" TopMargin="19.5000" BottomMargin="21.5000" ProgressInfo="100" ctype="LoadingBarObjectData">
                 <Size X="383.0000" Y="21.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="244.0000" Y="32.0000" />
@@ -38,7 +38,7 @@
             <PreSize X="0.5104" Y="0.0969" />
             <FileData Type="Normal" Path="ui/load/loading_back.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Text_1" ActionTag="-1633194704" Tag="2966" IconVisible="False" LeftMargin="229.0000" RightMargin="229.0000" TopMargin="610.2141" BottomMargin="5.7859" FontSize="20" LabelText="提示：向一个方向连续点击摇杆两次试试，小心不要摔倒哦" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="tip_text" ActionTag="-1633194704" Tag="2966" IconVisible="False" LeftMargin="229.0000" RightMargin="229.0000" TopMargin="610.2141" BottomMargin="5.7859" FontSize="20" LabelText="提示：向一个方向连续点击摇杆两次试试，小心不要摔倒哦" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="502.0000" Y="24.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="480.0000" Y="17.7859" />
