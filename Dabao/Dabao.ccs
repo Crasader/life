@@ -1,0 +1,1327 @@
+<Solution>
+  <PropertyGroup Name="Dabao" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="csb">
+          <Folder Name="abyss">
+            <Project Name="abyss.csd" Type="Layer" />
+            <Project Name="abysschoose.csd" Type="Node" />
+            <Project Name="buy.csd" Type="Node" />
+          </Folder>
+          <Folder Name="badge">
+            <Project Name="badge.csd" Type="Layer" />
+            <Project Name="badge2.csd" Type="Layer" />
+            <Project Name="badgeequip.csd" Type="Node" />
+            <Project Name="badgeoff.csd" Type="Node" />
+            <Project Name="stoneup.csd" Type="Node" />
+          </Folder>
+          <Folder Name="battle">
+            <Project Name="battle_left.csd" Type="Node" />
+            <Project Name="battle_mid.csd" Type="Layer" />
+            <Project Name="battle_right.csd" Type="Node" />
+            <Project Name="combo.csd" Type="Node" />
+            <Project Name="guangxiao.csd" Type="Node" />
+            <Project Name="nuqi.csd" Type="Node" />
+            <Project Name="pause.csd" Type="Node" />
+            <Project Name="spshan.csd" Type="Node" />
+          </Folder>
+          <Folder Name="castle">
+            <Project Name="castle.csd" Type="Layer" />
+            <Project Name="castlebuy.csd" Type="Node" />
+          </Folder>
+          <Folder Name="dungeons">
+            <Project Name="bound.csd" Type="Node" />
+            <Project Name="dungeons.csd" Type="Layer" />
+            <Project Name="dungeons1.csd" Type="Node" />
+            <Project Name="dungeons2.csd" Type="Layer" />
+            <Project Name="dungeons3.csd" Type="Layer" />
+            <Project Name="dungeons4.csd" Type="Node" />
+          </Folder>
+          <Folder Name="everyday">
+            <Project Name="everyday.csd" Type="Layer" />
+            <Project Name="everyday_mission_get.csd" Type="Node" />
+            <Project Name="mission_reward.csd" Type="Node" />
+            <Project Name="mission_reward2.csd" Type="Node" />
+          </Folder>
+          <Folder Name="fonts">
+            <TTF Name="fonts2.ttf" />
+          </Folder>
+          <Folder Name="hero">
+            <Project Name="hero.csd" Type="Layer" />
+            <Project Name="herochoose.csd" Type="Node" />
+            <Project Name="sweep.csd" Type="Layer" />
+            <Project Name="sweep_node.csd" Type="Node" />
+            <Project Name="way.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="home">
+            <Project Name="home_left.csd" Type="Node" />
+            <Project Name="home_mid.csd" Type="Layer" />
+            <Project Name="home_right.csd" Type="Node" />
+            <Project Name="zhekoulibao.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="load">
+            <Project Name="loading.csd" Type="Layer" />
+            <Project Name="login.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="lucky">
+            <Project Name="lucky.csd" Type="Layer" />
+            <Project Name="luckybuy.csd" Type="Node" />
+            <Project Name="luckyget1.csd" Type="Layer" />
+            <Project Name="luckyget2.csd" Type="Layer" />
+            <Project Name="luckyreward1.csd" Type="Node" />
+            <Project Name="luckyreward2.csd" Type="Node" />
+          </Folder>
+          <Folder Name="monster">
+            <Project Name="monster.csd" Type="Layer" />
+            <Project Name="unmonster.csd" Type="Node" />
+          </Folder>
+          <Folder Name="noble">
+            <Project Name="noble.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="novice">
+            <Project Name="novice.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="proving">
+            <Project Name="proving.csd" Type="Layer" />
+            <Project Name="provingget.csd" Type="Node" />
+            <Project Name="provingpoint.csd" Type="Node" />
+            <Project Name="roll.csd" Type="Node" />
+          </Folder>
+          <Folder Name="pvp">
+            <Project Name="division.csd" Type="Layer" />
+            <Project Name="divisionlist.csd" Type="Node" />
+            <Project Name="pvp.csd" Type="Layer" />
+            <Project Name="pvplist.csd" Type="Node" />
+            <Project Name="pvpstart.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="reward">
+            <Project Name="choose.csd" Type="Node" />
+            <Project Name="reward.csd" Type="Layer" />
+            <Project Name="reward2.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="shop">
+            <Project Name="package_detail.csd" Type="Layer" />
+            <Project Name="package_item.csd" Type="Node" />
+            <Project Name="shop.csd" Type="Layer" />
+            <Project Name="shop_package1.csd" Type="Node" />
+            <Project Name="shop_package2.csd" Type="Node" />
+            <Project Name="shop_package3.csd" Type="Node" />
+          </Folder>
+          <Folder Name="soul">
+            <Project Name="soul.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="story">
+            <Project Name="duihuayou.csd" Type="Node" />
+            <Project Name="duihuazuo.csd" Type="Node" />
+            <Project Name="shouzhi1.csd" Type="Node" />
+            <Project Name="shouzhi2.csd" Type="Node" />
+            <Project Name="shouzhi3.csd" Type="Node" />
+            <Project Name="tishikuang.csd" Type="Node" />
+            <Project Name="tishikuang2.csd" Type="Node" />
+          </Folder>
+          <Folder Name="tower">
+            <Project Name="tower.csd" Type="Layer" />
+            <Project Name="tower_base.csd" Type="Node" />
+            <Project Name="tower_body.csd" Type="Node" />
+            <Project Name="tower_ceng.csd" Type="Node" />
+            <Project Name="tower_get.csd" Type="Node" />
+            <Project Name="tower_get2.csd" Type="Node" />
+            <Project Name="tower_reset.csd" Type="Layer" />
+          </Folder>
+          <Folder Name="za">
+            <Project Name="fight.csd" Type="Node" />
+            <Project Name="get.csd" Type="Node" />
+            <Project Name="get2.csd" Type="Layer" />
+            <Project Name="levelup.csd" Type="Node" />
+            <Project Name="lose.csd" Type="Layer" />
+            <Project Name="newfunction.csd" Type="Node" />
+            <Project Name="pvpget.csd" Type="Layer" />
+            <Project Name="pvplose.csd" Type="Layer" />
+            <Project Name="pvpwin.csd" Type="Layer" />
+            <Project Name="revive.csd" Type="Layer" />
+            <Project Name="timeover.csd" Type="Layer" />
+            <Project Name="tips.csd" Type="Node" />
+            <Project Name="tisheng.csd" Type="Layer" />
+            <Project Name="unlock1.csd" Type="Node" />
+            <Project Name="unlock2.csd" Type="Node" />
+            <Project Name="VIT.csd" Type="Node" />
+            <Project Name="warning.csd" Type="Node" />
+            <Project Name="win.csd" Type="Layer" />
+            <Project Name="win2.csd" Type="Layer" />
+            <Project Name="win3.csd" Type="Layer" />
+            <Project Name="winstar.csd" Type="Node" />
+          </Folder>
+        </Folder>
+        <Folder Name="ui">
+          <Folder Name="abyss">
+            <Image Name="abyssname01.png" />
+            <Image Name="abyssname02.png" />
+            <Image Name="abyssname03.png" />
+            <Image Name="abyssname04.png" />
+            <Image Name="abyssname05.png" />
+            <Image Name="abyssname06.png" />
+            <Image Name="abyssname07.png" />
+            <Image Name="abyssname08.png" />
+            <Image Name="abyssname09.png" />
+            <Image Name="abyssname10.png" />
+            <Image Name="abyssopen1.png" />
+            <Image Name="abyssopen2.png" />
+            <Image Name="abyssopen3.png" />
+            <Image Name="gift_bg4.png" />
+            <Image Name="head02.png" />
+            <Image Name="shimobg.png" />
+            <Image Name="shimobg2.png" />
+            <Image Name="shimobg3.png" />
+          </Folder>
+          <Folder Name="badge">
+            <Image Name="badge.png" />
+            <Image Name="badge0.png" />
+            <Image Name="badge1.png" />
+            <Image Name="badge2.png" />
+            <Image Name="badge3.png" />
+            <Image Name="badge4.png" />
+            <Image Name="badgeequip.png" />
+            <Image Name="baoshishanguang-01.png" />
+            <Image Name="baoshishanguang-02.png" />
+            <Image Name="baoshishanguang-03.png" />
+            <Image Name="baoshishanguang-04.png" />
+            <Image Name="baoshishanguang-05.png" />
+            <Image Name="baoshishanguang-06.png" />
+            <Image Name="baoshishanguang-07.png" />
+            <Image Name="baoshishanguang-08.png" />
+            <Image Name="head15.png" />
+          </Folder>
+          <Folder Name="battle">
+            <Image Name="attack0.png" />
+            <Image Name="attack1.png" />
+            <Image Name="avatar-1.png" />
+            <Image Name="ba.png" />
+            <Image Name="baifenbi.png" />
+            <Image Name="battle_skill_box_1.png" />
+            <Image Name="boss_frame1.png" />
+            <Image Name="combo1.png" />
+            <Image Name="combo2.png" />
+            <Image Name="combo3.png" />
+            <Image Name="combo4.png" />
+            <Image Name="combo5.png" />
+            <Image Name="combohp1.png" />
+            <Image Name="combohp2.png" />
+            <Image Name="combohp3.png" />
+            <Image Name="combomodian1.png" />
+            <Image Name="combomodian2.png" />
+            <Image Name="combomodian3.png" />
+            <Image Name="combomodian4.png" />
+            <Image Name="crit.png" />
+            <Image Name="critNum.png" />
+            <Image Name="Drop_icon_26.png" />
+            <Image Name="gongneng.png" />
+            <Image Name="gongneng_1.png" />
+            <Image Name="guaiwudi.png" />
+            <Image Name="hpNum.png" />
+            <Image Name="huodian-01.png" />
+            <Image Name="huodian-02.png" />
+            <Image Name="huodian-03.png" />
+            <Image Name="huodian-04.png" />
+            <Image Name="huodian-05.png" />
+            <Image Name="huodian-06.png" />
+            <Image Name="huodian-07.png" />
+            <Image Name="huodian-08.png" />
+            <Image Name="hurtNum.png" />
+            <Image Name="icon_perfect_nature.png" />
+            <Image Name="icon_random_nature.png" />
+            <Image Name="jinengcao.png" />
+            <Image Name="jinengcao2.png" />
+            <Image Name="jinengcao3.png" />
+            <Image Name="jnanniuguang.png" />
+            <Image Name="joystick_0.png" />
+            <Image Name="joystick_1.png" />
+            <Image Name="McritNum.png" />
+            <Image Name="MhurtNum.png" />
+            <Image Name="miss.png" />
+            <Image Name="monster_hp.png" />
+            <Image Name="monster_hp2.png" />
+            <Image Name="monster_hp4.png" />
+            <Image Name="nuqicao.png" />
+            <Image Name="pause1.png" />
+            <Image Name="pause2.png" />
+            <Image Name="pause3.png" />
+            <Image Name="shadow.png" />
+            <Image Name="shenbingji.png" />
+            <Image Name="shiyongdi.png" />
+            <Image Name="skill00.png" />
+            <Image Name="skill000.png" />
+            <Image Name="skill01.png" />
+            <Image Name="skill02.png" />
+            <Image Name="skill03.png" />
+            <Image Name="skill04.png" />
+            <Image Name="skill05.png" />
+            <Image Name="skill06.png" />
+            <Image Name="skill07.png" />
+            <Image Name="skill08.png" />
+            <Image Name="skill09.png" />
+            <Image Name="skill1.png" />
+            <Image Name="skill10.png" />
+            <Image Name="skill11.png" />
+            <Image Name="skill12.png" />
+            <Image Name="skill13.png" />
+            <Image Name="skill14.png" />
+            <Image Name="skill15.png" />
+            <Image Name="skill16.png" />
+            <Image Name="skill2.png" />
+            <Image Name="skill3.png" />
+            <Image Name="skillfeng.png" />
+            <Image Name="skillload.png" />
+            <Image Name="skilltime.png" />
+            <Image Name="soulkuang.png" />
+            <Image Name="spload.png" />
+            <Image Name="spshan-01.png" />
+            <Image Name="spshan-02.png" />
+            <Image Name="spshan-03.png" />
+            <Image Name="spshan-05.png" />
+            <Image Name="spshan-06.png" />
+            <Image Name="spshan-07.png" />
+            <Image Name="spshan-08.png" />
+            <Image Name="spshan-4.png" />
+            <Image Name="spzhuan.png" />
+            <Image Name="spzhuan-01.png" />
+            <Image Name="spzhuan-02.png" />
+            <Image Name="spzhuan-03.png" />
+            <Image Name="spzhuan-04.png" />
+            <Image Name="spzhuan-05.png" />
+            <Image Name="spzhuan-06.png" />
+            <Image Name="spzhuan-07.png" />
+            <Image Name="spzhuan-08.png" />
+            <Image Name="spzhuan-09.png" />
+            <Image Name="spzhuan-10.png" />
+            <Image Name="spzhuan-11.png" />
+            <Image Name="spzhuan-12.png" />
+            <Image Name="spzhuan-13.png" />
+            <Image Name="spzhuan-14.png" />
+            <Image Name="spzhuan-15.png" />
+            <Image Name="spzhuan-16.png" />
+            <Image Name="spzhuan-17.png" />
+            <Image Name="spzhuan-18.png" />
+            <Image Name="spzhuan-19.png" />
+            <Image Name="touxiang1.png" />
+            <Image Name="type1.png" />
+            <Image Name="type2.png" />
+            <Image Name="type3.png" />
+            <Image Name="type4.png" />
+            <Image Name="type5.png" />
+            <Image Name="xue.png" />
+            <Image Name="xuetiao.png" />
+            <Image Name="zantingzi.png" />
+          </Folder>
+          <Folder Name="castle">
+            <Image Name="castlebg.png" />
+            <Image Name="chengbaohead.png" />
+            <Image Name="choose1.png" />
+            <Image Name="choose1-1.png" />
+            <Image Name="choose2.png" />
+            <Image Name="choose2-1.png" />
+            <Image Name="choose3.png" />
+            <Image Name="choose3-1.png" />
+            <Image Name="choose4.png" />
+            <Image Name="choose4-1.png" />
+            <Image Name="diguang.png" />
+            <Image Name="unlockjisi.png" />
+            <Image Name="unlockjisi2.png" />
+          </Folder>
+          <Folder Name="common">
+            <Image Name="add.png" />
+            <Image Name="add0.png" />
+            <Image Name="add1.png" />
+            <Image Name="add2.png" />
+            <Image Name="alldi.jpg" />
+            <Image Name="arena_line_1.png" />
+            <Image Name="army_armytrain_animation_gauge_bg.png" />
+            <Image Name="baidi.png" />
+            <Image Name="baoshi1.png" />
+            <Image Name="baoxiang1.png" />
+            <Image Name="baoxiang2.png" />
+            <Image Name="baoxiang3.png" />
+            <Image Name="baoxiang4.png" />
+            <Image Name="baoxiang5.png" />
+            <Image Name="baoxiang6.png" />
+            <Image Name="biaoqiandi.png" />
+            <Image Name="Buff_CDR12.png" />
+            <Image Name="button_vippl_down.png" />
+            <Image Name="button_vippl_normal.png" />
+            <Image Name="cailiao1.png" />
+            <Image Name="changanniu1.png" />
+            <Image Name="changanniu1hui.png" />
+            <Image Name="changanniu2.png" />
+            <Image Name="character_select_name_window.png" />
+            <Image Name="chou_2.png" />
+            <Image Name="chou_3.png" />
+            <Image Name="chou_4.png" />
+            <Image Name="chou_5.png" />
+            <Image Name="countdown.png" />
+            <Image Name="dian.png" />
+            <Image Name="douzi.png" />
+            <Image Name="drop-01.png" />
+            <Image Name="drop-02.png" />
+            <Image Name="drop-03.png" />
+            <Image Name="drop-04.png" />
+            <Image Name="drop-05.png" />
+            <Image Name="drop-06.png" />
+            <Image Name="drop-07.png" />
+            <Image Name="drop-08.png" />
+            <Image Name="drop-09.png" />
+            <Image Name="drop-10.png" />
+            <Image Name="drop-11.png" />
+            <Image Name="drop-12.png" />
+            <Image Name="drop-13.png" />
+            <Image Name="drop-14.png" />
+            <Image Name="drop-15.png" />
+            <Image Name="drop-16.png" />
+            <Image Name="drop-17.png" />
+            <Image Name="drop-18.png" />
+            <Image Name="drop-19.png" />
+            <Image Name="drop-20.png" />
+            <Image Name="duanzaocao.png" />
+            <Image Name="dungeon_select_new.png" />
+            <Image Name="dunpai.png" />
+            <Image Name="Enemy_icon_0.png" />
+            <Image Name="Enemy_icon_1.png" />
+            <Image Name="Enemy_icon_10.png" />
+            <Image Name="Enemy_icon_2.png" />
+            <Image Name="Enemy_icon_3.png" />
+            <Image Name="Enemy_icon_4.png" />
+            <Image Name="Enemy_icon_5.png" />
+            <Image Name="Enemy_icon_6.png" />
+            <Image Name="Enemy_icon_7.png" />
+            <Image Name="Enemy_icon_8.png" />
+            <Image Name="Enemy_icon_9.png" />
+            <Image Name="equip-01.png" />
+            <Image Name="equip-02.png" />
+            <Image Name="equip-03.png" />
+            <Image Name="equip-04.png" />
+            <Image Name="equip-05.png" />
+            <Image Name="equip-06.png" />
+            <Image Name="equip-07.png" />
+            <Image Name="equip-08.png" />
+            <Image Name="equip-09.png" />
+            <Image Name="equip-10.png" />
+            <Image Name="equip-11.png" />
+            <Image Name="equip-12.png" />
+            <Image Name="equip-13.png" />
+            <Image Name="equip-14.png" />
+            <Image Name="equip-15.png" />
+            <Image Name="equip-16.png" />
+            <Image Name="equip-17.png" />
+            <Image Name="equip-18.png" />
+            <Image Name="equip-19.png" />
+            <Image Name="equip-20.png" />
+            <Image Name="equip-21.png" />
+            <Image Name="equip-22.png" />
+            <Image Name="equip-23.png" />
+            <Image Name="equip-24.png" />
+            <Image Name="equip-25.png" />
+            <Image Name="equip-26.png" />
+            <Image Name="equip-27.png" />
+            <Image Name="equip-28.png" />
+            <Image Name="equip-29.png" />
+            <Image Name="equip-30.png" />
+            <Image Name="fanhui.png" />
+            <Image Name="fanyeyou.png" />
+            <Image Name="fanyezuo.png" />
+            <Image Name="fengexian.png" />
+            <Image Name="gaiminganniu.png" />
+            <Image Name="guankadi_2.png" />
+            <Image Name="guanqia.png" />
+            <Image Name="guanqia_1.png" />
+            <Image Name="guanqia2.png" />
+            <Image Name="guanqia2_1.png" />
+            <Image Name="hand.png" />
+            <Image Name="head_bg.png" />
+            <Image Name="head_bg2.png" />
+            <Image Name="Head_icon_1.png" />
+            <Image Name="Head_icon_2.png" />
+            <Image Name="Head_icon_3.png" />
+            <Image Name="Head_icon_4.png" />
+            <Image Name="heise.png" />
+            <Image Name="heroframe1.png" />
+            <Image Name="heroframe2.png" />
+            <Image Name="hunshi.png" />
+            <Image Name="huodetishi.png" />
+            <Image Name="iconbaoji.png" />
+            <Image Name="iconfangyu.png" />
+            <Image Name="icongongji.png" />
+            <Image Name="iconkangbao.png" />
+            <Image Name="iconshengming.png" />
+            <Image Name="iconzhandouli.png" />
+            <Image Name="jiantou.png" />
+            <Image Name="jianzhumingzidi.png" />
+            <Image Name="jianzhumingzidi2.png" />
+            <Image Name="jinbi1.png" />
+            <Image Name="jinbi2.png" />
+            <Image Name="jinbi3.png" />
+            <Image Name="jinbi4.png" />
+            <Image Name="jinengdianji.png" />
+            <Image Name="jingpo2.png" />
+            <Image Name="jingyan.png" />
+            <Image Name="kaizi.png" />
+            <Image Name="landi.png" />
+            <Image Name="libaotu.png" />
+            <Image Name="loading_back.png" />
+            <Image Name="loading_bar.png" />
+            <Image Name="lvdi.png" />
+            <Image Name="material-01.png" />
+            <Image Name="material-02.png" />
+            <Image Name="material-03.png" />
+            <Image Name="material-04.png" />
+            <Image Name="material-05.png" />
+            <Image Name="material-06.png" />
+            <Image Name="material-07.png" />
+            <Image Name="material-08.png" />
+            <Image Name="material-09.png" />
+            <Image Name="material-10.png" />
+            <Image Name="material-11.png" />
+            <Image Name="material-12.png" />
+            <Image Name="material-13.png" />
+            <Image Name="material-14.png" />
+            <Image Name="material-15.png" />
+            <Image Name="material-16.png" />
+            <Image Name="material-17.png" />
+            <Image Name="material-18.png" />
+            <Image Name="material-19.png" />
+            <Image Name="material-20.png" />
+            <Image Name="material-21.png" />
+            <Image Name="material-22.png" />
+            <Image Name="material-23.png" />
+            <Image Name="material-24.png" />
+            <Image Name="material-25.png" />
+            <Image Name="material-26.png" />
+            <Image Name="material-27.png" />
+            <Image Name="material-28.png" />
+            <Image Name="material-29.png" />
+            <Image Name="material-30.png" />
+            <Image Name="max.png" />
+            <Image Name="mingzidi.png" />
+            <Image Name="monster_hp3.png" />
+            <Image Name="mubandi.png" />
+            <Image Name="mubandi2.png" />
+            <Image Name="name_di.png" />
+            <Image Name="new.png" />
+            <Image Name="otherzi-01.png" />
+            <Image Name="otherzi-02.png" />
+            <Image Name="otherzi-03.png" />
+            <Image Name="otherzi-04.png" />
+            <Image Name="otherzi-05.png" />
+            <Image Name="otherzi-06.png" />
+            <Image Name="otherzi-07.png" />
+            <Image Name="otherzi-08.png" />
+            <Image Name="otherzi-09.png" />
+            <Image Name="otherzi-10.png" />
+            <Image Name="otherzi-11.png" />
+            <Image Name="otherzi-12.png" />
+            <Image Name="otherzi-13.png" />
+            <Image Name="otherzi-14.png" />
+            <Image Name="otherzi-15.png" />
+            <Image Name="otherzi-16.png" />
+            <Image Name="otherzi-17.png" />
+            <Image Name="otherzi-18.png" />
+            <Image Name="otherzi-19.png" />
+            <Image Name="otherzi-20.png" />
+            <Image Name="otherzi-21.png" />
+            <Image Name="otherzi-22.png" />
+            <Image Name="otherzi-23.png" />
+            <Image Name="otherzi-24.png" />
+            <Image Name="otherzi-25.png" />
+            <Image Name="otherzi-26.png" />
+            <Image Name="otherzi-27.png" />
+            <Image Name="otherzi-28.png" />
+            <Image Name="otherzi-29.png" />
+            <Image Name="otherzi-30.png" />
+            <Image Name="otherzi-31.png" />
+            <Image Name="otherzi-32.png" />
+            <Image Name="otherzi-33.png" />
+            <Image Name="otherzi-34.png" />
+            <Image Name="otherzi-35.png" />
+            <Image Name="otherzi-36.png" />
+            <Image Name="qianbiao.png" />
+            <Image Name="qiandi.png" />
+            <Image Name="qiandi2.png" />
+            <Image Name="s.png" />
+            <Image Name="s1.png" />
+            <Image Name="sanxingdacheng.png" />
+            <Image Name="sanxingdacheng2.png" />
+            <Image Name="saodangquan.png" />
+            <Image Name="shanguang.png" />
+            <Image Name="shanguang2.png" />
+            <Image Name="shengwang.png" />
+            <Image Name="shimo1.png" />
+            <Image Name="shimo2.png" />
+            <Image Name="shizi.png" />
+            <Image Name="shoutongjianglizi.png" />
+            <Image Name="Soul_icon_1.png" />
+            <Image Name="Soul_icon_2.png" />
+            <Image Name="Soul_icon_3.png" />
+            <Image Name="Soul_icon_4.png" />
+            <Image Name="Soul_icon_5.png" />
+            <Image Name="stagelock.png" />
+            <Image Name="stagelock1.png" />
+            <Image Name="stonebaoji-01.png" />
+            <Image Name="stonebaoji-02.png" />
+            <Image Name="stonebaoji-03.png" />
+            <Image Name="stonebaoji-04.png" />
+            <Image Name="stonebaoji-05.png" />
+            <Image Name="stonebaoji-06.png" />
+            <Image Name="stonefangyu-01.png" />
+            <Image Name="stonefangyu-02.png" />
+            <Image Name="stonefangyu-03.png" />
+            <Image Name="stonefangyu-04.png" />
+            <Image Name="stonefangyu-05.png" />
+            <Image Name="stonefangyu-06.png" />
+            <Image Name="stonegongji-01.png" />
+            <Image Name="stonegongji-02.png" />
+            <Image Name="stonegongji-03.png" />
+            <Image Name="stonegongji-04.png" />
+            <Image Name="stonegongji-05.png" />
+            <Image Name="stonegongji-06.png" />
+            <Image Name="stonekangbao-01.png" />
+            <Image Name="stonekangbao-02.png" />
+            <Image Name="stonekangbao-03.png" />
+            <Image Name="stonekangbao-04.png" />
+            <Image Name="stonekangbao-05.png" />
+            <Image Name="stonekangbao-06.png" />
+            <Image Name="stoneshengming-01.png" />
+            <Image Name="stoneshengming-02.png" />
+            <Image Name="stoneshengming-03.png" />
+            <Image Name="stoneshengming-04.png" />
+            <Image Name="stoneshengming-05.png" />
+            <Image Name="stoneshengming-06.png" />
+            <Image Name="suolian.png" />
+            <Image Name="tilibiao.png" />
+            <Image Name="tongguanjiangli.png" />
+            <Image Name="touming.png" />
+            <Image Name="weixuanzhong.png" />
+            <Image Name="weixuanzhong2.png" />
+            <Image Name="xiezhudi.png" />
+            <Image Name="xinxidi.png" />
+            <Image Name="xinxidi2.png" />
+            <Image Name="xinxidi3.png" />
+            <Image Name="xinxidi4.png" />
+            <Image Name="xuankuang-01.png" />
+            <Image Name="xuankuang-02.png" />
+            <Image Name="xuankuang-03.png" />
+            <Image Name="xuankuang-04.png" />
+            <Image Name="xuanzhong.png" />
+            <Image Name="xuecao.png" />
+            <Image Name="yilq.png" />
+            <Image Name="zb.png" />
+            <Image Name="zb_right.png" />
+            <Image Name="zhanlizi.png" />
+            <Image Name="zhanzi.png" />
+            <Image Name="zuanshi1.png" />
+            <Image Name="zuanshi2.png" />
+            <Image Name="zuanshi3.png" />
+            <Image Name="zuanshi4.png" />
+            <Image Name="zuanshibiao.png" />
+          </Folder>
+          <Folder Name="dungeons">
+            <Image Name="boat.png" />
+            <Image Name="chapter.png" />
+            <Image Name="chapter01.png" />
+            <Image Name="chapter01-01.png" />
+            <Image Name="chapter01-02.png" />
+            <Image Name="chapter01-03.png" />
+            <Image Name="chapter01-04.png" />
+            <Image Name="chapter01-05.png" />
+            <Image Name="chapter01-06.png" />
+            <Image Name="chapter01-07.png" />
+            <Image Name="chapter01-08.png" />
+            <Image Name="chapter01-09.png" />
+            <Image Name="chapter01-10.png" />
+            <Image Name="chapter01-11.png" />
+            <Image Name="chapter01-12.png" />
+            <Image Name="chapter01-13.png" />
+            <Image Name="chapter01-14.png" />
+            <Image Name="chapter01-15.png" />
+            <Image Name="chapter01-16.png" />
+            <Image Name="chapter01-17.png" />
+            <Image Name="chapter01-18.png" />
+            <Image Name="chapter01-19.png" />
+            <Image Name="chapter01-20.png" />
+            <Image Name="chapter01-21.png" />
+            <Image Name="chapter01-22.png" />
+            <Image Name="chapter01-23.png" />
+            <Image Name="chapter01-24.png" />
+            <Image Name="chapter01-25.png" />
+            <Image Name="chapter01-26.png" />
+            <Image Name="chapter01-27.png" />
+            <Image Name="chapter01-28.png" />
+            <Image Name="chapter01-29.png" />
+            <Image Name="chapter01-30.png" />
+            <Image Name="chapter01-31.png" />
+            <Image Name="chapter01-32.png" />
+            <Image Name="chapter01-33.png" />
+            <Image Name="chapter01-34.png" />
+            <Image Name="chapter01-35.png" />
+            <Image Name="chapter01-36.png" />
+            <Image Name="chapter01-37.png" />
+            <Image Name="chapter01-38.png" />
+            <Image Name="chapter01-39.png" />
+            <Image Name="chapter01-40.png" />
+            <Image Name="chapter01-41.png" />
+            <Image Name="chapter01-42.png" />
+            <Image Name="chapter01-43.png" />
+            <Image Name="chapter01-44.png" />
+            <Image Name="chapter01-45.png" />
+            <Image Name="chapter01-46.png" />
+            <Image Name="chapter01-47.png" />
+            <Image Name="chapter01-48.png" />
+            <Image Name="chapter01-49.png" />
+            <Image Name="chapter01-50.png" />
+            <Image Name="chapter01-51.png" />
+            <Image Name="chapter01-52.png" />
+            <Image Name="chapter01-53.png" />
+            <Image Name="chapter01-54.png" />
+            <Image Name="chapter01-55.png" />
+            <Image Name="chapter01-56.png" />
+            <Image Name="chapter01-57.png" />
+            <Image Name="chapter01-58.png" />
+            <Image Name="chapter01-59.png" />
+            <Image Name="chapter01-60.png" />
+            <Image Name="chapter01-61.png" />
+            <Image Name="chapter01-62.png" />
+            <Image Name="chapter01-63.png" />
+            <Image Name="chapter01-64.png" />
+            <Image Name="chapter01-65.png" />
+            <Image Name="chapter01-66.png" />
+            <Image Name="chapter01-67.png" />
+            <Image Name="chapter01-68.png" />
+            <Image Name="chapter01-69.png" />
+            <Image Name="chapter01-70.png" />
+            <Image Name="chapter02.png" />
+            <Image Name="chapter03.png" />
+            <Image Name="chapter04.png" />
+            <Image Name="chapter05.png" />
+            <Image Name="chapter06.png" />
+            <Image Name="chapter07.png" />
+            <Image Name="chapter08.png" />
+            <Image Name="dungeonsbg.png" />
+            <Image Name="dungeonsbg1.png" />
+            <Image Name="flag.png" />
+            <Image Name="guanqiaqi.png" />
+            <Image Name="guanqiaqianxia.png" />
+            <Image Name="head01.png" />
+            <Image Name="jianglizi.png" />
+            <Image Name="leijita-01.png" />
+            <Image Name="leijita-02.png" />
+            <Image Name="leijita-03.png" />
+            <Image Name="leijita-04.png" />
+            <Image Name="leijita-05.png" />
+            <Image Name="leijita-06.png" />
+            <Image Name="leijita-07.png" />
+            <Image Name="leizhu_01.png" />
+            <Image Name="leizhu_02.png" />
+            <Image Name="leizhu_03.png" />
+            <Image Name="leizhu_04.png" />
+            <Image Name="leizhu_05.png" />
+            <Image Name="leizhu_06.png" />
+            <Image Name="leizhu_07.png" />
+            <Image Name="leizhu_08.png" />
+            <Image Name="leizhu_09.png" />
+            <Image Name="monsterhead-01.png" />
+            <Image Name="monsterhead-02.png" />
+            <Image Name="monsterhead-03.png" />
+            <Image Name="monsterhead-04.png" />
+            <Image Name="monsterhead-05.png" />
+            <Image Name="monsterhead-06.png" />
+            <Image Name="monsterhead-07.png" />
+            <Image Name="monsterhead-08.png" />
+            <Image Name="monsterhead-09.png" />
+            <Image Name="monsterhead-10.png" />
+            <Image Name="monsterhead-11.png" />
+            <Image Name="monsterhead-12.png" />
+            <Image Name="monsterhead-13.png" />
+            <Image Name="monsterhead-14.png" />
+            <Image Name="monsterhead-15.png" />
+            <Image Name="monsterhead-16.png" />
+            <Image Name="monsterhead-17.png" />
+            <Image Name="monsterhead-18.png" />
+            <Image Name="monsterhead-19.png" />
+            <Image Name="monsterhead-20.png" />
+            <Image Name="monsterhead-21.png" />
+            <Image Name="monsterhead-22.png" />
+            <Image Name="monsterhead-23.png" />
+            <Image Name="monsterhead-24.png" />
+            <Image Name="monsterhead-25.png" />
+            <Image Name="monsterhead-26.png" />
+            <Image Name="monsterhead-27.png" />
+            <Image Name="monsterhead-28.png" />
+            <Image Name="monsterhead-29.png" />
+            <Image Name="monsterhead-30.png" />
+            <Image Name="monsterhead-31.png" />
+            <Image Name="monsterhead-32.png" />
+            <Image Name="monsterhead-33.png" />
+            <Image Name="monsterhead-34.png" />
+            <Image Name="monsterhead-35.png" />
+            <Image Name="monsterhead-36.png" />
+            <Image Name="monsterhead-37.png" />
+            <Image Name="monsterhead-38.png" />
+            <Image Name="monsterhead-39.png" />
+            <Image Name="monsterhead-40.png" />
+            <Image Name="monsterhead-41.png" />
+            <Image Name="monsterhead-42.png" />
+            <Image Name="monsterhead-43.png" />
+            <Image Name="monsterhead-44.png" />
+            <Image Name="monsterhead-45.png" />
+            <Image Name="monsterhead-46.png" />
+            <Image Name="monsterhead-47.png" />
+            <Image Name="monsterhead-48.png" />
+            <Image Name="monsterhead-49.png" />
+            <Image Name="monsterhead-50.png" />
+            <Image Name="monsterhead-51.png" />
+            <Image Name="monsterhead-52.png" />
+            <Image Name="monsterhead-53.png" />
+            <Image Name="monsterhead-54.png" />
+            <Image Name="monsterhead-55.png" />
+            <Image Name="monsterhead-56.png" />
+            <Image Name="pubu1-01.png" />
+            <Image Name="pubu1-02.png" />
+            <Image Name="pubu1-03.png" />
+            <Image Name="pubu1-04.png" />
+            <Image Name="pubu1-05.png" />
+            <Image Name="pubu1-06.png" />
+            <Image Name="pubu1-07.png" />
+            <Image Name="pubu1-08.png" />
+            <Image Name="pubu1-09.png" />
+            <Image Name="pubu1-10.png" />
+            <Image Name="pubu1-11.png" />
+            <Image Name="pubu1-12.png" />
+            <Image Name="pubu1-13.png" />
+            <Image Name="pubu1-14.png" />
+            <Image Name="shaqiu.png" />
+            <Image Name="yanjiang-01.png" />
+            <Image Name="yanjiang-02.png" />
+            <Image Name="yanjiang-03.png" />
+            <Image Name="yanjiang-04.png" />
+            <Image Name="yanjiang-05.png" />
+            <Image Name="yanjiang-06.png" />
+            <Image Name="yanjiang-07.png" />
+            <Image Name="yanjiang-08.png" />
+            <Image Name="yanjiang-09.png" />
+            <Image Name="yanjiang-10.png" />
+            <Image Name="yanjiang-11.png" />
+            <Image Name="yanjiang-12.png" />
+            <Image Name="yanjiang-13.png" />
+            <Image Name="yanjiang-14.png" />
+            <Image Name="yun1.png" />
+            <Image Name="yun2.png" />
+          </Folder>
+          <Folder Name="everyday">
+            <Image Name="7daydiban1.png" />
+            <Image Name="7daydiban2.png" />
+            <Image Name="activity_guanqia.png" />
+            <Image Name="activity_hubi.png" />
+            <Image Name="activity_hujia.png" />
+            <Image Name="activity_jingjichang.png" />
+            <Image Name="activity_shaguai.png" />
+            <Image Name="activity_shenbing.png" />
+            <Image Name="activity_shenyuan.png" />
+            <Image Name="activity_shimo.png" />
+            <Image Name="activity_toukui.png" />
+            <Image Name="activity_wenzhang.png" />
+            <Image Name="activity_wuqi.png" />
+            <Image Name="activity_xianglian.png" />
+            <Image Name="activity_zhihuan.png" />
+            <Image Name="head07.png" />
+            <Image Name="huodongdi.png" />
+            <Image Name="huodongzi1.png" />
+            <Image Name="huodongzi2.png" />
+            <Image Name="huodongzi3.png" />
+            <Image Name="huodongzi4.png" />
+            <Image Name="icon_can_receive.png" />
+            <Image Name="icon_can_receive2.png" />
+            <Image Name="renwubar.png" />
+            <Image Name="renwugo.png" />
+            <Image Name="renwunoover.png" />
+            <Image Name="renwuover.png" />
+            <Image Name="renwutiao.png" />
+            <Image Name="shouchongbg.png" />
+            <Image Name="tu1.png" />
+          </Folder>
+          <Folder Name="fonts">
+            <TTF Name="fonts2.ttf" />
+          </Folder>
+          <Folder Name="head">
+            <Image Name="choose01.png" />
+            <Image Name="choose02.png" />
+            <Image Name="choose03.png" />
+            <Image Name="choose04.png" />
+            <Image Name="choose05.png" />
+            <Image Name="Head_icon_1.png" />
+            <Image Name="Head_icon_2.png" />
+            <Image Name="Head_icon_3.png" />
+            <Image Name="Head_icon_4.png" />
+            <Image Name="mingzikuang.png" />
+            <Image Name="mingzikuang2.png" />
+          </Folder>
+          <Folder Name="hero">
+            <Image Name="common_exp_label.png" />
+            <Image Name="exptiao.png" />
+            <Image Name="head04.png" />
+            <Image Name="head12.png" />
+            <Image Name="head13.png" />
+            <Image Name="hero.png" />
+            <Image Name="herobg.png" />
+            <Image Name="herochoose.png" />
+            <Image Name="herochoose2.png" />
+            <Image Name="heroexp.png" />
+            <Image Name="herokuangdi.png" />
+            <Image Name="ldbg.png" />
+            <Image Name="LV.png" />
+            <Image Name="number.png" />
+            <Image Name="shuxingdi.png" />
+            <Image Name="zhuangbeicao.png" />
+          </Folder>
+          <Folder Name="home">
+            <Image Name="activity_1.png" />
+            <Image Name="activity_3.png" />
+            <Image Name="activity_4.png" />
+            <Image Name="activity_5.png" />
+            <Image Name="activity_6.png" />
+            <Image Name="Diamonds_1.png" />
+            <Image Name="Diamonds_2.png" />
+            <Image Name="Diamonds_3.png" />
+            <Image Name="Diamonds_4.png" />
+            <Image Name="Diamonds_5.png" />
+            <Image Name="flagpiao-01.png" />
+            <Image Name="flagpiao-02.png" />
+            <Image Name="flagpiao-03.png" />
+            <Image Name="flagpiao-04.png" />
+            <Image Name="guizu-01.png" />
+            <Image Name="guizu-02.png" />
+            <Image Name="guizu-03.png" />
+            <Image Name="guizu-04.png" />
+            <Image Name="headguang.png" />
+            <Image Name="kuangjiao.png" />
+            <Image Name="leiming-01.png" />
+            <Image Name="leiming-02.png" />
+            <Image Name="leiming-03.png" />
+            <Image Name="leiming-04.png" />
+            <Image Name="leiming-05.png" />
+            <Image Name="luguang.png" />
+            <Image Name="tishi.png" />
+            <Image Name="tishi2.png" />
+            <Image Name="xianjia.png" />
+            <Image Name="xianshi.png" />
+            <Image Name="xili-01.png" />
+            <Image Name="xili-02.png" />
+            <Image Name="xili-03.png" />
+            <Image Name="xili-04.png" />
+            <Image Name="xili-05.png" />
+            <Image Name="xili-06.png" />
+            <Image Name="xili-07.png" />
+            <Image Name="xili-08.png" />
+            <Image Name="xili-09.png" />
+            <Image Name="xili-10.png" />
+            <Image Name="xili-11.png" />
+            <Image Name="xili-12.png" />
+            <Image Name="xili-13.png" />
+            <Image Name="xili-14.png" />
+            <Image Name="xili-15.png" />
+            <Image Name="xingguang.png" />
+            <Image Name="xingguang2.png" />
+            <Image Name="yuanjia.png" />
+            <Image Name="zhekoubg.png" />
+            <Image Name="zhekoulibao.png" />
+            <Image Name="zhekoulibaozi.png" />
+            <Image Name="zhekoushangdian1.png" />
+            <Image Name="zhekoushangdian2.png" />
+            <Image Name="zhekoushangdian3.png" />
+            <Image Name="zhujiemianliuguang-01.png" />
+            <Image Name="zhujiemianliuguang-02.png" />
+            <Image Name="zhujiemianliuguang-03.png" />
+            <Image Name="zhujiemianliuguang-04.png" />
+            <Image Name="zhujiemianliuguang-05.png" />
+            <Image Name="zhujiemianliuguang-06.png" />
+            <Image Name="zhujiemianliuguang-07.png" />
+            <Image Name="zhujiemianliuguang-08.png" />
+            <Image Name="zhujiemianliuguang2.png" />
+            <Image Name="zhujiemianzi0.png" />
+            <Image Name="zhujiemianzi1.png" />
+            <Image Name="zhujiemianzi2.png" />
+            <Image Name="zhujiemianzi3.png" />
+            <Image Name="zhujiemianzi4.png" />
+            <Image Name="zhujiemianzi5.png" />
+            <Image Name="zhuye.png" />
+            <Image Name="zhuye2.png" />
+            <Image Name="zy_anniu1.png" />
+            <Image Name="zy_anniu2.png" />
+            <Image Name="zy_anniu3.png" />
+            <Image Name="zy_anniu4.png" />
+            <Image Name="zy_anniu5.png" />
+            <Image Name="zy_anniu6.png" />
+            <Image Name="zy_anniu7.png" />
+            <Image Name="zyjz0.png" />
+            <Image Name="zyjz0guang.png" />
+            <Image Name="zyjz1.png" />
+            <Image Name="zyjz1-2.png" />
+            <Image Name="zyjz2.png" />
+            <Image Name="zyjz2_1.png" />
+            <Image Name="zyjz2_2.png" />
+            <Image Name="zyjz2-2.png" />
+            <Image Name="zyjz3.png" />
+            <Image Name="zyjz4.png" />
+            <Image Name="zyjz4_1.png" />
+            <Image Name="zyjz4_2.png" />
+            <Image Name="zyjz4_3.png" />
+            <Image Name="zyjz4_4.png" />
+            <Image Name="zyjz4_5.png" />
+            <Image Name="zyjz4_6.png" />
+            <Image Name="zyjz4_7.png" />
+            <Image Name="zyjz4-2.png" />
+            <Image Name="zyjz5.png" />
+          </Folder>
+          <Folder Name="load">
+            <Image Name="jiankangyouxigonggao1.png" />
+            <Image Name="jiankangyouxigonggao2.png" />
+            <Image Name="kaishiyouxi.png" />
+            <Image Name="loading_back.png" />
+            <Image Name="loading_bar.png" />
+            <Image Name="loading1.png" />
+            <Image Name="loadingbg.png" />
+            <Image Name="loginbg.png" />
+          </Folder>
+          <Folder Name="lucky">
+            <Image Name="chou_shenbing.png" />
+            <Image Name="chou_shimo.png" />
+            <Image Name="chouqu1.png" />
+            <Image Name="chouqu2.png" />
+            <Image Name="gift_bg.jpg" />
+            <Image Name="head05.png" />
+            <Image Name="houhuo-01.png" />
+            <Image Name="houhuo-02.png" />
+            <Image Name="houhuo-03.png" />
+            <Image Name="houhuo-04.png" />
+            <Image Name="houhuo-05.png" />
+            <Image Name="houhuo-06.png" />
+            <Image Name="luckygetdi.png" />
+            <Image Name="shenbingshan.png" />
+          </Folder>
+          <Folder Name="monster">
+            <Image Name="head16.png" />
+            <Image Name="jiesuoshimo01.png" />
+            <Image Name="jiesuoshimo02.png" />
+            <Image Name="jiesuoshimo03.png" />
+            <Image Name="jiesuoshimo04.png" />
+            <Image Name="jiesuoshimo05.png" />
+            <Image Name="jiesuoshimo06.png" />
+            <Image Name="jiesuoshimo07.png" />
+            <Image Name="jiesuoshimo08.png" />
+            <Image Name="jiesuoshimo09.png" />
+            <Image Name="jiesuoshimo10.png" />
+            <Image Name="jiesuoshimo11.png" />
+            <Image Name="jiesuoshimo12.png" />
+            <Image Name="jiesuoshimo13.png" />
+            <Image Name="jiesuoshimo14.png" />
+            <Image Name="lihui0.png" />
+            <Image Name="lihui1.png" />
+            <Image Name="lihui10.png" />
+            <Image Name="lihui2.png" />
+            <Image Name="lihui3.png" />
+            <Image Name="lihui4.png" />
+            <Image Name="lihui5.png" />
+            <Image Name="lihui6.png" />
+            <Image Name="lihui7.png" />
+            <Image Name="lihui8.png" />
+            <Image Name="lihui9.png" />
+            <Image Name="monster.png" />
+            <Image Name="tanxianzhong.png" />
+          </Folder>
+          <Folder Name="noble">
+            <Image Name="head11.png" />
+            <Image Name="noble0.png" />
+            <Image Name="noble1.png" />
+            <Image Name="noble2.png" />
+            <Image Name="noble3.png" />
+            <Image Name="noblebg.png" />
+            <Image Name="pu1.png" />
+            <Image Name="pu2.png" />
+            <Image Name="v0.png" />
+            <Image Name="v0tequan.png" />
+            <Image Name="v1.png" />
+            <Image Name="v1tequan.png" />
+            <Image Name="v2.png" />
+            <Image Name="v2tequan.png" />
+            <Image Name="v3.png" />
+            <Image Name="v3tequan.png" />
+          </Folder>
+          <Folder Name="novice">
+            <Image Name="head07.png" />
+          </Folder>
+          <Folder Name="Particle">
+            <PlistParticleFile Name="bolang.plist" />
+            <PlistParticleFile Name="frie.plist" />
+            <PlistParticleFile Name="guang_1.plist" />
+            <PlistParticleFile Name="huodian.plist" />
+            <PlistParticleFile Name="huoquan.plist" />
+            <PlistParticleFile Name="p3.plist" />
+            <PlistParticleFile Name="p6.plist" />
+            <PlistParticleFile Name="rain.plist" />
+            <PlistParticleFile Name="sonw.plist" />
+            <PlistParticleFile Name="xingshan.plist" />
+            <PlistParticleFile Name="yinghuo.plist" />
+            <PlistParticleFile Name="yun.plist" />
+          </Folder>
+          <Folder Name="proving">
+            <Image Name="cha1.png" />
+            <Image Name="cha2.png" />
+            <Image Name="goumaizi.png" />
+            <Image Name="head18.png" />
+            <Image Name="proving.png" />
+            <Image Name="proving1.png" />
+            <Image Name="proving2.png" />
+            <Image Name="proving3.png" />
+            <Image Name="proving4.png" />
+            <Image Name="proving5.png" />
+            <Image Name="ruiwenkan1-01.png" />
+            <Image Name="ruiwenkan1-02.png" />
+            <Image Name="ruiwenkan1-03.png" />
+            <Image Name="ruiwenkan1-04.png" />
+            <Image Name="ruiwenkan1-05.png" />
+            <Image Name="ruiwenkan1-06.png" />
+          </Folder>
+          <Folder Name="pvp">
+            <Image Name="baidian.png" />
+            <Image Name="common_font_1.png" />
+            <Image Name="common_font_2.png" />
+            <Image Name="common_font_3.png" />
+            <Image Name="dididi.png" />
+            <Image Name="door_pvp_back.png" />
+            <Image Name="door_pvp_s.png" />
+            <Image Name="door_pvp_v.png" />
+            <Image Name="duanweijiangli1.png" />
+            <Image Name="duanweijiangli2.png" />
+            <Image Name="jifen.png" />
+            <Image Name="jifenjiangli.png" />
+            <Image Name="lv_baijin.png" />
+            <Image Name="lv_baiyin.png" />
+            <Image Name="lv_huangjin.png" />
+            <Image Name="lv_qingtong.png" />
+            <Image Name="lv_wangzhe.png" />
+            <Image Name="lv_zuanshi.png" />
+            <Image Name="monsterdi01.png" />
+            <Image Name="monsterdi02.png" />
+            <Image Name="monsterdi03.png" />
+            <Image Name="monsterdi04.png" />
+            <Image Name="monsterdi05.png" />
+            <Image Name="monsterdi06.png" />
+            <Image Name="monsterdi07.png" />
+            <Image Name="monsterdi08.png" />
+            <Image Name="monsterdi09.png" />
+            <Image Name="monsterdi10.png" />
+            <Image Name="paiming.png" />
+            <Image Name="pvp.png" />
+            <Image Name="pvpdi.png" />
+            <Image Name="pvploading1.png" />
+            <Image Name="pvploading2.png" />
+            <Image Name="pvplv1.png" />
+            <Image Name="pvplv10.png" />
+            <Image Name="pvplv11.png" />
+            <Image Name="pvplv12.png" />
+            <Image Name="pvplv13.png" />
+            <Image Name="pvplv14.png" />
+            <Image Name="pvplv15.png" />
+            <Image Name="pvplv16.png" />
+            <Image Name="pvplv17.png" />
+            <Image Name="pvplv18.png" />
+            <Image Name="pvplv19.png" />
+            <Image Name="pvplv2.png" />
+            <Image Name="pvplv20.png" />
+            <Image Name="pvplv21.png" />
+            <Image Name="pvplv22.png" />
+            <Image Name="pvplv23.png" />
+            <Image Name="pvplv24.png" />
+            <Image Name="pvplv25.png" />
+            <Image Name="pvplv26.png" />
+            <Image Name="pvplv27.png" />
+            <Image Name="pvplv28.png" />
+            <Image Name="pvplv29.png" />
+            <Image Name="pvplv3.png" />
+            <Image Name="pvplv30.png" />
+            <Image Name="pvplv4.png" />
+            <Image Name="pvplv5.png" />
+            <Image Name="pvplv6.png" />
+            <Image Name="pvplv7.png" />
+            <Image Name="pvplv8.png" />
+            <Image Name="pvplv9.png" />
+            <Image Name="pvpopen1.png" />
+            <Image Name="pvpopen2.png" />
+            <Image Name="pvpopen3.png" />
+            <Image Name="roleart_feiji.png" />
+            <Image Name="roleart_hongbuff.png" />
+            <Image Name="roleart_j.png" />
+            <Image Name="roleart_jian.png" />
+            <Image Name="roleart_jianmo.png" />
+            <Image Name="roleart_jisi.png" />
+            <Image Name="roleart_jks.png" />
+            <Image Name="roleart_lanbuff.png" />
+            <Image Name="roleart_nv.png" />
+            <Image Name="roleart_nvhuang.png" />
+            <Image Name="roleart_qiang.png" />
+            <Image Name="roleart_tl.png" />
+            <Image Name="roleart_tz.png" />
+            <Image Name="roleart_xiangdao.png" />
+            <Image Name="souldi01.png" />
+            <Image Name="souldi02.png" />
+            <Image Name="souldi03.png" />
+            <Image Name="souldi04.png" />
+            <Image Name="souldi05.png" />
+            <Image Name="xuanzeduishou.png" />
+            <Image Name="zhanli.png" />
+          </Folder>
+          <Folder Name="reward">
+            <Image Name="head10.png" />
+            <Image Name="monsterchoose-01.png" />
+            <Image Name="monsterchoose-02.png" />
+            <Image Name="monsterchoose-03.png" />
+            <Image Name="monsterchoose-04.png" />
+            <Image Name="monsterchoose-05.png" />
+            <Image Name="monsterchoose-06.png" />
+            <Image Name="monsterchoose-07.png" />
+            <Image Name="monsterchoose-08.png" />
+            <Image Name="monsterchoose-09.png" />
+            <Image Name="monsterchoose-10.png" />
+            <Image Name="monsterchoose-11.png" />
+            <Image Name="monsterchoose-12.png" />
+            <Image Name="monsterchoose-13.png" />
+            <Image Name="monsterchoose-14.png" />
+            <Image Name="monsterchoose-15.png" />
+            <Image Name="ready.png" />
+            <Image Name="reward.png" />
+            <Image Name="reward1.png" />
+            <Image Name="reward2.png" />
+            <Image Name="reward3.png" />
+            <Image Name="reward4.png" />
+          </Folder>
+          <Folder Name="shop">
+            <Image Name="bujilibao.png" />
+            <Image Name="chujicailiaolibao.png" />
+            <Image Name="dibu.png" />
+            <Image Name="gaojicailiaolibao.png" />
+            <Image Name="jingpolibao.png" />
+            <Image Name="shopbg.png" />
+            <Image Name="shopdi.png" />
+            <Image Name="shoper.png" />
+            <Image Name="shophead.png" />
+            <Image Name="shopshanguang.png" />
+          </Folder>
+          <Folder Name="soul">
+            <Image Name="common_tutorial_rotation.png" />
+            <Image Name="head17.png" />
+            <Image Name="soul.png" />
+            <Image Name="soul1.png" />
+            <Image Name="soul2.png" />
+            <Image Name="soul3.png" />
+            <Image Name="soul4.png" />
+            <Image Name="soul5.png" />
+            <Image Name="yizhuangbei.png" />
+          </Folder>
+          <Folder Name="story">
+            <Image Name="duihuakuang.png" />
+            <Image Name="jinengdianji2.png" />
+            <Image Name="plot_1.png" />
+            <Image Name="shouzhi.png" />
+            <Image Name="shouzhi2.png" />
+            <Image Name="tishikuang.png" />
+            <Image Name="zhihuaguang-02.png" />
+            <Image Name="zhihuaguang-03.png" />
+            <Image Name="zhihuaguang-04.png" />
+            <Image Name="zhihuaguang-05.png" />
+          </Folder>
+          <Folder Name="tower">
+            <Image Name="bg-endless-1.png" />
+            <Image Name="bg-endless-2.png" />
+            <Image Name="bg-stage-1.png" />
+            <Image Name="bg-strengthen-1.png" />
+            <Image Name="gua.png" />
+            <Image Name="head14.png" />
+            <Image Name="opendoor.png" />
+            <Image Name="saodangzhong.png" />
+            <Image Name="tadi.png" />
+            <Image Name="taguang.png" />
+            <Image Name="tower.png" />
+            <Image Name="tower_reset.png" />
+            <Image Name="towerdoor.png" />
+          </Folder>
+          <Folder Name="za">
+            <Image Name="boss_state.png" />
+            <Image Name="chou_2.png" />
+            <Image Name="chou_3.png" />
+            <Image Name="chou_4.png" />
+            <Image Name="chou_5.png" />
+            <Image Name="chuizi.png" />
+            <Image Name="common_top_window.png" />
+            <Image Name="danger.png" />
+            <Image Name="diliekai-04.png" />
+            <Image Name="duanweijiangli.png" />
+            <Image Name="fight-01.png" />
+            <Image Name="fight-02.png" />
+            <Image Name="fight-03.png" />
+            <Image Name="fight-04.png" />
+            <Image Name="fuhuotu-01.png" />
+            <Image Name="fuhuotu-02.png" />
+            <Image Name="fuhuotu-03.png" />
+            <Image Name="fuhuozi.png" />
+            <Image Name="function1.png" />
+            <Image Name="function10.png" />
+            <Image Name="function11.png" />
+            <Image Name="function2.png" />
+            <Image Name="function3.png" />
+            <Image Name="function4.png" />
+            <Image Name="function5.png" />
+            <Image Name="function6.png" />
+            <Image Name="function7.png" />
+            <Image Name="function8.png" />
+            <Image Name="function9.png" />
+            <Image Name="gong.png" />
+            <Image Name="goumaitili.png" />
+            <Image Name="head08.png" />
+            <Image Name="huojiangduanwei.png" />
+            <Image Name="ji.png" />
+            <Image Name="mao.png" />
+            <Image Name="newfunction.png" />
+            <Image Name="newhead.png" />
+            <Image Name="shangsheng.png" />
+            <Image Name="sheng.png" />
+            <Image Name="shengli-01.png" />
+            <Image Name="shengli-02.png" />
+            <Image Name="shibai-01.png" />
+            <Image Name="shibai-02.png" />
+            <Image Name="shibai-03.png" />
+            <Image Name="shibai-04.png" />
+            <Image Name="shibai-05.png" />
+            <Image Name="task_win_01.png" />
+            <Image Name="task_win_02.png" />
+            <Image Name="task_win_03.png" />
+            <Image Name="tishengdi.png" />
+            <Image Name="tishenglian.png" />
+            <Image Name="up1.png" />
+            <Image Name="up2.png" />
+            <Image Name="warning1.png" />
+            <Image Name="win-03.png" />
+            <Image Name="win-04.png" />
+            <Image Name="xi.png" />
+            <Image Name="xiangdao-01.png" />
+            <Image Name="xiangdao-02.png" />
+            <Image Name="xiangdao-03.png" />
+            <Image Name="xiangdao-04.png" />
+            <Image Name="xiangdao-06.png" />
+            <Image Name="xiangdao-07.png" />
+            <Image Name="za-02.png" />
+            <Image Name="za-03.png" />
+            <Image Name="za-04.png" />
+            <Image Name="za-05.png" />
+            <Image Name="zhandoulitisheng.png" />
+          </Folder>
+        </Folder>
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
