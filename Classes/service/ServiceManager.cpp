@@ -70,7 +70,7 @@ void ServiceManager::checkConnect(void *pMsg)
 void ServiceManager::exitApp(void *pMsg)
 {
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
-    cocos2d::CCDirector::getInstance()->end();
+    cocos2d::Director::getInstance()->end();
     exit(0);
 #elif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
 //    AndroidHelper::exitGame();
