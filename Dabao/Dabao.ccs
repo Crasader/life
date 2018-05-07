@@ -831,6 +831,7 @@
             <Image Name="activity_wuqi.png" />
             <Image Name="activity_xianglian.png" />
             <Image Name="activity_zhihuan.png" />
+            <Image Name="fenge.png" />
             <Image Name="head07.png" />
             <Image Name="huodongdi.png" />
             <Image Name="huodongzi1.png" />
@@ -845,6 +846,7 @@
             <Image Name="renwuover.png" />
             <Image Name="renwutiao.png" />
             <Image Name="shouchongbg.png" />
+            <Image Name="shuangbeidi.png" />
             <Image Name="tu1.png" />
           </Folder>
           <Folder Name="fonts">

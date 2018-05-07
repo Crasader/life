@@ -130,6 +130,7 @@ void Shop::save2EmptyCoreStr()
     _doc.AddMember("total_recharge", 0, allocator);
     _doc.AddMember("discount_state", 0, allocator);
     _doc.AddMember("discount_package", 0, allocator);
+    _doc.AddMember("vip_shop_state", 0, allocator);
     
     StringBuffer buff;
     rapidjson::Writer<StringBuffer> writer(buff);

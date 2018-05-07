@@ -45,6 +45,7 @@ typedef struct __SHOP_DATA
     int noviceRecharge;
     int discountState;
     int discountPackage;
+//    int vipShopState;
     float totalRecharge;
 }SHOP_DATA;
 

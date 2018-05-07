@@ -22,6 +22,7 @@ public:
     bool init();
     void onEnter();
     void updateEveryday(cocos2d::EventCustom *event);
+    void updateMonthAssign(cocos2d::EventCustom *event);
     void updateFirstRecharge(cocos2d::EventCustom *event);
     void startPlot(cocos2d::EventCustom *event);
     void hide(cocos2d::EventCustom *event);
@@ -39,9 +40,11 @@ public:
     void clickRecharge();
     void clickMission();
     void clickBound();
+    void clickMonthAssign();
     
     void clickTakeEveryday();
     void clickTakeRecharge();
+    void clickTakeMonthAssign();
     void clickActiveBox(cocos2d::Ref *pSender);
     void clickMissionJump(cocos2d::Ref *pSender);
     void clickMissionBound(cocos2d::Ref *pSender);
@@ -72,10 +75,13 @@ private:
     cocos2d::ui::ImageView *missionBg;
     cocos2d::ui::ImageView *firstRechargeBg;
     cocos2d::ui::ImageView *boundMissionBg;
+    cocos2d::ui::ImageView *monthAssignBg;//month_assign_img
     cocos2d::ui::Button *boundButton;
     cocos2d::ui::Button *rechargeButton;
     cocos2d::ui::Button *missionButton;
     cocos2d::ui::Button *everydayButton;
+    cocos2d::ui::Button *monthAssignButton;//month_assign_button
+    cocos2d::ui::ImageView *monthAssignTip;//tip
     cocos2d::ui::ImageView *missionTip;
     cocos2d::ui::ImageView *boundTip;
     
