@@ -65,6 +65,8 @@ void CustomPackageLayer::setupView(cocos2d::EventCustom *event)
     auto okButton = (Button*)rootBg->getChildByName("ok_button");
     okButton->addClickEventListener(CC_CALLBACK_0(CustomPackageLayer::clickOk, this));
     
+    packageId = info.shopId;
+    
     rootAction->play("in", false);
     rootAction->setAnimationEndCallFunc("in", CC_CALLBACK_0(CustomPackageLayer::endIn, this));
 }
