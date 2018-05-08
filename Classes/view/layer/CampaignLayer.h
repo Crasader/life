@@ -50,6 +50,8 @@ public:
     void clickMissionBound(cocos2d::Ref *pSender);
     void clickBoundMissionJump(cocos2d::Ref *pSender);
     void clickTakeBoundMissionReward(cocos2d::Ref *pSender);
+    void clickMonthSign();
+    
     
     void removeOff();
     void endIn();
@@ -69,6 +71,7 @@ private:
     cocos2d::EventListenerCustom *showBoundListener;
     cocos2d::EventListenerCustom *updateTipListener;
     cocos2d::EventListenerCustom *jumpLockedListener;
+    cocos2d::EventListenerCustom *updateMonthAssignListener;
 
     cocostudio::timeline::ActionTimeline *rootAction;
     cocos2d::ui::ImageView *everydayBg;
@@ -86,6 +89,7 @@ private:
     cocos2d::ui::ImageView *boundTip;
     
     cocos2d::ui::Button *takeFirstRecharge;
+    cocos2d::ui::Button *signButton;
     
     cocos2d::ui::LoadingBar *activeBar;
     cocos2d::ui::ListView *missionList;

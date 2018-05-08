@@ -153,6 +153,7 @@
 #define UPDATE_CAMPAIGN_ACTIVE                          "UPDATE_CAMPAIGN_ACTIVE"
 #define UPDATE_FREE_DIAMOND                             "UPDATE_FREE_DIAMOND"
 #define SHOW_CAMPAIGN_BOUND_MISSION                     "SHOW_CAMPAIGN_BOUND_MISSION"
+#define UPDATE_CAMPAIGN_MONTH_ASSIGN                    "UPDATE_CAMPAIGN_MONTH_ASSIGN"
 #define JUMP_LOCKED                                     "JUMP_LOCKED"
 #define UPDATE_NAME                                     "UPDATE_NAME"
 #define UPDATE_HALL_TIP                                 "UPDATE_HALL_TIP"

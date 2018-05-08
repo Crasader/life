@@ -844,6 +844,16 @@ void ClientLogic::UIClickCampaignActiveJump(void *pMsg)
     SystemLogic::instance()->campaignActiveJump(*pMsgInfo);
 }
 
+void ClientLogic::UIShowMonthAssign(void *pMsg)
+{
+    SystemLogic::instance()->showMonthAssign();
+}
+
+void ClientLogic::UITakeMonthAssignReward(void *pMsg)
+{
+    SystemLogic::instance()->takeMonthAssignBound();
+}
+
 void ClientLogic::UIClickFreeDiamond(void *pMsg)
 {
     SystemLogic::instance()->takeFreeDiamond();

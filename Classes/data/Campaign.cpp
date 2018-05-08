@@ -381,9 +381,15 @@ void Campaign::enableMonthAssign()
     {
         return;
     }
+    coreData.monthAssignId = DICTOOL->getIntValue_json(_doc, "month_assign_id");
+    int dayId = coreData.monthAssignId-1;
+    dayId++;
+    dayId %= monthAssignConifgIdTable.size();
     
+    coreData.monthAssignId = dayId+1;
     coreData.monthAssignState = 1;
     _doc["month_assign_state"] = 1;
+    _doc["month_assign_id"] = coreData.monthAssignId;
     
     StringBuffer buff;
     rapidjson::Writer<StringBuffer> writer(buff);
@@ -413,15 +419,9 @@ void Campaign::takeMonthAssignBound()
     {
         return;
     }
-    coreData.monthAssignId = DICTOOL->getIntValue_json(_doc, "month_assign_id");
-    int dayId = coreData.monthAssignId-1;
-    dayId++;
-    dayId %= monthAssignConifgIdTable.size();
     
-    coreData.monthAssignId = dayId+1;
     coreData.monthAssignState = 2;
     
-    _doc["month_assign_id"] = coreData.monthAssignId;
     _doc["month_assign_state"] = coreData.monthAssignState;
     
     StringBuffer buff;

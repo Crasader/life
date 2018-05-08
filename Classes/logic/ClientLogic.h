@@ -208,6 +208,8 @@ private:
     void UIShowCampaignBoundMission(void *pMsg);
     void UIClickCampaignBoundJump(void *pMsg);
     void UITakeCampaignBoundReward(void *pMsg);
+    void UIShowMonthAssign(void *pMsg);
+    void UITakeMonthAssignReward(void *pMsg);
     
     void UIShowLucky(void *pMsg);
     void UIDrawNormal(void *pMsg);

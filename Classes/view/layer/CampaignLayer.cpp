@@ -55,6 +55,8 @@ void CampaignLayer::onEnter()
     jumpLockedListener = EventListenerCustom::create(JUMP_LOCKED, CC_CALLBACK_1(CampaignLayer::jumpLocked, this));
     Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(jumpLockedListener, -1);
     
+    updateMonthAssignListener = EventListenerCustom::create(UPDATE_CAMPAIGN_MONTH_ASSIGN, CC_CALLBACK_1(CampaignLayer::updateMonthAssign, this));
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(updateMonthAssignListener, -1);
 }
 CampaignLayer::~CampaignLayer()
 {
@@ -70,6 +72,7 @@ CampaignLayer::~CampaignLayer()
     Director::getInstance()->getEventDispatcher()->removeEventListener(showBoundListener);
     Director::getInstance()->getEventDispatcher()->removeEventListener(updateTipListener);
     Director::getInstance()->getEventDispatcher()->removeEventListener(jumpLockedListener);
+    Director::getInstance()->getEventDispatcher()->removeEventListener(updateMonthAssignListener);
     ArmatureDataManager::destroyInstance();
     Director::getInstance()->purgeCachedData();
 }
@@ -110,14 +113,20 @@ bool CampaignLayer::init()
     missionTip = (ImageView*)missionButton->getChildByName("tip");
     everydayButton = (Button*)rootBg->getChildByName("everyday_button");
     everydayButton->addClickEventListener(CC_CALLBACK_0(CampaignLayer::clickEveryday, this));
+    monthAssignButton = (Button*)rootBg->getChildByName("month_assign_button");
+    monthAssignButton->addClickEventListener(CC_CALLBACK_0(CampaignLayer::clickMonthAssign, this));
+    monthAssignTip = (ImageView*)monthAssignButton->getChildByName("tip");
     
     everydayBg = (ImageView*)rootBg->getChildByName("everyday_bound_img");
     missionBg = (ImageView*)rootBg->getChildByName("everyday_mission_img");
     firstRechargeBg = (ImageView*)rootBg->getChildByName("first_rechage_img");
     boundMissionBg = (ImageView*)rootBg->getChildByName("bound_mission_img");
+    monthAssignBg = (ImageView*)rootBg->getChildByName("month_assign_img");
 
     takeFirstRecharge = (Button*)firstRechargeBg->getChildByName("recharge_button");
     takeFirstRecharge->addClickEventListener(CC_CALLBACK_0(CampaignLayer::clickTakeRecharge, this));
+    
+    signButton = (Button*)monthAssignBg->getChildByName("sign_button");
     
     auto platform = (Node*)firstRechargeBg->getChildByName("platform_node");
 //    std::string resPath = GameUtils::format(ACTOR_DIR,
@@ -156,11 +165,14 @@ void CampaignLayer::updateEveryday(cocos2d::EventCustom *event)
 {
     L2E_SHOW_EVERYDAY info = *static_cast<L2E_SHOW_EVERYDAY*>(event->getUserData());
     everydayBg->setVisible(true);
+    monthAssignBg->setVisible(false);
     missionBg->setVisible(false);
     firstRechargeBg->setVisible(false);
     boundMissionBg->setVisible(false);
     everydayButton->setEnabled(false);
     everydayButton->setBright(false);
+    monthAssignButton->setEnabled(true);
+    monthAssignButton->setBright(true);
     missionButton->setEnabled(true);
     missionButton->setBright(true);
     rechargeButton->setEnabled(true);
@@ -197,16 +209,66 @@ void CampaignLayer::updateEveryday(cocos2d::EventCustom *event)
         }
     }
 }
+void CampaignLayer::updateMonthAssign(cocos2d::EventCustom *event)
+{
+    everydayBg->setVisible(false);
+    missionBg->setVisible(false);
+    monthAssignBg->setVisible(true);
+    firstRechargeBg->setVisible(false);
+    boundMissionBg->setVisible(false);
+    everydayButton->setEnabled(true);
+    everydayButton->setBright(true);
+    monthAssignButton->setEnabled(false);
+    monthAssignButton->setBright(false);
+    missionButton->setEnabled(true);
+    missionButton->setBright(true);
+    rechargeButton->setEnabled(true);
+    rechargeButton->setBright(true);
+    boundButton->setEnabled(true);
+    boundButton->setBright(true);
+    
+    L2E_SHOW_MONTH_ASSIGN info = *static_cast<L2E_SHOW_MONTH_ASSIGN*>(event->getUserData());
+    for (int i = 0; i < info.configCount; i++) {
+        if(monthAssignBg->getChildByTag(i+1) == nullptr) {
+            break;
+        }
+        auto boundIcon = (ImageView*)monthAssignBg->getChildByName("icon");
+        boundIcon->loadTexture(info.icon[i].c_str());
+        auto takeFlag = (ImageView*)boundIcon->getChildByName("taken_flag");
+        takeFlag->setVisible(info.monthAssignId>i+1);
+        auto vipLable = (Text*)boundIcon->getChildByName("vip_limit_label");
+        auto doubleImg = (ImageView*)boundIcon->getChildByName("vip_bg");
+        if (info.vipLimit[i] < 1) {
+            vipLable->setVisible(false);
+            doubleImg->setVisible(false);
+        }else{
+            vipLable->setVisible(true);
+            doubleImg->setVisible(true);
+            vipLable->setString(Convert2String(info.vipLimit[i]));
+        }
+    }
+    
+    auto countText = (Text*)monthAssignBg->getChildByName("count_text");
+    int signedCount = info.monthAssignId;
+    countText->setString(GameUtils::format("%d/%d", signedCount, info.configCount));
+    
+    signButton->setEnabled(info.monthAssignState == 1);
+    signButton->setBright(info.monthAssignState == 1);
+    
+}
 
 void CampaignLayer::updateFirstRecharge(cocos2d::EventCustom *event)
 {
     L2E_SHOW_FIRST_RECHARGE info = *static_cast<L2E_SHOW_FIRST_RECHARGE*>(event->getUserData());
     everydayBg->setVisible(false);
     missionBg->setVisible(false);
+    monthAssignBg->setVisible(false);
     firstRechargeBg->setVisible(true);
     boundMissionBg->setVisible(false);
     everydayButton->setEnabled(true);
     everydayButton->setBright(true);
+    monthAssignButton->setEnabled(true);
+    monthAssignButton->setBright(true);
     missionButton->setEnabled(true);
     missionButton->setBright(true);
     rechargeButton->setEnabled(false);
@@ -243,11 +305,14 @@ void CampaignLayer::showActive(cocos2d::EventCustom *event)
 {
     L2E_SHOW_CAMPAIGN_ACTIVE info = *static_cast<L2E_SHOW_CAMPAIGN_ACTIVE*>(event->getUserData());
     everydayBg->setVisible(false);
+    monthAssignBg->setVisible(false);
     missionBg->setVisible(true);
     firstRechargeBg->setVisible(false);
     boundMissionBg->setVisible(false);
     everydayButton->setEnabled(true);
     everydayButton->setBright(true);
+    monthAssignButton->setEnabled(true);
+    monthAssignButton->setBright(true);
     missionButton->setEnabled(false);
     missionButton->setBright(false);
     rechargeButton->setEnabled(true);
@@ -774,6 +839,14 @@ void CampaignLayer::clickEveryday()
     ClientLogic::instance()->ProcessUIRequest(&info);
 }
 
+void CampaignLayer::clickMonthAssign()
+{
+    SimpleAudioEngine::getInstance()->playEffect(GameUtils::format(SOUND_DIR, "click.mp3").c_str(),false,1,0,0.5);
+    E2L_COMMON info;
+    info.eProtocol = e2l_show_month_assign;
+    ClientLogic::instance()->ProcessUIRequest(&info);
+}
+
 void CampaignLayer::clickMission()
 {
     SimpleAudioEngine::getInstance()->playEffect(GameUtils::format(SOUND_DIR, "click.mp3").c_str(),false,1,0,0.5);
@@ -899,4 +972,12 @@ void CampaignLayer::updateTip(cocos2d::EventCustom *event)
     L2E_UPDATE_CAMPAIGN_TIP info = *static_cast<L2E_UPDATE_CAMPAIGN_TIP*>(event->getUserData());
     boundTip->setVisible(info.boundTip);
     missionTip->setVisible(info.activeTip);
+}
+
+void CampaignLayer::clickMonthSign()
+{
+    SimpleAudioEngine::getInstance()->playEffect(GameUtils::format(SOUND_DIR, "click.mp3").c_str(),false,1,0,0.5);
+    E2L_COMMON info;
+    info.eProtocol = e2l_take_month_assign_reward;
+    ClientLogic::instance()->ProcessUIRequest(&info);
 }

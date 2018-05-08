@@ -177,6 +177,8 @@ ClientLogic::ClientLogic()
     m_UI2LogicFunc[e2l_show_bound_mission] = &ClientLogic::UIShowCampaignBoundMission;
     m_UI2LogicFunc[e2l_take_mission_reward] = &ClientLogic::UITakeCampaignBoundReward;
     m_UI2LogicFunc[e2l_click_mission_jump] = &ClientLogic::UIClickCampaignBoundJump;
+    m_UI2LogicFunc[e2l_show_month_assign] = &ClientLogic::UIShowMonthAssign;
+    m_UI2LogicFunc[e2l_take_month_assign_reward] = &ClientLogic::UITakeMonthAssignReward;
     
     m_UI2LogicFunc[e2l_click_shop_button] = &ClientLogic::UIClickShopButton;
     m_UI2LogicFunc[e2l_shop_buy_package] = &ClientLogic::UIBuyShopPackage;
