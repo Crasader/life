@@ -224,7 +224,7 @@ bool HallScene::init()
     addChild(rightRoot);
     rightAction->play("play", true);
     
-    auto vipButton = (Button*)leftRoot->getChildByName("vip_button");
+    vipButton = (Button*)leftRoot->getChildByName("vip_button");
     vipButton->addClickEventListener(CC_CALLBACK_0(HallScene::clickVip, this));
     vipTip = (Sprite*)vipButton->getChildByName("tip");
     vipIcon = (ImageView*)vipButton->getChildByName("vip_icon");
@@ -946,6 +946,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(battleBg->getContentSize()/2);
@@ -966,6 +968,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(heroButton->getContentSize()/2);
@@ -986,6 +990,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(monsterButton->getContentSize()/2);
@@ -1006,6 +1012,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(armsButton->getContentSize()/2);
@@ -1026,6 +1034,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(soulButton->getContentSize()/2);
@@ -1046,6 +1056,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(rewardButton->getContentSize()/2);
@@ -1066,6 +1078,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(abyssButton->getContentSize()/2);
@@ -1086,6 +1100,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(towerButton->getContentSize()/2);
@@ -1106,6 +1122,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(provButton->getContentSize()/2);
@@ -1126,6 +1144,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 provButton->removeChildByTag(100);
                 pvpButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(pvpButton->getContentSize()/2);
@@ -1147,6 +1167,8 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 pvpButton->removeChildByTag(100);
                 luckyButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(luckyButton->getContentSize()/2);
@@ -1168,11 +1190,59 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
                 pvpButton->removeChildByTag(100);
                 luckyButton->removeChildByTag(100);
                 castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
                 pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
                 pointTip->setPosition(Vec2(150, 35));
                 point->setPosition(castleButton->getContentSize()/2);
                 point->setTag(100);
                 castleButton->addChild(point);
+            }
+                break;
+            case 13:
+            {
+                battleBg->removeChildByTag(100);
+                heroButton->removeChildByTag(100);
+                monsterButton->removeChildByTag(100);
+                armsButton->removeChildByTag(100);
+                soulButton->removeChildByTag(100);
+                rewardButton->removeChildByTag(100);
+                abyssButton->removeChildByTag(100);
+                towerButton->removeChildByTag(100);
+                provButton->removeChildByTag(100);
+                pvpButton->removeChildByTag(100);
+                luckyButton->removeChildByTag(100);
+                castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
+                pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
+                pointTip->setPosition(Vec2(150, 35));
+                point->setPosition(firstButton->getContentSize()/2);
+                point->setTag(100);
+                firstButton->addChild(point);
+            }
+                break;
+            case 14:
+            {
+                battleBg->removeChildByTag(100);
+                heroButton->removeChildByTag(100);
+                monsterButton->removeChildByTag(100);
+                armsButton->removeChildByTag(100);
+                soulButton->removeChildByTag(100);
+                rewardButton->removeChildByTag(100);
+                abyssButton->removeChildByTag(100);
+                towerButton->removeChildByTag(100);
+                provButton->removeChildByTag(100);
+                pvpButton->removeChildByTag(100);
+                luckyButton->removeChildByTag(100);
+                castleButton->removeChildByTag(100);
+                firstButton->removeChildByTag(100);
+                vipButton->removeChildByTag(100);
+                pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
+                pointTip->setPosition(Vec2(150, 35));
+                point->setPosition(vipButton->getContentSize()/2);
+                point->setTag(100);
+                vipButton->addChild(point);
             }
                 break;
             default:
@@ -1193,15 +1263,29 @@ void HallScene::startPlot(cocos2d::EventCustom *event)
 }
 void HallScene::clickVip()
 {
-    if (plotButtonId != 0) {
-        return;
-    }
     if (autoPopLayerId != NONE_LAYER) {
         return;
     }
 //    if (UIManager::instance()->replacing) {
 //        return;
 //    }
+    
+    if (plotButtonId == 14) {
+        plotButtonId = 0;
+        E2L_COMPLETE_PLOT infoPlot;
+        infoPlot.eProtocol = e2l_complete_plot;
+        infoPlot.missionId = plotMissionId;
+        infoPlot.value = 0;
+        ClientLogic::instance()->ProcessUIRequest(&infoPlot);
+        plotMissionId = 0;
+        auto point = vipButton->getChildByTag(100);
+        point->stopAllActions();
+        point->removeFromParent();
+        //        battleBg->removeAllChildren();
+    }else if (plotButtonId != 0) {
+        return;
+    }
+    
     plotButtonId = 0;
     E2L_COMMON info;
     info.eProtocol = e2l_click_main_vip;
@@ -1653,10 +1737,23 @@ void HallScene::clickFirst()
     if (autoPopLayerId != NONE_LAYER) {
         return;
     }
-    if (plotButtonId != 0) {
+    if (plotButtonId == 13) {
+        plotButtonId = 0;
+        E2L_COMPLETE_PLOT infoPlot;
+        infoPlot.eProtocol = e2l_complete_plot;
+        infoPlot.missionId = plotMissionId;
+        infoPlot.value = 0;
+        ClientLogic::instance()->ProcessUIRequest(&infoPlot);
+        plotMissionId = 0;
+        auto point = firstButton->getChildByTag(100);
+        point->stopAllActions();
+        point->removeFromParent();
+        //        battleBg->removeAllChildren();
+    }else if (plotButtonId != 0) {
         return;
     }
     plotButtonId = 0;
+
     E2L_COMMON info;
     info.eProtocol = e2l_click_main_campaign;
     ClientLogic::instance()->ProcessUIRequest(&info);

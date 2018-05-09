@@ -232,6 +232,11 @@ void HallVIPLayer::removeOff()
 void HallVIPLayer::endIn()
 {
     HallScene::autoPopLayerId = NONE_LAYER;
+    
+    E2L_TRIGGER_OPEN_LAYER info;
+    info.eProtocol = e2l_trigger_open_layer;
+    info.index = VIP_LAYER;
+    ClientLogic::instance()->ProcessUIRequest(&info);
 }
 
 void HallVIPLayer::clickJump()

@@ -1842,6 +1842,7 @@ typedef struct __L2E_SHOW_CUSTOM_PACKAGE
     L2EProtocol                 eProtocol;
     int                         shopId;
     std::string                 showRes;
+    int                         missionId;
 }L2E_SHOW_CUSTOM_PACKAGE;
 
 typedef struct __L2E_SHOW_PACKAGE_RESULT

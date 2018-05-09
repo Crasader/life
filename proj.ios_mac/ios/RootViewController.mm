@@ -110,5 +110,9 @@
     [super dealloc];
 }
 
+- (UIRectEdge)preferredScreenEdgesDeferringSystemGestures
+{
+    return UIRectEdgeTop | UIRectEdgeBottom;
+}
 
 @end

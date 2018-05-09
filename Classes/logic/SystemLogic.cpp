@@ -4506,6 +4506,7 @@ void SystemLogic::plotComplete(E2L_COMPLETE_PLOT info)
                     infoPackage.shopId = packageIdVec[0];
                     infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                     ClientLogic::instance()->pass2Engine(&infoPackage);
+                    continue;
                 }
                 
                 L2E_START_PLOT infoPlot;

@@ -67,8 +67,18 @@ void CustomPackageLayer::setupView(cocos2d::EventCustom *event)
     
     packageId = info.shopId;
     
+
     rootAction->play("in", false);
     rootAction->setAnimationEndCallFunc("in", CC_CALLBACK_0(CustomPackageLayer::endIn, this));
+    
+    if (info.missionId <= 0) {
+        return;
+    }
+    E2L_COMPLETE_PLOT infoPlot;
+    infoPlot.eProtocol = e2l_complete_plot;
+    infoPlot.missionId = info.missionId;
+    infoPlot.value = 0;
+    ClientLogic::instance()->ProcessUIRequest(&infoPlot);
 }
 
 void CustomPackageLayer::endIn()

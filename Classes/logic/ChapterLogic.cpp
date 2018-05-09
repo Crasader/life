@@ -152,7 +152,12 @@ void ChapterLogic::showStage(E2L_SHOW_STAGE info)
     infoOut.eProtocol = l2e_show_stage;
     infoOut.stageId = currStage;
     infoOut.nameImg = data->stageConfigMap[currStage].imgFile;
-    infoOut.heroImg = GameUtils::format("choose0%d.png",Account::instance()->getData().currJob);
+    int job = Account::instance()->getData().currJob;
+    if (currStage == 10004) {
+        //哲信要求第4关统一用剑姬
+        job = 2;
+    }
+    infoOut.heroImg = GameUtils::format("choose0%d.png",job);
     infoOut.currVIT = vit->getTotalVIT();
     infoOut.maxVIT = vit->getMaxBaseVIT();
     infoOut.boundGold = data->stageConfigMap[currStage].boundsGold;
@@ -197,7 +202,12 @@ void ChapterLogic::back2Stage()
     infoOut.eProtocol = l2e_show_stage;
     infoOut.stageId = currStage;
     infoOut.nameImg = data->stageConfigMap[currStage].imgFile;
-    infoOut.heroImg = GameUtils::format("choose0%d.png",Account::instance()->getData().currJob);
+    int job = Account::instance()->getData().currJob;
+    if (currStage == 10004) {
+        //哲信要求第4关统一用剑姬
+        job = 2;
+    }
+    infoOut.heroImg = GameUtils::format("choose0%d.png",job);
     infoOut.currVIT = vit->getTotalVIT();
     infoOut.maxVIT = vit->getMaxBaseVIT();
     infoOut.boundGold = data->stageConfigMap[currStage].boundsGold;

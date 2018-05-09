@@ -821,11 +821,112 @@ void CampaignLayer::showBoundMission(cocos2d::EventCustom *event)
 }
 void CampaignLayer::startPlot(cocos2d::EventCustom *event)
 {
-    
+    L2E_START_PLOT info = *static_cast<L2E_START_PLOT*>(event->getUserData());
+    if (info.type == 3) {
+        if(info.param[2] != HALL_SECEN)
+        {
+            return;
+        }
+        
+        plotButtonId = info.param[3];
+        plotMissionId = info.missionId;
+        auto point = CSLoader::createNode(GameUtils::format(GUIDE_POINT_UI, info.param[0]));
+        auto action = CSLoader::createTimeline(GameUtils::format(GUIDE_POINT_UI, info.param[0]));
+        point->runAction(action);
+        action->play("play", true);
+        
+        auto pointTip = CSLoader::createNode(GUIDE_POINT_TIP_UI);
+        
+        switch (info.param[3]) {
+            case 1:
+            {
+                everydayButton->removeChildByTag(100);
+                monthAssignButton->removeChildByTag(100);
+                boundButton->removeChildByTag(100);
+                rechargeButton->removeChildByTag(100);
+                missionButton->removeChildByTag(100);
+                pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
+                pointTip->setPosition(Vec2(150, 35));
+                point->setPosition(everydayButton->getContentSize()/2);
+                point->setTag(100);
+                everydayButton->addChild(point);
+            }
+                break;
+            case 2:
+            {
+                everydayButton->removeChildByTag(100);
+                monthAssignButton->removeChildByTag(100);
+                boundButton->removeChildByTag(100);
+                rechargeButton->removeChildByTag(100);
+                missionButton->removeChildByTag(100);
+                pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
+                pointTip->setPosition(Vec2(150, 35));
+                point->setPosition(monthAssignButton->getContentSize()/2);
+                point->setTag(100);
+                monthAssignButton->addChild(point);
+            }
+                break;
+            case 3:
+            {
+                everydayButton->removeChildByTag(100);
+                monthAssignButton->removeChildByTag(100);
+                boundButton->removeChildByTag(100);
+                rechargeButton->removeChildByTag(100);
+                missionButton->removeChildByTag(100);
+                pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
+                pointTip->setPosition(Vec2(150, 35));
+                point->setPosition(boundButton->getContentSize()/2);
+                point->setTag(100);
+                boundButton->addChild(point);
+            }
+                break;
+            case 4:
+            {
+                everydayButton->removeChildByTag(100);
+                monthAssignButton->removeChildByTag(100);
+                boundButton->removeChildByTag(100);
+                rechargeButton->removeChildByTag(100);
+                missionButton->removeChildByTag(100);
+                pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
+                pointTip->setPosition(Vec2(150, 35));
+                point->setPosition(rechargeButton->getContentSize()/2);
+                point->setTag(100);
+                rechargeButton->addChild(point);
+            }
+                break;
+            case 5:
+            {
+                everydayButton->removeChildByTag(100);
+                monthAssignButton->removeChildByTag(100);
+                boundButton->removeChildByTag(100);
+                rechargeButton->removeChildByTag(100);
+                missionButton->removeChildByTag(100);
+                pointTip->setAnchorPoint(Vec2::ANCHOR_BOTTOM_LEFT);
+                pointTip->setPosition(Vec2(150, 35));
+                point->setPosition(missionButton->getContentSize()/2);
+                point->setTag(100);
+                missionButton->addChild(point);
+            }
+                break;
+            default:
+                break;
+        }
+        if (info.param[4] != 0) {
+            auto text = (Text*)pointTip->getChildByName("bg_img")->getChildByName("count_text");
+            text->setString(StringData::shared()->stringFromKey(GameUtils::format("guide_tip%d", info.param[4])));
+            point->addChild(pointTip);
+        }
+    }
 }
 
 void CampaignLayer::clickClose()
 {
+    if (plotButtonId != 0) {
+        return;
+    }
+    
+    plotButtonId = 0;
+    
     rootAction->play("out", false);
     rootAction->setAnimationEndCallFunc("out", CC_CALLBACK_0(CampaignLayer::removeOff, this));
     SimpleAudioEngine::getInstance()->playEffect(GameUtils::format(SOUND_DIR, "close.mp3").c_str(),false,1,0,0.5);
@@ -833,6 +934,22 @@ void CampaignLayer::clickClose()
 
 void CampaignLayer::clickEveryday()
 {
+    if (plotButtonId == 1) {
+        plotButtonId = 0;
+        E2L_COMPLETE_PLOT infoPlot;
+        infoPlot.eProtocol = e2l_complete_plot;
+        infoPlot.missionId = plotMissionId;
+        infoPlot.value = 0;
+        ClientLogic::instance()->ProcessUIRequest(&infoPlot);
+        plotMissionId = 0;
+        auto point = everydayButton->getChildByTag(100);
+        point->stopAllActions();
+        point->removeFromParent();
+    }else if (plotButtonId != 0) {
+        return;
+    }
+    
+    plotButtonId = 0;
     SimpleAudioEngine::getInstance()->playEffect(GameUtils::format(SOUND_DIR, "click.mp3").c_str(),false,1,0,0.5);
     E2L_COMMON info;
     info.eProtocol = e2l_show_everyday;
@@ -841,6 +958,22 @@ void CampaignLayer::clickEveryday()
 
 void CampaignLayer::clickMonthAssign()
 {
+    if (plotButtonId == 2) {
+        plotButtonId = 0;
+        E2L_COMPLETE_PLOT infoPlot;
+        infoPlot.eProtocol = e2l_complete_plot;
+        infoPlot.missionId = plotMissionId;
+        infoPlot.value = 0;
+        ClientLogic::instance()->ProcessUIRequest(&infoPlot);
+        plotMissionId = 0;
+        auto point = monthAssignButton->getChildByTag(100);
+        point->stopAllActions();
+        point->removeFromParent();
+    }else if (plotButtonId != 0) {
+        return;
+    }
+    
+    plotButtonId = 0;
     SimpleAudioEngine::getInstance()->playEffect(GameUtils::format(SOUND_DIR, "click.mp3").c_str(),false,1,0,0.5);
     E2L_COMMON info;
     info.eProtocol = e2l_show_month_assign;
@@ -849,6 +982,22 @@ void CampaignLayer::clickMonthAssign()
 
 void CampaignLayer::clickMission()
 {
+    if (plotButtonId == 5) {
+        plotButtonId = 0;
+        E2L_COMPLETE_PLOT infoPlot;
+        infoPlot.eProtocol = e2l_complete_plot;
+        infoPlot.missionId = plotMissionId;
+        infoPlot.value = 0;
+        ClientLogic::instance()->ProcessUIRequest(&infoPlot);
+        plotMissionId = 0;
+        auto point = missionButton->getChildByTag(100);
+        point->stopAllActions();
+        point->removeFromParent();
+    }else if (plotButtonId != 0) {
+        return;
+    }
+    
+    plotButtonId = 0;
     SimpleAudioEngine::getInstance()->playEffect(GameUtils::format(SOUND_DIR, "click.mp3").c_str(),false,1,0,0.5);
     E2L_COMMON info;
     info.eProtocol = e2l_show_campaign_active;
@@ -857,6 +1006,22 @@ void CampaignLayer::clickMission()
 
 void CampaignLayer::clickRecharge()
 {
+    if (plotButtonId == 4) {
+        plotButtonId = 0;
+        E2L_COMPLETE_PLOT infoPlot;
+        infoPlot.eProtocol = e2l_complete_plot;
+        infoPlot.missionId = plotMissionId;
+        infoPlot.value = 0;
+        ClientLogic::instance()->ProcessUIRequest(&infoPlot);
+        plotMissionId = 0;
+        auto point = rechargeButton->getChildByTag(100);
+        point->stopAllActions();
+        point->removeFromParent();
+    }else if (plotButtonId != 0) {
+        return;
+    }
+    
+    plotButtonId = 0;
     SimpleAudioEngine::getInstance()->playEffect(GameUtils::format(SOUND_DIR, "click.mp3").c_str(),false,1,0,0.5);
     E2L_COMMON info;
     info.eProtocol = e2l_show_first_recharge;
@@ -865,6 +1030,22 @@ void CampaignLayer::clickRecharge()
 
 void CampaignLayer::clickBound()
 {
+    if (plotButtonId == 3) {
+        plotButtonId = 0;
+        E2L_COMPLETE_PLOT infoPlot;
+        infoPlot.eProtocol = e2l_complete_plot;
+        infoPlot.missionId = plotMissionId;
+        infoPlot.value = 0;
+        ClientLogic::instance()->ProcessUIRequest(&infoPlot);
+        plotMissionId = 0;
+        auto point = boundButton->getChildByTag(100);
+        point->stopAllActions();
+        point->removeFromParent();
+    }else if (plotButtonId != 0) {
+        return;
+    }
+    
+    plotButtonId = 0;
     SimpleAudioEngine::getInstance()->playEffect(GameUtils::format(SOUND_DIR, "click.mp3").c_str(),false,1,0,0.5);
     E2L_COMMON info;
     info.eProtocol = e2l_show_bound_mission;
@@ -890,6 +1071,11 @@ void CampaignLayer::clickTakeRecharge()
 void CampaignLayer::endIn()
 {
     HallScene::autoPopLayerId = NONE_LAYER;
+    
+    E2L_TRIGGER_OPEN_LAYER info;
+    info.eProtocol = e2l_trigger_open_layer;
+    info.index = CAMPAIGN_LAYER;
+    ClientLogic::instance()->ProcessUIRequest(&info);
 }
 
 void CampaignLayer::removeOff()

@@ -74,7 +74,9 @@ enum LAYER_INDEX {
     PROV_LAYER = 15,
     PVP_LAYER = 16,
     LUCKY_LAYER = 17,
-    CASTLE_LAYER = 18
+    CASTLE_LAYER = 18,
+    CAMPAIGN_LAYER = 19,
+    VIP_LAYER = 20
 };
 
 static cocos2d::Size designResolutionSize = cocos2d::Size(960, 640);

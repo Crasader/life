@@ -190,7 +190,12 @@ void GameCore::loadHero()
     info.eProtocol = l2e_setup_hero;
     std::string tmxPath = GameUtils::format(TMX_DIR, battleField->getConfig().tmx.c_str());
     info.tmxPath = tmxPath;
-    info.configId = account->jobConfigMap[account->getData().currJob].fighterId;
+    int job = account->getData().currJob;
+    if (stageId == 10004) {
+        //哲信要求第4关统一用剑姬
+        job = 2;
+    }
+    info.configId = account->jobConfigMap[job].fighterId;
     info.hp = account->getData().hp;
     info.attack = account->getData().attack;
     info.defence = account->getData().defence;

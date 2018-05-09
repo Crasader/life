@@ -211,6 +211,7 @@ private:
     cocos2d::ui::Button *diamondButton;
     cocos2d::ui::Button *vitButton;
     cocos2d::ui::Button *jobButton;
+    cocos2d::ui::Button *vipButton;
     cocos2d::ui::Button *storeButton;
     cocos2d::ui::Button *noviceButton;
     cocos2d::ui::Button *firstButton;
