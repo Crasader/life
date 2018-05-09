@@ -232,10 +232,18 @@ void CampaignLayer::updateMonthAssign(cocos2d::EventCustom *event)
         if(monthAssignBg->getChildByTag(i+1) == nullptr) {
             break;
         }
-        auto boundIcon = (ImageView*)monthAssignBg->getChildByName("icon");
+        auto boundIcon = (ImageView*)monthAssignBg->getChildByTag(i+1);
         boundIcon->loadTexture(info.icon[i].c_str());
+        
         auto takeFlag = (ImageView*)boundIcon->getChildByName("taken_flag");
         takeFlag->setVisible(info.monthAssignId>i+1);
+        
+        auto nameLabel = (Text*)boundIcon->getChildByName("name_label");
+        auto countLabel = (Text*)boundIcon->getChildByName("count_label");
+        nameLabel->setString(info.name[i]);
+        countLabel->setString(GameUtils::format("X%d",info.count[i]));
+
+
         auto vipLable = (Text*)boundIcon->getChildByName("vip_limit_label");
         auto doubleImg = (ImageView*)boundIcon->getChildByName("vip_bg");
         if (info.vipLimit[i] < 1) {
@@ -244,7 +252,7 @@ void CampaignLayer::updateMonthAssign(cocos2d::EventCustom *event)
         }else{
             vipLable->setVisible(true);
             doubleImg->setVisible(true);
-            vipLable->setString(Convert2String(info.vipLimit[i]));
+            vipLable->setString(GameUtils::format("V%d", info.vipLimit[i]));
         }
     }
     
