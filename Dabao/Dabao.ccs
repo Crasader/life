@@ -838,6 +838,7 @@
             <Image Name="huodongzi2.png" />
             <Image Name="huodongzi3.png" />
             <Image Name="huodongzi4.png" />
+            <Image Name="huodongzi5.png" />
             <Image Name="icon_can_receive.png" />
             <Image Name="icon_can_receive2.png" />
             <Image Name="renwubar.png" />
@@ -848,6 +849,7 @@
             <Image Name="shouchongbg.png" />
             <Image Name="shuangbeidi.png" />
             <Image Name="tu1.png" />
+            <Image Name="yiqian.png" />
           </Folder>
           <Folder Name="fonts">
             <TTF Name="fonts2.ttf" />

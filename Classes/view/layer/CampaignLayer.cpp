@@ -232,7 +232,7 @@ void CampaignLayer::updateMonthAssign(cocos2d::EventCustom *event)
         if(monthAssignBg->getChildByTag(i+1) == nullptr) {
             break;
         }
-        auto boundIcon = (ImageView*)monthAssignBg->getChildByTag(i+1);
+        auto boundIcon = (ImageView*)monthAssignBg->getChildByName(GameUtils::format("bound_icon_%d",i+1));
         boundIcon->loadTexture(info.icon[i].c_str());
         
         auto takeFlag = (ImageView*)boundIcon->getChildByName("taken_flag");

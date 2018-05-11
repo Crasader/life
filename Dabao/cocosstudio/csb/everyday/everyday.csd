@@ -111,7 +111,7 @@
       <ObjectData Name="Layer" Tag="1899" ctype="GameLayerObjectData">
         <Size X="960.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="bg_img" ActionTag="-1324059106" Alpha="204" Tag="1900" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="80.0000" RightMargin="80.0000" TopMargin="89.9680" BottomMargin="50.0320" Scale9Enable="True" LeftEage="65" RightEage="65" TopEage="64" BottomEage="64" Scale9OriginX="65" Scale9OriginY="64" Scale9Width="670" Scale9Height="352" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="bg_img" ActionTag="-1324059106" Tag="1900" IconVisible="False" HorizontalEdge="BothEdge" VerticalEdge="BothEdge" LeftMargin="80.0000" RightMargin="80.0000" TopMargin="89.9680" BottomMargin="50.0320" Scale9Enable="True" LeftEage="65" RightEage="65" TopEage="64" BottomEage="64" Scale9OriginX="65" Scale9OriginY="64" Scale9Width="670" Scale9Height="352" ctype="ImageViewObjectData">
             <Size X="800.0000" Y="500.0000" />
             <Children>
               <AbstractNodeData Name="Image_11_0_1" ActionTag="1426311265" Tag="1903" IconVisible="False" LeftMargin="225.0000" RightMargin="225.0000" TopMargin="-45.7137" BottomMargin="466.7137" Scale9Enable="True" LeftEage="19" RightEage="19" TopEage="17" BottomEage="17" Scale9OriginX="19" Scale9OriginY="17" Scale9Width="238" Scale9Height="45" ctype="ImageViewObjectData">
@@ -781,7 +781,7 @@
                 <PreSize X="0.7500" Y="0.8000" />
                 <FileData Type="Normal" Path="ui/common/xinxidi2.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="everyday_mission_img" ActionTag="1832213870" Tag="35" IconVisible="False" LeftMargin="155.0000" RightMargin="45.0000" TopMargin="55.0000" BottomMargin="45.0000" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="99" Scale9Height="99" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="everyday_mission_img" Visible="False" ActionTag="1832213870" Tag="35" IconVisible="False" LeftMargin="155.0000" RightMargin="45.0000" TopMargin="55.0000" BottomMargin="45.0000" Scale9Enable="True" LeftEage="34" RightEage="34" TopEage="37" BottomEage="37" Scale9OriginX="34" Scale9OriginY="37" Scale9Width="99" Scale9Height="99" ctype="ImageViewObjectData">
                 <Size X="600.0000" Y="400.0000" />
                 <Children>
                   <AbstractNodeData Name="active_bg" ActionTag="1563195090" Tag="268" IconVisible="False" LeftMargin="27.4699" RightMargin="255.5301" TopMargin="135.5000" BottomMargin="233.5000" LeftEage="104" RightEage="104" TopEage="10" BottomEage="10" Scale9OriginX="104" Scale9OriginY="10" Scale9Width="109" Scale9Height="11" ctype="ImageViewObjectData">
@@ -1160,15 +1160,15 @@
                   <AbstractNodeData Name="Image_1" ActionTag="-1021265995" Tag="107" IconVisible="False" LeftMargin="-17.9637" RightMargin="-15.0363" TopMargin="0.9500" BottomMargin="310.0500" LeftEage="208" RightEage="208" TopEage="29" BottomEage="29" Scale9OriginX="208" Scale9OriginY="29" Scale9Width="217" Scale9Height="31" ctype="ImageViewObjectData">
                     <Size X="633.0000" Y="89.0000" />
                     <Children>
-                      <AbstractNodeData Name="Image_3" ActionTag="-2100834291" Tag="108" IconVisible="False" LeftMargin="154.0000" RightMargin="477.0000" TopMargin="20.5000" BottomMargin="31.5000" TopEage="12" BottomEage="12" Scale9OriginY="12" Scale9Width="2" Scale9Height="13" ctype="ImageViewObjectData">
-                        <Size X="2.0000" Y="37.0000" />
+                      <AbstractNodeData Name="Image_3" ActionTag="-2100834291" Tag="108" IconVisible="False" LeftMargin="31.0000" RightMargin="354.0000" TopMargin="6.0000" BottomMargin="17.0000" TopEage="12" BottomEage="12" Scale9OriginY="12" Scale9Width="248" Scale9Height="42" ctype="ImageViewObjectData">
+                        <Size X="248.0000" Y="66.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                         <Position X="155.0000" Y="50.0000" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
                         <PrePosition X="0.2449" Y="0.5618" />
-                        <PreSize X="0.0032" Y="0.4157" />
-                        <FileData Type="Normal" Path="ui/everyday/fenge.png" Plist="" />
+                        <PreSize X="0.3918" Y="0.7416" />
+                        <FileData Type="Normal" Path="ui/everyday/huodongzi5.png" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -1217,7 +1217,7 @@
                     <OutlineColor A="255" R="255" G="0" B="0" />
                     <ShadowColor A="255" R="110" G="110" B="110" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1" ActionTag="-158613222" Tag="1" IconVisible="False" LeftMargin="27.0627" RightMargin="512.9373" TopMargin="93.6471" BottomMargin="246.3529" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                  <AbstractNodeData Name="bound_icon_1" ActionTag="-158613222" Tag="1" IconVisible="False" LeftMargin="27.0627" RightMargin="512.9373" TopMargin="87.9810" BottomMargin="252.0190" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
                     <Size X="60.0000" Y="60.0000" />
                     <Children>
                       <AbstractNodeData Name="vip_bg" ActionTag="1713144696" Tag="107" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
@@ -1242,46 +1242,1882 @@
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="taken_flag" ActionTag="651683819" Tag="218" IconVisible="False" LeftMargin="-0.5000" RightMargin="19.5000" TopMargin="7.3111" BottomMargin="10.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="20.0000" Y="31.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.3333" Y="0.5281" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="name_label" ActionTag="2080243098" Tag="220" IconVisible="False" LeftMargin="5.5000" RightMargin="25.5000" TopMargin="2.4470" BottomMargin="38.5530" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="name_label" ActionTag="2080243098" Alpha="0" Tag="220" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="29.0000" Y="19.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="20.0000" Y="48.0530" />
+                        <Position X="28.9085" Y="49.3258" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.3333" Y="0.8009" />
+                        <PrePosition X="0.4818" Y="0.8221" />
                         <PreSize X="0.4833" Y="0.3167" />
                         <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="count_label" ActionTag="-758492195" Tag="221" IconVisible="False" LeftMargin="-13.5000" RightMargin="6.5000" TopMargin="38.5000" BottomMargin="2.5000" FontSize="12" LabelText="X100000" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="67.0000" Y="19.0000" />
+                      <AbstractNodeData Name="count_label" ActionTag="-758492195" Tag="221" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="20.0000" Y="12.0000" />
+                        <Position X="29.3329" Y="6.1670" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.3333" Y="0.2000" />
-                        <PreSize X="1.1167" Y="0.3167" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
                         <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="651683819" Tag="218" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
                     </Children>
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="57.0627" Y="276.3529" />
+                    <Position X="57.0627" Y="282.0190" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0951" Y="0.6909" />
+                    <PrePosition X="0.0951" Y="0.7050" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_2" ActionTag="1218677170" Tag="2" IconVisible="False" LeftMargin="107.8380" RightMargin="432.1620" TopMargin="87.9810" BottomMargin="252.0190" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-276290007" Tag="222" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="1613259505" Tag="223" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1058500549" Alpha="0" Tag="224" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-1353898501" Tag="225" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="-1478645448" Tag="226" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="137.8380" Y="282.0190" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.2297" Y="0.7050" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_3" ActionTag="-188369289" Tag="3" IconVisible="False" LeftMargin="189.3905" RightMargin="350.6095" TopMargin="87.9810" BottomMargin="252.0190" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-1434296274" Tag="228" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-209705168" Tag="229" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1659776513" Alpha="0" Tag="230" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="146095174" Tag="231" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="1573409451" Tag="232" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="219.3905" Y="282.0190" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.3657" Y="0.7050" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_4" ActionTag="562643676" Tag="4" IconVisible="False" LeftMargin="270.9431" RightMargin="269.0569" TopMargin="87.9810" BottomMargin="252.0190" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-1863417514" Tag="234" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-1335620098" Tag="235" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1016022960" Alpha="0" Tag="236" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-1558010303" Tag="237" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="724325171" Tag="238" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="300.9431" Y="282.0190" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5016" Y="0.7050" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_5" ActionTag="818042038" Tag="5" IconVisible="False" LeftMargin="352.4958" RightMargin="187.5042" TopMargin="87.9810" BottomMargin="252.0190" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="548516381" Tag="240" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="1695002431" Tag="241" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1146087720" Alpha="0" Tag="242" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-1939932520" Tag="243" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="-1545268519" Tag="244" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="382.4958" Y="282.0190" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.6375" Y="0.7050" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_6" ActionTag="69604132" Tag="6" IconVisible="False" LeftMargin="435.6044" RightMargin="104.3956" TopMargin="87.9810" BottomMargin="252.0190" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="592739346" Tag="252" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="133810101" Tag="253" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="2039222759" Alpha="0" Tag="254" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-1765340358" Tag="255" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="-910362888" Tag="256" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="465.6044" Y="282.0190" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7760" Y="0.7050" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_7" ActionTag="41273150" Tag="7" IconVisible="False" LeftMargin="515.9786" RightMargin="24.0214" TopMargin="89.1435" BottomMargin="250.8565" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-2075949083" Tag="258" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-1548478700" Tag="259" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-72609953" Alpha="0" Tag="260" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="777993438" Tag="261" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="131100771" Tag="262" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="545.9786" Y="280.8565" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.9100" Y="0.7021" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_14" ActionTag="677266781" Tag="14" IconVisible="False" LeftMargin="515.9725" RightMargin="24.0275" TopMargin="157.1406" BottomMargin="182.8594" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-1139481427" Tag="402" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-1198211220" Tag="403" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1513244502" Alpha="0" Tag="404" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-2101767987" Tag="405" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="692222374" Tag="406" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="545.9725" Y="212.8594" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.9100" Y="0.5321" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_13" ActionTag="-1174808186" Tag="13" IconVisible="False" LeftMargin="435.5984" RightMargin="104.4016" TopMargin="155.9784" BottomMargin="184.0216" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-101083452" Tag="396" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="2089436113" Tag="397" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-305247193" Alpha="0" Tag="398" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-472516669" Tag="399" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="-496378411" Tag="400" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="465.5984" Y="214.0216" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7760" Y="0.5351" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_12" ActionTag="-647832342" Tag="12" IconVisible="False" LeftMargin="352.4911" RightMargin="187.5089" TopMargin="155.9784" BottomMargin="184.0216" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="103684864" Tag="390" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-365231781" Tag="391" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-1219723362" Alpha="0" Tag="392" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="1246980033" Tag="393" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="-1377347361" Tag="394" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="382.4911" Y="214.0216" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.6375" Y="0.5351" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_11" ActionTag="-1506624599" Tag="11" IconVisible="False" LeftMargin="270.9400" RightMargin="269.0600" TopMargin="155.9784" BottomMargin="184.0216" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-1135390493" Tag="384" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="2058139010" Tag="385" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-1387084546" Alpha="0" Tag="386" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="1785511773" Tag="387" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="-253547183" Tag="388" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="300.9400" Y="214.0216" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5016" Y="0.5351" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_10" ActionTag="1724406425" Tag="10" IconVisible="False" LeftMargin="189.3899" RightMargin="350.6101" TopMargin="155.9785" BottomMargin="184.0215" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="1291150726" Tag="378" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-1434864772" Tag="379" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="527324285" Alpha="0" Tag="380" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-385810054" Tag="381" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="1147045870" Tag="382" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="219.3899" Y="214.0215" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.3656" Y="0.5351" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_9" ActionTag="394636350" Tag="9" IconVisible="False" LeftMargin="107.8384" RightMargin="432.1616" TopMargin="155.9784" BottomMargin="184.0216" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="2053633604" Tag="372" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-1953822886" Tag="373" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-1796274157" Alpha="0" Tag="374" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="516277189" Tag="375" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="-879719401" Tag="376" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="137.8384" Y="214.0216" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.2297" Y="0.5351" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_8" ActionTag="-329447409" Tag="8" IconVisible="False" LeftMargin="27.0628" RightMargin="512.9372" TopMargin="155.9785" BottomMargin="184.0215" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="515636335" Tag="366" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-1126145073" Tag="367" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-150762640" Alpha="0" Tag="368" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-551158829" Tag="369" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="-178026991" Tag="370" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="57.0628" Y="214.0215" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.0951" Y="0.5351" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_21" ActionTag="1084294146" Tag="21" IconVisible="False" LeftMargin="516.9626" RightMargin="23.0374" TopMargin="224.1377" BottomMargin="115.8623" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="504871900" Tag="408" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-738224528" Tag="409" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="5779201" Alpha="0" Tag="410" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="826285425" Tag="411" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="480583882" Tag="412" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="546.9626" Y="145.8623" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.9116" Y="0.3647" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_20" ActionTag="1537052294" Tag="20" IconVisible="False" LeftMargin="436.5898" RightMargin="103.4102" TopMargin="222.9761" BottomMargin="117.0239" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="51920606" Tag="414" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-834057199" Tag="415" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="278781357" Alpha="0" Tag="416" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-1320321070" Tag="417" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="27668737" Tag="418" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="466.5898" Y="147.0239" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7776" Y="0.3676" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_19" ActionTag="-1405887538" Tag="19" IconVisible="False" LeftMargin="353.4847" RightMargin="186.5153" TopMargin="222.9762" BottomMargin="117.0238" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-580661513" Tag="420" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-389421715" Tag="421" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-601804680" Alpha="0" Tag="422" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-773812176" Tag="423" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="2066835896" Tag="424" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="383.4847" Y="147.0238" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.6391" Y="0.3676" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_18" ActionTag="120596838" Tag="18" IconVisible="False" LeftMargin="271.9348" RightMargin="268.0652" TopMargin="222.9762" BottomMargin="117.0238" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-1882687696" Tag="426" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="2003024065" Tag="427" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="755035617" Alpha="0" Tag="428" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-619475365" Tag="429" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="1403523157" Tag="430" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="301.9348" Y="147.0238" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5032" Y="0.3676" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_17" ActionTag="-551548206" Tag="17" IconVisible="False" LeftMargin="190.3886" RightMargin="349.6114" TopMargin="222.9762" BottomMargin="117.0238" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="1093816388" Tag="432" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-1930746914" Tag="433" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-1677542236" Alpha="0" Tag="434" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-2096960475" Tag="435" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="465634206" Tag="436" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="220.3886" Y="147.0238" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.3673" Y="0.3676" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_16" ActionTag="-1914338592" Tag="16" IconVisible="False" LeftMargin="108.8385" RightMargin="431.1615" TopMargin="222.9762" BottomMargin="117.0238" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="1578877342" Tag="438" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="1335905907" Tag="439" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="2078903262" Alpha="0" Tag="440" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="1076458853" Tag="441" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="1137259013" Tag="442" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="138.8385" Y="147.0238" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.2314" Y="0.3676" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_15" ActionTag="1860006371" Tag="15" IconVisible="False" LeftMargin="28.0624" RightMargin="511.9376" TopMargin="222.9762" BottomMargin="117.0238" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-1059080727" Tag="444" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="1736828752" Tag="445" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1255456217" Alpha="0" Tag="446" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="1684431765" Tag="447" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="2132125811" Tag="448" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="58.0624" Y="147.0238" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.0968" Y="0.3676" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_28" ActionTag="-385139334" Tag="28" IconVisible="False" LeftMargin="516.9571" RightMargin="23.0429" TopMargin="291.8016" BottomMargin="48.1984" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-659505670" Tag="450" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-866543733" Tag="451" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-1976717111" Alpha="0" Tag="452" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-702459829" Tag="453" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="555156594" Tag="454" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="546.9571" Y="78.1984" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.9116" Y="0.1955" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_27" ActionTag="-1733357758" Tag="27" IconVisible="False" LeftMargin="436.5848" RightMargin="103.4152" TopMargin="290.6399" BottomMargin="49.3601" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-1947204481" Tag="456" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-1545110755" Tag="457" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="195269660" Alpha="0" Tag="458" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="234547574" Tag="459" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="1210309024" Tag="460" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="466.5848" Y="79.3601" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.7776" Y="0.1984" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_26" ActionTag="1576409863" Tag="26" IconVisible="False" LeftMargin="353.4808" RightMargin="186.5192" TopMargin="290.6400" BottomMargin="49.3600" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-173844017" Tag="462" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-2109808205" Tag="463" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="-1870902173" Alpha="0" Tag="464" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="1720700433" Tag="465" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="32062665" Tag="466" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="383.4808" Y="79.3600" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.6391" Y="0.1984" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_25" ActionTag="-1238611832" Tag="25" IconVisible="False" LeftMargin="271.9319" RightMargin="268.0681" TopMargin="290.6400" BottomMargin="49.3600" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="1248005462" Tag="468" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="1538214313" Tag="469" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1683009722" Alpha="0" Tag="470" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-499739039" Tag="471" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="1676968870" Tag="472" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="301.9319" Y="79.3600" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.5032" Y="0.1984" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_24" ActionTag="1050364250" Tag="24" IconVisible="False" LeftMargin="190.3882" RightMargin="349.6118" TopMargin="290.6400" BottomMargin="49.3600" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-1526270673" Tag="474" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="1904062017" Tag="475" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1349769103" Alpha="0" Tag="476" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="1305127121" Tag="477" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="2050808881" Tag="478" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="220.3882" Y="79.3600" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.3673" Y="0.1984" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_23" ActionTag="-788631930" Tag="23" IconVisible="False" LeftMargin="108.8387" RightMargin="431.1613" TopMargin="290.6400" BottomMargin="49.3600" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-146164298" Tag="480" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="-1875438563" Tag="481" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1535322472" Alpha="0" Tag="482" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="-707370019" Tag="483" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="-1482537179" Tag="484" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="138.8387" Y="79.3600" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.2314" Y="0.1984" />
+                    <PreSize X="0.1000" Y="0.1500" />
+                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
+                  </AbstractNodeData>
+                  <AbstractNodeData Name="bound_icon_22" ActionTag="1059866151" Tag="22" IconVisible="False" LeftMargin="28.0626" RightMargin="511.9374" TopMargin="290.6400" BottomMargin="49.3600" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="60.0000" />
+                    <Children>
+                      <AbstractNodeData Name="vip_bg" ActionTag="-808556031" Tag="486" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
+                        <Size X="41.0000" Y="42.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="44.6341" Y="41.6889" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.7439" Y="0.6948" />
+                        <PreSize X="0.6833" Y="0.7000" />
+                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="vip_limit_label" ActionTag="518202343" Tag="487" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="23.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="41.2693" Y="58.0530" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.6878" Y="0.9676" />
+                        <PreSize X="0.3833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="name_label" ActionTag="1111541867" Alpha="0" Tag="488" IconVisible="False" LeftMargin="14.4085" RightMargin="16.5915" TopMargin="1.1742" BottomMargin="39.8258" FontSize="12" LabelText="名称" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="29.0000" Y="19.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="28.9085" Y="49.3258" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4818" Y="0.8221" />
+                        <PreSize X="0.4833" Y="0.3167" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="count_label" ActionTag="1341193948" Tag="489" IconVisible="False" LeftMargin="1.8329" RightMargin="3.1671" TopMargin="46.3330" BottomMargin="-1.3330" FontSize="12" LabelText="100000" OutlineSize="2" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="55.0000" Y="15.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="29.3329" Y="6.1670" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.4889" Y="0.1028" />
+                        <PreSize X="0.9167" Y="0.2500" />
+                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="taken_flag" ActionTag="1300463490" Tag="490" IconVisible="False" LeftMargin="-1.5000" RightMargin="-1.5000" TopMargin="0.5000" BottomMargin="0.5000" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="41" Scale9Height="35" ctype="ImageViewObjectData">
+                        <Size X="63.0000" Y="59.0000" />
+                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                        <Position X="30.0000" Y="30.0000" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.5000" Y="0.5000" />
+                        <PreSize X="1.0500" Y="0.9833" />
+                        <FileData Type="Normal" Path="ui/everyday/yiqian.png" Plist="" />
+                      </AbstractNodeData>
+                    </Children>
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="58.0626" Y="79.3600" />
+                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="0.0968" Y="0.1984" />
                     <PreSize X="0.1000" Y="0.1500" />
                     <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
                   </AbstractNodeData>
@@ -1294,924 +3130,6 @@
                     <PrePosition X="0.1617" Y="0.6898" />
                     <PreSize X="0.0033" Y="0.0925" />
                     <FileData Type="Normal" Path="ui/everyday/fenge.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0" ActionTag="414055638" Tag="2" IconVisible="False" LeftMargin="108.4844" RightMargin="431.5156" TopMargin="93.6471" BottomMargin="246.3529" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-1001701685" Tag="109" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1560971507" Tag="110" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="138.4844" Y="276.3529" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.2308" Y="0.6909" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0" ActionTag="-783145485" Tag="3" IconVisible="False" LeftMargin="189.9061" RightMargin="350.0939" TopMargin="93.6471" BottomMargin="246.3529" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-116683406" Tag="112" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1738694112" Tag="113" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="219.9061" Y="276.3529" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3665" Y="0.6909" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0" ActionTag="-1239185322" Tag="4" IconVisible="False" LeftMargin="271.3275" RightMargin="268.6725" TopMargin="93.6471" BottomMargin="246.3529" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="1899523826" Tag="115" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1594699193" Tag="116" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="301.3275" Y="276.3529" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.5022" Y="0.6909" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0" ActionTag="-2138003977" Tag="5" IconVisible="False" LeftMargin="352.7489" RightMargin="187.2511" TopMargin="93.6471" BottomMargin="246.3529" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-1376868505" Tag="118" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1651666541" Tag="119" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="382.7489" Y="276.3529" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.6379" Y="0.6909" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_0" ActionTag="377807817" Tag="6" IconVisible="False" LeftMargin="434.1710" RightMargin="105.8290" TopMargin="93.6471" BottomMargin="246.3529" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="377868648" Tag="121" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="-1177199446" Tag="122" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="464.1710" Y="276.3529" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.7736" Y="0.6909" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_0_0" ActionTag="1350450303" Tag="7" IconVisible="False" LeftMargin="515.5924" RightMargin="24.4076" TopMargin="93.6471" BottomMargin="246.3529" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-951350206" Tag="124" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1826037468" Tag="125" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="545.5924" Y="276.3529" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.9093" Y="0.6909" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_1" ActionTag="311764906" Tag="8" IconVisible="False" LeftMargin="27.0629" RightMargin="512.9371" TopMargin="159.4185" BottomMargin="180.5815" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="212229255" Tag="127" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1068035491" Tag="128" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="57.0629" Y="210.5815" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0951" Y="0.5265" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_1" ActionTag="618178607" Tag="9" IconVisible="False" LeftMargin="108.4844" RightMargin="431.5156" TopMargin="159.4185" BottomMargin="180.5815" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="57443688" Tag="130" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1358561752" Tag="131" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="138.4844" Y="210.5815" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.2308" Y="0.5265" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_1" ActionTag="2034466596" Tag="10" IconVisible="False" LeftMargin="189.9061" RightMargin="350.0939" TopMargin="159.4185" BottomMargin="180.5815" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-121745244" Tag="133" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1987463527" Tag="134" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="219.9061" Y="210.5815" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3665" Y="0.5265" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_1" ActionTag="1930399360" Tag="11" IconVisible="False" LeftMargin="271.3275" RightMargin="268.6725" TopMargin="159.4185" BottomMargin="180.5815" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="568433662" Tag="136" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="-401073802" Tag="137" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="301.3275" Y="210.5815" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.5022" Y="0.5265" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_1" ActionTag="-1151806175" Tag="12" IconVisible="False" LeftMargin="352.7489" RightMargin="187.2511" TopMargin="159.4185" BottomMargin="180.5815" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-555328047" Tag="139" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="-1974844846" Tag="140" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="382.7489" Y="210.5815" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.6379" Y="0.5265" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_0_1" ActionTag="159813560" Tag="13" IconVisible="False" LeftMargin="434.1710" RightMargin="105.8290" TopMargin="159.4185" BottomMargin="180.5815" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="451548927" Tag="142" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="201647682" Tag="143" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="464.1710" Y="210.5815" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.7736" Y="0.5265" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_0_0_0" ActionTag="-1096277825" Tag="14" IconVisible="False" LeftMargin="515.5924" RightMargin="24.4076" TopMargin="159.4185" BottomMargin="180.5815" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-1655323371" Tag="145" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="884267500" Tag="146" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="545.5924" Y="210.5815" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.9093" Y="0.5265" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_1_0" ActionTag="594500573" Tag="15" IconVisible="False" LeftMargin="27.0629" RightMargin="512.9371" TopMargin="225.4141" BottomMargin="114.5859" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="674002337" Tag="148" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="242733517" Tag="149" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="57.0629" Y="144.5859" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0951" Y="0.3615" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_1_0" ActionTag="-799021440" Tag="16" IconVisible="False" LeftMargin="108.4834" RightMargin="431.5166" TopMargin="225.4141" BottomMargin="114.5859" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="386957599" Tag="151" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="-291425630" Tag="152" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="138.4834" Y="144.5859" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.2308" Y="0.3615" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_1_0" ActionTag="426045102" Tag="17" IconVisible="False" LeftMargin="189.9050" RightMargin="350.0950" TopMargin="225.4141" BottomMargin="114.5859" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="886287042" Tag="154" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="97961755" Tag="155" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="219.9050" Y="144.5859" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3665" Y="0.3615" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_1_0" ActionTag="-1554810983" Tag="18" IconVisible="False" LeftMargin="271.3279" RightMargin="268.6721" TopMargin="225.4141" BottomMargin="114.5859" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="1853757838" Tag="157" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="714923149" Tag="158" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="301.3279" Y="144.5859" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.5022" Y="0.3615" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_1_0" ActionTag="204229416" Tag="19" IconVisible="False" LeftMargin="352.7487" RightMargin="187.2513" TopMargin="225.4141" BottomMargin="114.5859" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-96509489" Tag="160" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="847242249" Tag="161" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="382.7487" Y="144.5859" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.6379" Y="0.3615" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_0_1_0" ActionTag="-1993697178" Tag="20" IconVisible="False" LeftMargin="434.1703" RightMargin="105.8297" TopMargin="225.4141" BottomMargin="114.5859" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-1748334726" Tag="163" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="-1780979759" Tag="164" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="464.1703" Y="144.5859" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.7736" Y="0.3615" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_0_0_0_0" ActionTag="-1646456825" Tag="21" IconVisible="False" LeftMargin="515.5924" RightMargin="24.4076" TopMargin="225.4141" BottomMargin="114.5859" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="385265111" Tag="166" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1124400052" Tag="167" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="545.5924" Y="144.5859" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.9093" Y="0.3615" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_1_0_0" ActionTag="-725118443" Tag="22" IconVisible="False" LeftMargin="27.0627" RightMargin="512.9373" TopMargin="290.1368" BottomMargin="49.8632" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-1646055793" Tag="169" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="-128521939" Tag="170" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="57.0627" Y="79.8632" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0951" Y="0.1997" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_1_0_0" ActionTag="1767980804" Tag="23" IconVisible="False" LeftMargin="108.4834" RightMargin="431.5166" TopMargin="290.1368" BottomMargin="49.8632" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-784672074" Tag="172" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="-544731722" Tag="173" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="138.4834" Y="79.8632" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.2308" Y="0.1997" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_1_0_0" ActionTag="-281120865" Tag="24" IconVisible="False" LeftMargin="189.9050" RightMargin="350.0950" TopMargin="290.1368" BottomMargin="49.8632" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="1546167100" Tag="175" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="-581664510" Tag="176" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="219.9050" Y="79.8632" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3665" Y="0.1997" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_1_0_0" ActionTag="-160920401" Tag="25" IconVisible="False" LeftMargin="271.3279" RightMargin="268.6721" TopMargin="290.1368" BottomMargin="49.8632" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-1166288242" Tag="178" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1402296592" Tag="179" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="301.3279" Y="79.8632" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.5022" Y="0.1997" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_1_0_0" ActionTag="-2017498428" Tag="26" IconVisible="False" LeftMargin="352.7489" RightMargin="187.2511" TopMargin="290.1368" BottomMargin="49.8632" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="1329223922" Tag="181" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1954564275" Tag="182" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="382.7489" Y="79.8632" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.6379" Y="0.1997" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_0_1_0_0" ActionTag="201037490" Tag="27" IconVisible="False" LeftMargin="434.1703" RightMargin="105.8297" TopMargin="290.1368" BottomMargin="49.8632" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="220859636" Tag="184" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="1694530837" Tag="185" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="464.1703" Y="79.8632" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.7736" Y="0.1997" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="bound_icon_1_0_0_0_0_0_0_0_0_0" ActionTag="2052461738" Tag="28" IconVisible="False" LeftMargin="515.5924" RightMargin="24.4076" TopMargin="290.1368" BottomMargin="49.8632" LeftEage="28" RightEage="28" TopEage="28" BottomEage="28" Scale9OriginX="28" Scale9OriginY="28" Scale9Width="30" Scale9Height="30" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="60.0000" />
-                    <Children>
-                      <AbstractNodeData Name="Image_5" ActionTag="-550945592" Tag="187" IconVisible="False" LeftMargin="24.1341" RightMargin="-5.1341" TopMargin="-2.6889" BottomMargin="20.6889" LeftEage="11" RightEage="11" TopEage="12" BottomEage="12" Scale9OriginX="11" Scale9OriginY="12" Scale9Width="19" Scale9Height="18" ctype="ImageViewObjectData">
-                        <Size X="41.0000" Y="42.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="44.6341" Y="41.6889" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.7439" Y="0.6948" />
-                        <PreSize X="0.6833" Y="0.7000" />
-                        <FileData Type="Normal" Path="ui/everyday/shuangbeidi.png" Plist="" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="vip_limit" ActionTag="-2005536190" Tag="188" IconVisible="False" LeftMargin="29.7693" RightMargin="7.2307" TopMargin="-7.5530" BottomMargin="48.5530" FontSize="12" LabelText="V2" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="23.0000" Y="19.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="41.2693" Y="58.0530" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.6878" Y="0.9676" />
-                        <PreSize X="0.3833" Y="0.3167" />
-                        <FontResource Type="Normal" Path="csb/fonts/fonts2.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="545.5924" Y="79.8632" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.9093" Y="0.1997" />
-                    <PreSize X="0.1000" Y="0.1500" />
-                    <FileData Type="Normal" Path="ui/common/drop-05.png" Plist="" />
                   </AbstractNodeData>
                   <AbstractNodeData Name="Image_4_0" ActionTag="-2039232265" Alpha="204" Tag="377" IconVisible="False" LeftMargin="177.7834" RightMargin="420.2166" TopMargin="105.5653" BottomMargin="257.4347" TopEage="12" BottomEage="12" Scale9OriginY="12" Scale9Width="2" Scale9Height="13" ctype="ImageViewObjectData">
                     <Size X="2.0000" Y="37.0000" />
