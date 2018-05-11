@@ -6542,7 +6542,14 @@ void SystemLogic::takePackageBound(int packageId)
                     infoGet.name[i] = StringData::shared()->stringFromKey("special_draw_ticket");
                 }
                     break;
-                    
+                case 12:
+                {
+                    account->activeAllJob();
+                    L2E_COMMON infoOut;
+                    infoOut.eProtocol = l2e_active_all_job;
+                    ClientLogic::instance()->pass2Engine(&infoOut);
+                }
+                    break;
             }
         }
         ClientLogic::instance()->pass2Engine(&infoGet);
@@ -6564,16 +6571,6 @@ void SystemLogic::responseBuy(S2C_PAY info)
         return;
     }
     
-    if (shop->shopConfigMap[packageId].type == 9) {
-        if (info.success) {
-            account->activeAllJob();
-            L2E_COMMON infoOut;
-            infoOut.eProtocol = l2e_active_all_job;
-            ClientLogic::instance()->pass2Engine(&infoOut);
-        }
-        
-        return;
-    }
     L2E_SHOW_PACKAGE_RESULT infoOut;
     infoOut.eProtocol = l2e_show_package_result;
     infoOut.errNo = 0;
