@@ -124,6 +124,7 @@ private:
     int plotCameraMission;
     
     cocos2d::ui::LoadingBar *loadBar;
+    cocos2d::ui::ImageView *loadImg;
     cocos2d::LayerColor *loadLayer;
     
     cocos2d::EventListenerCustom *unlockViewListener;

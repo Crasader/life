@@ -204,6 +204,7 @@ bool GameScene::init()
     loadLayer->addChild(root);
     
     loadBar = (LoadingBar*)root->getChildByName("load_bg")->getChildByName("bar");
+    loadImg = (ImageView*)root->getChildByName("load_img");
     //    loadBar->setAnchorPoint(Vec2::ANCHOR_MIDDLE);
     //    loadBar->setPosition(GameUtils::winSize/2);
     loadBar->setPercent(0);
@@ -395,8 +396,8 @@ void GameScene::showLoad()
 
 void GameScene::replaceLoadImg(std::string imgFile)
 {
-    auto img = (ImageView*)loadLayer->getChildByName("load_img");
-    img->loadTexture(GameUtils::format(LOAD_DIR, imgFile.c_str()));
+//    auto img = (ImageView*)loadLayer->getChildByName("load_img");
+    loadImg->loadTexture(GameUtils::format(LOAD_DIR, imgFile.c_str()));
 }
 
 void GameScene::updateLoad(cocos2d::EventCustom *event)

@@ -175,6 +175,7 @@ UIManager::UIManager()
     m_Logic2EngineFunc[l2e_update_free_diamond] = &UIManager::updateFreeDiamond;
     m_Logic2EngineFunc[l2e_show_campaign_bound_mission] = &UIManager::showCampaignBoundMission;
     m_Logic2EngineFunc[l2e_jump_locked] = &UIManager::jumpLocked;
+    m_Logic2EngineFunc[l2e_show_month_assign] = &UIManager::showMonthAssign;
     
     m_Logic2EngineFunc[l2e_show_hall_lucky] = &UIManager::showHallLucky;
     m_Logic2EngineFunc[l2e_draw_normal_one] = &UIManager::showDrawNormalOne;
@@ -1338,6 +1339,14 @@ void UIManager::jumpLocked(void *pMsg)
     event.setUserData(pMsg);
     Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
 }
+
+void UIManager::showMonthAssign(void *pMsg)
+{
+    EventCustom event(UPDATE_CAMPAIGN_MONTH_ASSIGN);
+    event.setUserData(pMsg);
+    Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
+}
+
 void UIManager::updateName(void *pMsg)
 {
     EventCustom event(UPDATE_NAME);

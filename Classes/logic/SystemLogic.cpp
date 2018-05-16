@@ -364,6 +364,7 @@ void SystemLogic::loadCampaign()
     campaign->readActiveBoxConfig();
     campaign->readBoundMissionConfig();
     campaign->readBoundPackageConfig();
+    campaign->readMonthAssignConfig();
     
 //    campaign->deleteCampaignJson();
     if (!campaign->readCampaignJson()) {
@@ -4969,7 +4970,7 @@ void SystemLogic::showMonthAssign()
     for (int i = 0; i < info.configCount; i++) {
         info.count[i] = campaign->monthAssignConfigMap[i+1].boundCount;
         info.vipLimit[i] = campaign->monthAssignConfigMap[i+1].vipLimit;
-        switch (campaign->everydayConfigMap[i+1].boundType) {
+        switch (campaign->monthAssignConfigMap[i+1].boundType) {
             case 1:
             {
                 info.icon[i] = "jinbi1.png";
@@ -5008,20 +5009,20 @@ void SystemLogic::showMonthAssign()
                 break;
             case 7:
             {
-                info.icon[i] = arms->gemsConfigMap[campaign->everydayConfigMap[i+1].boundId].icon;
+                info.icon[i] = arms->gemsConfigMap[campaign->monthAssignConfigMap[i+1].boundId].icon;
                 info.name[i] = StringData::shared()->stringFromKey("gem");
             }
                 break;
             case 8:
             {
-                info.icon[i] = equip->equipItemConfigMap[campaign->everydayConfigMap[i+1].boundId].icon;
+                info.icon[i] = equip->equipItemConfigMap[campaign->monthAssignConfigMap[i+1].boundId].icon;
                 info.name[i] = StringData::shared()->stringFromKey("equip_item_fragment");
             }
                 break;
             case 9:
             {
-                info.icon[i] = pet->petConfigMap[campaign->everydayConfigMap[i+1].boundId].icon;
-                info.name[i] = pet->petConfigMap[campaign->everydayConfigMap[i+1].boundId].name;
+                info.icon[i] = pet->petConfigMap[campaign->monthAssignConfigMap[i+1].boundId].icon;
+                info.name[i] = pet->petConfigMap[campaign->monthAssignConfigMap[i+1].boundId].name;
             }
                 break;
             case 10:

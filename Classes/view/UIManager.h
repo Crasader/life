@@ -185,6 +185,7 @@ private:
     void showCampaignBoundMission(void *pMsg);
     void updateCampaignTip(void *pMsg);
     void jumpLocked(void *pMsg);
+    void showMonthAssign(void *pMsg);
     
     void showHallLucky(void *pMsg);
     void showDrawNormalOne(void *pMsg);

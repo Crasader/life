@@ -126,7 +126,8 @@ bool CampaignLayer::init()
     takeFirstRecharge = (Button*)firstRechargeBg->getChildByName("recharge_button");
     takeFirstRecharge->addClickEventListener(CC_CALLBACK_0(CampaignLayer::clickTakeRecharge, this));
     
-    signButton = (Button*)monthAssignBg->getChildByName("sign_button");
+    signButton = (Button*)monthAssignBg->getChildByName("ok_button");
+    signButton->addClickEventListener(CC_CALLBACK_0(CampaignLayer::clickMonthSign, this));
     
     auto platform = (Node*)firstRechargeBg->getChildByName("platform_node");
 //    std::string resPath = GameUtils::format(ACTOR_DIR,
@@ -233,10 +234,15 @@ void CampaignLayer::updateMonthAssign(cocos2d::EventCustom *event)
             break;
         }
         auto boundIcon = (ImageView*)monthAssignBg->getChildByName(GameUtils::format("bound_icon_%d",i+1));
-        boundIcon->loadTexture(info.icon[i].c_str());
+        boundIcon->loadTexture(GameUtils::format(COMMON_DIR,info.icon[i].c_str()));
         
         auto takeFlag = (ImageView*)boundIcon->getChildByName("taken_flag");
-        takeFlag->setVisible(info.monthAssignId>i+1);
+        if (info.monthAssignId == i+1) {
+            takeFlag->setVisible(info.monthAssignState == 2);
+        }else{
+            takeFlag->setVisible(info.monthAssignId>i+1);
+        }
+        
         
         auto nameLabel = (Text*)boundIcon->getChildByName("name_label");
         auto countLabel = (Text*)boundIcon->getChildByName("count_label");
