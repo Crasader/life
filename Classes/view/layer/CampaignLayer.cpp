@@ -264,6 +264,9 @@ void CampaignLayer::updateMonthAssign(cocos2d::EventCustom *event)
     
     auto countText = (Text*)monthAssignBg->getChildByName("count_text");
     int signedCount = info.monthAssignId;
+    if (info.monthAssignState == 1) {
+        signedCount = info.monthAssignId-1;
+    }
     countText->setString(GameUtils::format("%d/%d", signedCount, info.configCount));
     
     signButton->setEnabled(info.monthAssignState == 1);
