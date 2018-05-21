@@ -840,7 +840,7 @@ void CampaignLayer::startPlot(cocos2d::EventCustom *event)
 {
     L2E_START_PLOT info = *static_cast<L2E_START_PLOT*>(event->getUserData());
     if (info.type == 3) {
-        if(info.param[2] != HALL_SECEN)
+        if(info.param[2] != CAMPAIGN_LAYER)
         {
             return;
         }
