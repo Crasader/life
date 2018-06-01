@@ -25,16 +25,5 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="csb/shop/unlock_actor_package.csd" />
-          <FilePathData Path="csb/shop/pet_package.csd" />
-          <FilePathData Path="csb/everyday/everyday.csd" />
-          <FilePathData Path="csb/load/loading.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="csb/everyday/everyday.csd" />
-      </Value>
-    </Item>
   </Properties>
 </UserData>

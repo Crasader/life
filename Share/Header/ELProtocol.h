@@ -375,6 +375,7 @@ enum L2EProtocol
     l2e_hide_vip,                                       //  隐藏VIP界面
     
     l2e_update_discount_state,                          //  更新折扣店开关和倒计时
+    l2e_show_unlock_job,                                //  显示解锁所有角色窗口
     
     l2e_max
 };
@@ -1739,6 +1740,7 @@ typedef struct __L2E_SHOW_EVERYDAY
     
     bool                        activeTip;
     bool                        boundTip;
+    bool                        monthTip;
 }L2E_SHOW_EVERYDAY;
 
 typedef struct __L2E_SHOW_MONTH_ASSIGN
@@ -1989,6 +1991,7 @@ typedef struct __L2E_UPDATE_CAMPAIGN_TIP
     L2EProtocol                 eProtocol;
     bool                        activeTip;
     bool                        boundTip;
+    bool                        monthTip;
 }L2E_UPDATE_CAMPAIGN_TIP;
 
 typedef struct __L2E_UPDATE_DISCOUNT_STATE

@@ -211,6 +211,7 @@ private:
     void showHallDiscount(void *pMsg);
     
     void showCustomPackage(void *pMsg);
+    void showUnlockAllJob(void *pMsg);
 public:
     bool replacing;
 //    std::vector<void*> delayMsg;

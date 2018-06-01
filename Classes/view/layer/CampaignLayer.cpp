@@ -182,6 +182,7 @@ void CampaignLayer::updateEveryday(cocos2d::EventCustom *event)
     boundButton->setBright(true);
     boundTip->setVisible(info.boundTip);
     missionTip->setVisible(info.activeTip);
+    monthAssignTip->setVisible(info.monthTip);
     for (int i = 0; i < 7; i++) {
         auto button = (Button*)everydayBg->getChildByTag(i+1);
         button->addClickEventListener(CC_CALLBACK_0(CampaignLayer::clickTakeEveryday, this));
@@ -660,8 +661,11 @@ void CampaignLayer::showBoundMission(cocos2d::EventCustom *event)
     missionBg->setVisible(false);
     firstRechargeBg->setVisible(false);
     boundMissionBg->setVisible(true);
+    monthAssignBg->setVisible(false);
     everydayButton->setEnabled(true);
     everydayButton->setBright(true);
+    monthAssignButton->setEnabled(true);
+    monthAssignButton->setBright(true);
     missionButton->setEnabled(true);
     missionButton->setBright(true);
     rechargeButton->setEnabled(true);
@@ -1175,6 +1179,7 @@ void CampaignLayer::updateTip(cocos2d::EventCustom *event)
     L2E_UPDATE_CAMPAIGN_TIP info = *static_cast<L2E_UPDATE_CAMPAIGN_TIP*>(event->getUserData());
     boundTip->setVisible(info.boundTip);
     missionTip->setVisible(info.activeTip);
+    monthAssignTip->setVisible(info.boundTip);
 }
 
 void CampaignLayer::clickMonthSign()

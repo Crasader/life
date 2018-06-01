@@ -135,6 +135,7 @@
             <Project Name="fight.csd" Type="Node" />
             <Project Name="get.csd" Type="Node" />
             <Project Name="get2.csd" Type="Layer" />
+            <Project Name="get3.csd" Type="Layer" />
             <Project Name="levelup.csd" Type="Node" />
             <Project Name="lose.csd" Type="Layer" />
             <Project Name="newfunction.csd" Type="Node" />
@@ -1286,6 +1287,9 @@
             <Image Name="function7.png" />
             <Image Name="function8.png" />
             <Image Name="function9.png" />
+            <Image Name="gethero2.png" />
+            <Image Name="gethero3.png" />
+            <Image Name="gethero4.png" />
             <Image Name="gong.png" />
             <Image Name="goumaitili.png" />
             <Image Name="head08.png" />

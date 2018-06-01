@@ -4696,6 +4696,7 @@ void SystemLogic::showCampaignEveryday()
     
     info.activeTip = campaign->getActiveTip();
     info.boundTip = campaign->getBoundTip();
+    info.monthTip = campaign->getMonthTip();
     ClientLogic::instance()->pass2Engine(&info);
 }
 void SystemLogic::showEveryday()
@@ -4781,6 +4782,7 @@ void SystemLogic::showEveryday()
     
     info.activeTip = campaign->getActiveTip();
     info.boundTip = campaign->getBoundTip();
+    info.monthTip = campaign->getMonthTip();
     ClientLogic::instance()->pass2Engine(&info);
 }
 void SystemLogic::takeEverydayBound()
@@ -5207,6 +5209,20 @@ void SystemLogic::takeMonthAssignBound()
     
     campaign->takeMonthAssignBound();
     showMonthAssign();
+    
+    campaign->checkTip();
+    L2E_UPDATE_HALL_TIP infoTip;
+    infoTip.eProtocol = l2e_update_hall_tip;
+    infoTip.tipIndex = 7;
+    infoTip.tipValue = campaign->getTip();
+    ClientLogic::instance()->pass2Engine(&infoTip);
+    
+    L2E_UPDATE_CAMPAIGN_TIP infoCampaignTip;
+    infoCampaignTip.eProtocol = l2e_update_campaign_tip;
+    infoCampaignTip.activeTip = campaign->getActiveTip();
+    infoCampaignTip.boundTip = campaign->getBoundTip();
+    infoCampaignTip.monthTip = campaign->getMonthTip();
+    ClientLogic::instance()->pass2Engine(&infoCampaignTip);
     
     L2T_COMMON infoTime;
     infoTime.eProtocol = l2t_refresh_month_assign;
@@ -6337,6 +6353,8 @@ void SystemLogic::takePackageBound(int packageId)
 //    if (shop->shopConfigMap[packageId].type == 8) {
 //        return;
 //    }
+    
+    bool unlockAllJob = false;
     L2E_SHOW_GET infoGet;
     infoGet.eProtocol = l2e_show_get;
     memset(infoGet.count, 0, sizeof(int)*20);
@@ -6549,11 +6567,19 @@ void SystemLogic::takePackageBound(int packageId)
                     L2E_COMMON infoOut;
                     infoOut.eProtocol = l2e_active_all_job;
                     ClientLogic::instance()->pass2Engine(&infoOut);
+                    
+                    infoGet.count[i] = 0;
+                    
+                    unlockAllJob = true;
                 }
                     break;
             }
         }
         ClientLogic::instance()->pass2Engine(&infoGet);
+        
+        L2E_COMMON info;
+        info.eProtocol = l2e_show_unlock_job;
+        ClientLogic::instance()->pass2Engine(&info);
     }
 }
 
@@ -7259,6 +7285,7 @@ void SystemLogic::takeCampaignActiveBound(E2L_UPDATE_ONE_VALUE info)
     infoCampaignTip.eProtocol = l2e_update_campaign_tip;
     infoCampaignTip.activeTip = campaign->getActiveTip();
     infoCampaignTip.boundTip = campaign->getBoundTip();
+    infoCampaignTip.monthTip = campaign->getMonthTip();
     ClientLogic::instance()->pass2Engine(&infoCampaignTip);
     
     int boundType = campaign->activeMissionMap[missionId].boundType;
@@ -7892,6 +7919,7 @@ void SystemLogic::refreshCampaignActive()
     infoCampaignTip.eProtocol = l2e_update_campaign_tip;
     infoCampaignTip.activeTip = campaign->getActiveTip();
     infoCampaignTip.boundTip = campaign->getBoundTip();
+    infoCampaignTip.monthTip = campaign->getMonthTip();
     ClientLogic::instance()->pass2Engine(&infoCampaignTip);
 }
 
@@ -8077,6 +8105,7 @@ void SystemLogic::takeCampaignMissionReward(E2L_UPDATE_ONE_VALUE info)
     infoCampaignTip.eProtocol = l2e_update_campaign_tip;
     infoCampaignTip.activeTip = campaign->getActiveTip();
     infoCampaignTip.boundTip = campaign->getBoundTip();
+    infoCampaignTip.monthTip = campaign->getMonthTip();
     ClientLogic::instance()->pass2Engine(&infoCampaignTip);
 
     L2E_SHOW_GET infoGet;

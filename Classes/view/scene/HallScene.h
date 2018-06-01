@@ -84,8 +84,9 @@ public:
     void updateDiscount(cocos2d::EventCustom *event);
     
     void showCustomPackage(cocos2d::EventCustom *event);
-//    static void setDelayEvent(cocos2d::EventCustom *event);
-    
+    void showUnlockAllJob(cocos2d::EventCustom *event);
+    //    static void setDelayEvent(cocos2d::EventCustom *event);
+
     void clickVip();
     void clickJob();
     void clickBattle();
@@ -168,6 +169,7 @@ private:
     cocos2d::EventListenerCustom *updateDiscountListener;
     cocos2d::EventListenerCustom *showDiscountListener;
     cocos2d::EventListenerCustom *showCustomPackageListener;
+    cocos2d::EventListenerCustom *showUnlockJobListener;
     
     cocos2d::Sprite *bgSpt;
     cocos2d::Sprite *vipTip;

@@ -211,6 +211,7 @@
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
 		DA8B73A920807E67006C6D05 /* CustomPackageLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA8B73A720807E67006C6D05 /* CustomPackageLayer.cpp */; };
+		DAD34C7020BF8329001E7B73 /* UnlockJobTipLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAD34C6E20BF8329001E7B73 /* UnlockJobTipLayer.cpp */; };
 		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
 		ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7D1B68A1FA00C3958E /* libiconv.dylib */; };
 /* End PBXBuildFile section */
@@ -598,6 +599,8 @@
 		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		DA8B73A720807E67006C6D05 /* CustomPackageLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CustomPackageLayer.cpp; sourceTree = "<group>"; };
 		DA8B73A820807E67006C6D05 /* CustomPackageLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPackageLayer.h; sourceTree = "<group>"; };
+		DAD34C6E20BF8329001E7B73 /* UnlockJobTipLayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UnlockJobTipLayer.cpp; sourceTree = "<group>"; };
+		DAD34C6F20BF8329001E7B73 /* UnlockJobTipLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnlockJobTipLayer.h; sourceTree = "<group>"; };
 		ED545A7B1B68A1F400C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		ED545A7D1B68A1FA00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -1007,6 +1010,8 @@
 				A5041E99200C8D0800874C08 /* HallDiscountLayer.h */,
 				DA8B73A720807E67006C6D05 /* CustomPackageLayer.cpp */,
 				DA8B73A820807E67006C6D05 /* CustomPackageLayer.h */,
+				DAD34C6E20BF8329001E7B73 /* UnlockJobTipLayer.cpp */,
+				DAD34C6F20BF8329001E7B73 /* UnlockJobTipLayer.h */,
 			);
 			path = layer;
 			sourceTree = "<group>";
@@ -1589,6 +1594,7 @@
 				A5041E9A200C8D0800874C08 /* HallDiscountLayer.cpp in Sources */,
 				A51B28841EC94F4B00ED114A /* ProcessUIRequest.cpp in Sources */,
 				A55A326E1FECACE700326B29 /* ShardeEffect.cpp in Sources */,
+				DAD34C7020BF8329001E7B73 /* UnlockJobTipLayer.cpp in Sources */,
 				A53FF1F11F38148A0062E2A4 /* HolySword.cpp in Sources */,
 				A51B28C61EC986AF00ED114A /* YNCamera.cpp in Sources */,
 				A5E9679D1F666F6000FD5BB5 /* Tower.cpp in Sources */,

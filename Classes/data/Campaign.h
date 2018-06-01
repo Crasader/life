@@ -174,6 +174,7 @@ private:
     CC_SYNTHESIZE_READONLY(bool, tip, Tip);
     CC_SYNTHESIZE_READONLY(bool, activeTip, ActiveTip);
     CC_SYNTHESIZE_READONLY(bool, boundTip, BoundTip);
+    CC_SYNTHESIZE_READONLY(bool, monthTip, MonthTip);
 };
 
 #endif /* Campaign_h */

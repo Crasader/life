@@ -171,7 +171,7 @@
 #define UPDATE_EQUIP_TIP                                "UPDATE_EQUIP_TIP"
 #define UPDATE_PET_TIP                                  "UPDATE_PET_TIP"
 #define UPDATE_CAMPAIGN_TIP                             "UPDATE_CAMPAIGN_TIP"
-
+#define SHOW_UNLOCK_JOB                                 "SHOW_UNLOCK_JOB"
 
 #define START_SKILL_CD                                  "START_SKILL_CD"
 #define UPDATE_SKILL_CD                                 "UPDATE_SKILL_CD"

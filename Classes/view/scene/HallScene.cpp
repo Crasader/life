@@ -19,6 +19,7 @@
 #include "../node/TipsNode.h"
 #include "../node/EffectNode.h"
 #include "../layer/CustomPackageLayer.h"
+#include "../layer/UnlockJobTipLayer.h"
 
 USING_NS_CC;
 using namespace ui;
@@ -164,7 +165,9 @@ void HallScene::onEnter()
     Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(updateDiscountListener, -1);
     showCustomPackageListener = EventListenerCustom::create(SHOW_CUSTOM_PACKAGE, CC_CALLBACK_1(HallScene::showCustomPackage, this));
     Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(showCustomPackageListener, -1);
-    
+    showUnlockJobListener = EventListenerCustom::create(SHOW_UNLOCK_JOB, CC_CALLBACK_1(HallScene::showUnlockAllJob, this));
+    Director::getInstance()->getEventDispatcher()->addEventListenerWithFixedPriority(showUnlockJobListener, -1);
+
     SimpleAudioEngine::getInstance()->preloadEffect(GameUtils::format(SOUND_DIR, "close.mp3").c_str());
     SimpleAudioEngine::getInstance()->preloadEffect(GameUtils::format(SOUND_DIR, "open.mp3").c_str());
     SimpleAudioEngine::getInstance()->preloadEffect(GameUtils::format(SOUND_DIR, "click.mp3").c_str());
@@ -699,7 +702,15 @@ void HallScene::showPackageDetail(cocos2d::EventCustom *event)
 {
     auto packageLayer = PackageDetailLayer::create();
     packageLayer->setupView(event);
+    packageLayer->setGlobalZOrder(10000);
     addChild(packageLayer);
+}
+
+void HallScene::showUnlockAllJob(cocos2d::EventCustom *event)
+{
+    auto jobTipLayer = UnlockJobTipLayer::create();
+    jobTipLayer->setGlobalZOrder(10000);
+    addChild(jobTipLayer);
 }
 
 void HallScene::updateGold(cocos2d::EventCustom *event)

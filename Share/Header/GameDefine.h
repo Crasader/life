@@ -231,6 +231,7 @@ static cocos2d::Size designResolutionSize = cocos2d::Size(960, 640);
 //#define DISCOUNT_UI                                 "csb/home/discount.csb"
 #define LOGIN_UI                                    "csb/load/login.csb"
 #define LOAD_UI                                     "csb/load/loading.csb"
+#define UNLOCK_JOB_UI                               "csb/za/get3.csb"
 
 
 

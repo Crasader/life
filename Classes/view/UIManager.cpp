@@ -209,6 +209,7 @@ UIManager::UIManager()
     m_Logic2EngineFunc[l2e_update_vit_cd] = &UIManager::updateVITCD;
     
     m_Logic2EngineFunc[l2e_show_custom_package] = &UIManager::showCustomPackage;
+    m_Logic2EngineFunc[l2e_show_unlock_job] = &UIManager::showUnlockAllJob;
     
     replacing = false;
 //    delayMsg.clear();
@@ -1413,6 +1414,13 @@ void UIManager::updateVITCD(void *pMsg)
 void UIManager::showCustomPackage(void *pMsg)
 {
     EventCustom event(SHOW_CUSTOM_PACKAGE);
+    event.setUserData(pMsg);
+    Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
+}
+
+void UIManager::showUnlockAllJob(void *pMsg)
+{
+    EventCustom event(SHOW_UNLOCK_JOB);
     event.setUserData(pMsg);
     Director::getInstance()->getEventDispatcher()->dispatchEvent(&event);
 }

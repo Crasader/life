@@ -1321,6 +1321,7 @@ void Campaign::checkTip()
     tip = false;
     activeTip = false;
     boundTip = false;
+    monthTip = false;
     for(auto data : activeDataMap) {
         if (data.second.boundState == 1) {
             tip = true;
@@ -1337,4 +1338,10 @@ void Campaign::checkTip()
 //            return;
         }
     }
+    
+    if (coreData.monthAssignState == 1) {
+        tip = true;
+        monthTip = true;
+    }
+    
 }
