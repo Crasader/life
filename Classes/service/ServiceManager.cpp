@@ -10,7 +10,11 @@
 #include "logic/ClientLogic.h"
 
 #include "net/HttpManager.h"
+
+#ifdef UMENG
 #include "MobClickCpp.h"
+#endif
+
 #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
 #include "iOSPayHelper.h"
 #include "iOSHelper.h"
@@ -105,6 +109,7 @@ void ServiceManager::pay(void *pMsg)
 void ServiceManager::umengTrack(void *pMsg)
 {
     C2S_UMENG_TRACK info = *static_cast<C2S_UMENG_TRACK*>(pMsg);
+#ifdef UMENG
     umeng::eventDict dict;
     for (auto attr : info.attrMap) {
         dict[attr.first] = attr.second;
@@ -120,48 +125,63 @@ void ServiceManager::umengTrack(void *pMsg)
             umeng::MobClickCpp::event(info.eventName.c_str(), &dict, info.count);
         }
     }
+#endif
 }
 
 void ServiceManager::umengExchange(void *pMsg)
 {
     C2S_UMENG_EXCHANGE info = *static_cast<C2S_UMENG_EXCHANGE*>(pMsg);
+#ifdef UMENG
     umeng::MobClickCpp::exchange(info.orderId.c_str(),info.price,"CNY",info.count,info.channel);
+#endif
 }
 
 void ServiceManager::umengBuy(void *pMsg)
 {
     C2S_UMENG_BUY info = *static_cast<C2S_UMENG_BUY*>(pMsg);
+#ifdef UMENG
     umeng::MobClickCpp::buy(info.itemName.c_str(), 1, info.price);
+#endif
 }
 
 void ServiceManager::umengUse(void *pMsg)
 {
     C2S_UMENG_USE info = *static_cast<C2S_UMENG_USE*>(pMsg);
+#ifdef UMENG
     umeng::MobClickCpp::use(info.itemName.c_str(), info.count, info.price);
+#endif
 }
 
 void ServiceManager::umengUserLevel(void *pMsg)
 {
     C2S_UMENG_USER_LEVEL info = *static_cast<C2S_UMENG_USER_LEVEL*>(pMsg);
+#ifdef UMENG
     umeng::MobClickCpp::setUserLevel(info.level);
+#endif
 }
 
 void ServiceManager::umengEnterStage(void *pMsg)
 {
     C2S_UMENG_STAGE_LEVEL info = *static_cast<C2S_UMENG_STAGE_LEVEL*>(pMsg);
+#ifdef UMENG
     umeng::MobClickCpp::startLevel(info.stageName.c_str());
+#endif
 }
 
 void ServiceManager::umengFinishStage(void *pMsg)
 {
     C2S_UMENG_STAGE_LEVEL info = *static_cast<C2S_UMENG_STAGE_LEVEL*>(pMsg);
+#ifdef UMENG
     umeng::MobClickCpp::finishLevel(info.stageName.c_str());
+#endif
 }
 
 void ServiceManager::umengFailStage(void *pMsg)
 {
     C2S_UMENG_STAGE_LEVEL info = *static_cast<C2S_UMENG_STAGE_LEVEL*>(pMsg);
+#ifdef UMENG
     umeng::MobClickCpp::failLevel(info.stageName.c_str());
+#endif
 }
 
 void ServiceManager::reqServerTime(void *pMsg)
