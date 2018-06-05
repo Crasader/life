@@ -31,10 +31,11 @@
 #import "GameUUID.h"
 #import "iOSFuncs.h"
 #import "helper/iOSHelper.h"
+#import "GameDefine.h"
+#ifdef UMENG
 #import "UMCCCommon.h"
 #import "MobClickCpp.h"
-#import "GameDefine.h"
-
+#endif
 @implementation AppController
 
 #pragma mark -
@@ -91,10 +92,11 @@ static AppDelegate s_sharedApplication;
     NSLog(@"udid in keychain %@", keyUUID);
     iOSHelper::uuidStr = keyUUID.UTF8String;
     iOSHelper::isConnected = [[[iOSFuncs alloc] init] connectedToNetwork];
-
+#ifdef UMENG
     UMCCCommon::setLogEnabled(true);
     umeng::MobClickCpp::init();
     UMCCCommon::init(UMENG_APPKEY, "zhexin");
+#endif
     
     // IMPORTANT: Setting the GLView should be done after creating the RootViewController
     cocos2d::GLView *glview = cocos2d::GLViewImpl::createWithEAGLView(eaglView);
