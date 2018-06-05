@@ -515,9 +515,9 @@ void SystemLogic::showHall()
     for (int i = 0; i < 11; i++) {
         info.lockType[i] = account->unlockConfigMap[i+1].lockType;
         info.lock[i] = account->unlockMap[i+1].lock;
-#ifdef FOR_HUA
-        info.lock[i] = 0;
-#endif
+//#ifdef FOR_HUA
+//        info.lock[i] = 0;
+//#endif
 //        info.lock[i] = 0;
     }
     info.freeDiamondState = campaign->getCoreData().freeDiamondState;

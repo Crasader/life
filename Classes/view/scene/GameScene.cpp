@@ -918,15 +918,15 @@ void GameScene::setViewWindow()
     }
     midLayer->setPosition(-off);
     actorLayer->setPosition(-off);
-#ifdef FOR_HUA
-    if (frontSprite != nullptr) {
-        int bgWidth = frontSprite->getTexture()->getPixelsWide();
-        float bgOffx = fmax(camera->getMapAreaWidth() - bgWidth, 0) / (camera->getMapAreaWidth() - winSize.width)*off.x;
-        frontLayer->setPosition(-off + Vec2(bgOffx, 0));
-    }
-#else
+//#ifdef FOR_HUA
+//    if (frontSprite != nullptr) {
+//        int bgWidth = frontSprite->getTexture()->getPixelsWide();
+//        float bgOffx = fmax(camera->getMapAreaWidth() - bgWidth, 0) / (camera->getMapAreaWidth() - winSize.width)*off.x;
+//        frontLayer->setPosition(-off + Vec2(bgOffx, 0));
+//    }
+//#else
     frontLayer->setPosition(-off);
-#endif
+//#endif
     if (YNCamera::flashCount > 0) {
         if (YNCamera::flashCount % 2 == 0) {
             backLayer->setVisible(false);

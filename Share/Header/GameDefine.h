@@ -11,11 +11,11 @@
 #include "cocos2d.h"
 const std::string xxteaKeyStr = "WBCKR";
 const std::string xxteaSignStr = "FGXKQ";
-#ifdef FOR_HUA
-const int GroundY = 210;
-#else
+//#ifdef FOR_HUA
+//const int GroundY = 210;
+//#else
 const int GroundY = 120;
-#endif
+//#endif
 const int bottlePrice[3] = {10,20,50};
 const int comboThres[7] = {10,20,30,50,60,80,100};
 const int comboFactor[7] = {2,5,10,25,45,70,100};
