@@ -59,14 +59,17 @@ void ServiceManager::checkConnect(void *pMsg)
 {
     S2C_CHECK_CONNECT info;
     info.eProtocol = s2c_check_connect;
-
-#if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
-    info.result= iOSHelper::isConnected;
-#elif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
-    info.result = AndroidHelper::checkConnect();
-//    info.result = true;
+#ifdef CHECK_NET
+    #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
+        info.result= iOSHelper::isConnected;
+    #elif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
+        info.result = AndroidHelper::checkConnect();
+    //    info.result = true;
+    #endif
+#else
+    info.result = true;//暂定无须检查
 #endif
-//    info.result = true;//暂定无须检查
+
     cocos2d::log("ServiceManager::checkConnect");
     ClientLogic::instance()->ProcessServiceResponse(&info);
 }
@@ -88,21 +91,29 @@ void ServiceManager::exitApp(void *pMsg)
 void ServiceManager::pay(void *pMsg)
 {
     C2S_PAY infoIn = *static_cast<C2S_PAY*>(pMsg);
-#if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
+#ifdef PAY
+    #if CC_TARGET_PLATFORM == CC_PLATFORM_IOS
+        S2C_PAY info;
+        info.eProtocol = s2c_pay;
+        info.success = true;
+        info.packageId = infoIn.payId;
+        ClientLogic::instance()->ProcessServiceResponse(&info);
+    //    iOSPayHelper::getInstance()->pay(infoIn.payId);
+    #elif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
+        AndroidHelper::pay(infoIn.payId, infoIn.orderId, infoIn.price*100, infoIn.name);
+    //    S2C_PAY info;
+    //    info.eProtocol = s2c_pay;
+    //    info.success = true;
+    //    info.packageId = infoIn.payId;
+    //    ClientLogic::instance()->ProcessServiceResponse(&info);
+    
+    #endif
+#else
     S2C_PAY info;
     info.eProtocol = s2c_pay;
     info.success = true;
     info.packageId = infoIn.payId;
     ClientLogic::instance()->ProcessServiceResponse(&info);
-//    iOSPayHelper::getInstance()->pay(infoIn.payId);
-#elif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
-    AndroidHelper::pay(infoIn.payId, infoIn.orderId, infoIn.price*100, infoIn.name);
-//    S2C_PAY info;
-//    info.eProtocol = s2c_pay;
-//    info.success = true;
-//    info.packageId = infoIn.payId;
-//    ClientLogic::instance()->ProcessServiceResponse(&info);
-    
 #endif
 }
 
