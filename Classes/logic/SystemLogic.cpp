@@ -6396,6 +6396,7 @@ void SystemLogic::takePackageBound(int packageId)
         }
         std::vector<int> packageIdVec;
         shop->getPackageById(shop->shopConfigMap[packageId].boundId, packageIdVec);
+        int totalBoundCount = 0;
         for (int i = 0; i < 20; i++) {
             if (i >= packageIdVec.size()) {
                 break;
@@ -6403,6 +6404,7 @@ void SystemLogic::takePackageBound(int packageId)
             int itemId = packageIdVec[i];
             infoGet.count[i] = shop->packageConfigMap[itemId].boundCount;
             infoGet.frag[i] = false;
+            totalBoundCount++;
             switch(shop->packageConfigMap[itemId].boundType)
             {
                 case 1:
@@ -6571,15 +6573,24 @@ void SystemLogic::takePackageBound(int packageId)
                     infoGet.count[i] = 0;
                     
                     unlockAllJob = true;
+                    
+                    totalBoundCount--;
+                }
+                    break;
+                default:
+                {
+                    totalBoundCount--;
                 }
                     break;
             }
         }
         ClientLogic::instance()->pass2Engine(&infoGet);
         
-        L2E_COMMON info;
-        info.eProtocol = l2e_show_unlock_job;
-        ClientLogic::instance()->pass2Engine(&info);
+        if (unlockAllJob) {
+            L2E_COMMON info;
+            info.eProtocol = l2e_show_unlock_job;
+            ClientLogic::instance()->pass2Engine(&info);
+        }
     }
 }
 
