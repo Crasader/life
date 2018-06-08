@@ -6584,7 +6584,10 @@ void SystemLogic::takePackageBound(int packageId)
                     break;
             }
         }
-        ClientLogic::instance()->pass2Engine(&infoGet);
+        if (totalBoundCount > 0) {
+            ClientLogic::instance()->pass2Engine(&infoGet);
+        }
+        
         
         if (unlockAllJob) {
             L2E_COMMON info;
