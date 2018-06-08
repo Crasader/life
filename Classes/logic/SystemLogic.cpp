@@ -6588,7 +6588,6 @@ void SystemLogic::takePackageBound(int packageId)
             ClientLogic::instance()->pass2Engine(&infoGet);
         }
         
-        
         if (unlockAllJob) {
             L2E_COMMON info;
             info.eProtocol = l2e_show_unlock_job;
