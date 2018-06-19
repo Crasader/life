@@ -343,6 +343,9 @@ void ChapterStagesLayer::startPlot(cocos2d::EventCustom *event)
         if (info.param[3]>=1 && info.param[3]<=10) {
 //            auto stageBg = (ImageView*)(mainScroll->getItem(mainScroll->getItems().size() - info.param[3]));
             auto stageBg = (ImageView*)(mainScroll->getItem(info.param[3]-1));
+            if (!stageBg) {
+                return;
+            }
             pointTip->setAnchorPoint(Vec2::ANCHOR_MIDDLE_BOTTOM);
             if (info.param[3]==1) {
                 pointTip->setPosition(Vec2(30, 30));

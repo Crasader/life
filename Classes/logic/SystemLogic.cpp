@@ -3882,6 +3882,16 @@ void SystemLogic::triggerUnlockFunc(E2L_UPDATE_ONE_VALUE info)
                     infoNpc.missionId = completeMission;
                     ClientLogic::instance()->pass2Engine(&infoNpc);
                     continue;
+                }else if(plot->plotMap[plotId].type == 20){
+                    L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                    infoPackage.eProtocol = l2e_show_custom_package;
+                    std::vector<int> packageIdVec;
+                    shop->getShopByType(9, packageIdVec);
+                    infoPackage.shopId = packageIdVec[0];
+                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    infoPackage.missionId = completeMission;
+                    ClientLogic::instance()->pass2Engine(&infoPackage);
+                    continue;
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -3962,6 +3972,16 @@ void SystemLogic::triggerClickButton(E2L_TRIGGER_CLICK_BUTTON info)
                     infoNpc.missionId = completeMission;
                     ClientLogic::instance()->pass2Engine(&infoNpc);
                     continue;
+                }else if(plot->plotMap[plotId].type == 20){
+                    L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                    infoPackage.eProtocol = l2e_show_custom_package;
+                    std::vector<int> packageIdVec;
+                    shop->getShopByType(9, packageIdVec);
+                    infoPackage.shopId = packageIdVec[0];
+                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    infoPackage.missionId = completeMission;
+                    ClientLogic::instance()->pass2Engine(&infoPackage);
+                    continue;
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4041,6 +4061,16 @@ void SystemLogic::triggerOpenLayer(E2L_TRIGGER_OPEN_LAYER info)
                     infoNpc.missionId = completeMission;
                     ClientLogic::instance()->pass2Engine(&infoNpc);
                     continue;
+                }else if(plot->plotMap[plotId].type == 20){
+                    L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                    infoPackage.eProtocol = l2e_show_custom_package;
+                    std::vector<int> packageIdVec;
+                    shop->getShopByType(9, packageIdVec);
+                    infoPackage.shopId = packageIdVec[0];
+                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    infoPackage.missionId = completeMission;
+                    ClientLogic::instance()->pass2Engine(&infoPackage);
+                    continue;
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4118,6 +4148,16 @@ void SystemLogic::triggerSetupHero()
                     infoNpc.npcId = plot->plotMap[plotId].param[0];
                     infoNpc.missionId = completeMission;
                     ClientLogic::instance()->pass2Engine(&infoNpc);
+                    continue;
+                }else if(plot->plotMap[plotId].type == 20){
+                    L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                    infoPackage.eProtocol = l2e_show_custom_package;
+                    std::vector<int> packageIdVec;
+                    shop->getShopByType(9, packageIdVec);
+                    infoPackage.shopId = packageIdVec[0];
+                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    infoPackage.missionId = completeMission;
+                    ClientLogic::instance()->pass2Engine(&infoPackage);
                     continue;
                 }
                 
@@ -4199,6 +4239,16 @@ void SystemLogic::triggerPassNpc(E2L_TRIGGER_PASS_NPC info)
                     infoNpc.missionId = completeMission;
                     ClientLogic::instance()->pass2Engine(&infoNpc);
                     continue;
+                }else if(plot->plotMap[plotId].type == 20){
+                    L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                    infoPackage.eProtocol = l2e_show_custom_package;
+                    std::vector<int> packageIdVec;
+                    shop->getShopByType(9, packageIdVec);
+                    infoPackage.shopId = packageIdVec[0];
+                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    infoPackage.missionId = completeMission;
+                    ClientLogic::instance()->pass2Engine(&infoPackage);
+                    continue;
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4279,6 +4329,16 @@ void SystemLogic::triggerCreateMonster(E2L_TRIGGER_CREATE_MONSTER info)
                     infoNpc.missionId = completeMission;
                     ClientLogic::instance()->pass2Engine(&infoNpc);
                     continue;
+                }else if(plot->plotMap[plotId].type == 20){
+                    L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                    infoPackage.eProtocol = l2e_show_custom_package;
+                    std::vector<int> packageIdVec;
+                    shop->getShopByType(9, packageIdVec);
+                    infoPackage.shopId = packageIdVec[0];
+                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    infoPackage.missionId = completeMission;
+                    ClientLogic::instance()->pass2Engine(&infoPackage);
+                    continue;
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4358,6 +4418,16 @@ bool SystemLogic::triggerKillMonster(E2L_TRIGGER_KILL_MONSTER info)
                     infoNpc.npcId = plot->plotMap[plotId].param[0];
                     infoNpc.missionId = completeMission;
                     ClientLogic::instance()->pass2Engine(&infoNpc);
+                    continue;
+                }else if(plot->plotMap[plotId].type == 20){
+                    L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                    infoPackage.eProtocol = l2e_show_custom_package;
+                    std::vector<int> packageIdVec;
+                    shop->getShopByType(9, packageIdVec);
+                    infoPackage.shopId = packageIdVec[0];
+                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    infoPackage.missionId = completeMission;
+                    ClientLogic::instance()->pass2Engine(&infoPackage);
                     continue;
                 }
                 
@@ -4440,6 +4510,16 @@ void SystemLogic::triggerFightVictory()
                     infoNpc.missionId = completeMission;
                     ClientLogic::instance()->pass2Engine(&infoNpc);
                     continue;
+                }else if(plot->plotMap[plotId].type == 20){
+                    L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                    infoPackage.eProtocol = l2e_show_custom_package;
+                    std::vector<int> packageIdVec;
+                    shop->getShopByType(9, packageIdVec);
+                    infoPackage.shopId = packageIdVec[0];
+                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    infoPackage.missionId = completeMission;
+                    ClientLogic::instance()->pass2Engine(&infoPackage);
+                    continue;
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4506,6 +4586,7 @@ void SystemLogic::plotComplete(E2L_COMPLETE_PLOT info)
                     shop->getShopByType(9, packageIdVec);
                     infoPackage.shopId = packageIdVec[0];
                     infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                    infoPackage.missionId = missionId;
                     ClientLogic::instance()->pass2Engine(&infoPackage);
                     continue;
                 }
@@ -4535,6 +4616,51 @@ void SystemLogic::plotComplete(E2L_COMPLETE_PLOT info)
                     std::vector<int> plotIdVec;
                     plot->getNextStep(plotIdVec);
                     for (auto plotId : plotIdVec) {
+                        if (plot->plotMap[plotId].type == 12) {
+                            GameCore::instance()->plotOpenSendMonster(plot->plotMap[plotId].param[0], missionId);
+                            continue;
+                        }else if (plot->plotMap[plotId].type == 1){
+                            dialog->readDialogConfig(plot->plotMap[plotId].param[1],
+                                                     plot->plotMap[plotId].param[0]);
+                            dialog->setMissionId(missionId);
+                            
+                            L2E_SHOW_DIALOG infoPlot;
+                            infoPlot.eProtocol = l2e_show_dialog;
+                            infoPlot.icon = dialog->segMap[dialog->getSegId()].faceIcon;
+                            infoPlot.name = dialog->segMap[dialog->getSegId()].dialogName;
+                            infoPlot.content = dialog->lineMap[dialog->getLineId()].content;
+                            infoPlot.direct = dialog->segMap[dialog->getSegId()].direct;
+                            ClientLogic::instance()->pass2Engine(&infoPlot);
+                            continue;
+                        }else if (plot->plotMap[plotId].type == 7){
+                            L2E_ADD_NPC infoNpc;
+                            infoNpc.eProtocol = l2e_add_npc;
+                            infoNpc.npcId = plot->plotMap[plotId].param[0];
+                            infoNpc.armaFile = plotMission->npcConfigMap[infoNpc.npcId].armaFile;
+                            infoNpc.posX = plot->plotMap[plotId].param[1];
+                            infoNpc.direct = plot->plotMap[plotId].param[2];
+                            infoNpc.missionId = missionId;
+                            ClientLogic::instance()->pass2Engine(&infoNpc);
+                            continue;
+                        }else if (plot->plotMap[plotId].type == 8){
+                            L2E_REMOVE_NPC infoNpc;
+                            infoNpc.eProtocol = l2e_remove_npc;
+                            infoNpc.npcId = plot->plotMap[plotId].param[0];
+                            infoNpc.missionId = missionId;
+                            ClientLogic::instance()->pass2Engine(&infoNpc);
+                            continue;
+                        }else if(plot->plotMap[plotId].type == 20){
+                            L2E_SHOW_CUSTOM_PACKAGE infoPackage;
+                            infoPackage.eProtocol = l2e_show_custom_package;
+                            std::vector<int> packageIdVec;
+                            shop->getShopByType(9, packageIdVec);
+                            infoPackage.shopId = packageIdVec[0];
+                            infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                            infoPackage.missionId = missionId;
+                            ClientLogic::instance()->pass2Engine(&infoPackage);
+                            continue;
+                        }
+                        
                         L2E_START_PLOT infoPlot;
                         infoPlot.eProtocol = l2e_start_plot;
                         infoPlot.missionId = missionId;
