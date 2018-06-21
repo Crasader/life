@@ -3887,11 +3887,14 @@ void SystemLogic::triggerUnlockFunc(E2L_UPDATE_ONE_VALUE info)
                     infoPackage.eProtocol = l2e_show_custom_package;
                     std::vector<int> packageIdVec;
                     shop->getShopByType(9, packageIdVec);
-                    infoPackage.shopId = packageIdVec[0];
-                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                    infoPackage.missionId = completeMission;
-                    ClientLogic::instance()->pass2Engine(&infoPackage);
-                    continue;
+                    if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                  plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                        infoPackage.missionId = completeMission;
+                        ClientLogic::instance()->pass2Engine(&infoPackage);
+                        continue;
+                    }
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -3977,11 +3980,14 @@ void SystemLogic::triggerClickButton(E2L_TRIGGER_CLICK_BUTTON info)
                     infoPackage.eProtocol = l2e_show_custom_package;
                     std::vector<int> packageIdVec;
                     shop->getShopByType(9, packageIdVec);
-                    infoPackage.shopId = packageIdVec[0];
-                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                    infoPackage.missionId = completeMission;
-                    ClientLogic::instance()->pass2Engine(&infoPackage);
-                    continue;
+                    if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                  plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                        infoPackage.missionId = completeMission;
+                        ClientLogic::instance()->pass2Engine(&infoPackage);
+                        continue;
+                    }
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4066,11 +4072,14 @@ void SystemLogic::triggerOpenLayer(E2L_TRIGGER_OPEN_LAYER info)
                     infoPackage.eProtocol = l2e_show_custom_package;
                     std::vector<int> packageIdVec;
                     shop->getShopByType(9, packageIdVec);
-                    infoPackage.shopId = packageIdVec[0];
-                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                    infoPackage.missionId = completeMission;
-                    ClientLogic::instance()->pass2Engine(&infoPackage);
-                    continue;
+                    if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                  plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                        infoPackage.missionId = completeMission;
+                        ClientLogic::instance()->pass2Engine(&infoPackage);
+                        continue;
+                    }
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4154,11 +4163,14 @@ void SystemLogic::triggerSetupHero()
                     infoPackage.eProtocol = l2e_show_custom_package;
                     std::vector<int> packageIdVec;
                     shop->getShopByType(9, packageIdVec);
-                    infoPackage.shopId = packageIdVec[0];
-                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                    infoPackage.missionId = completeMission;
-                    ClientLogic::instance()->pass2Engine(&infoPackage);
-                    continue;
+                    if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                  plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                        infoPackage.missionId = completeMission;
+                        ClientLogic::instance()->pass2Engine(&infoPackage);
+                        continue;
+                    }
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4244,11 +4256,14 @@ void SystemLogic::triggerPassNpc(E2L_TRIGGER_PASS_NPC info)
                     infoPackage.eProtocol = l2e_show_custom_package;
                     std::vector<int> packageIdVec;
                     shop->getShopByType(9, packageIdVec);
-                    infoPackage.shopId = packageIdVec[0];
-                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                    infoPackage.missionId = completeMission;
-                    ClientLogic::instance()->pass2Engine(&infoPackage);
-                    continue;
+                    if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                  plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                        infoPackage.missionId = completeMission;
+                        ClientLogic::instance()->pass2Engine(&infoPackage);
+                        continue;
+                    }
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4334,11 +4349,14 @@ void SystemLogic::triggerCreateMonster(E2L_TRIGGER_CREATE_MONSTER info)
                     infoPackage.eProtocol = l2e_show_custom_package;
                     std::vector<int> packageIdVec;
                     shop->getShopByType(9, packageIdVec);
-                    infoPackage.shopId = packageIdVec[0];
-                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                    infoPackage.missionId = completeMission;
-                    ClientLogic::instance()->pass2Engine(&infoPackage);
-                    continue;
+                    if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                  plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                        infoPackage.missionId = completeMission;
+                        ClientLogic::instance()->pass2Engine(&infoPackage);
+                        continue;
+                    }
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4424,11 +4442,14 @@ bool SystemLogic::triggerKillMonster(E2L_TRIGGER_KILL_MONSTER info)
                     infoPackage.eProtocol = l2e_show_custom_package;
                     std::vector<int> packageIdVec;
                     shop->getShopByType(9, packageIdVec);
-                    infoPackage.shopId = packageIdVec[0];
-                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                    infoPackage.missionId = completeMission;
-                    ClientLogic::instance()->pass2Engine(&infoPackage);
-                    continue;
+                    if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                  plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                        infoPackage.missionId = completeMission;
+                        ClientLogic::instance()->pass2Engine(&infoPackage);
+                        continue;
+                    }
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4515,11 +4536,14 @@ void SystemLogic::triggerFightVictory()
                     infoPackage.eProtocol = l2e_show_custom_package;
                     std::vector<int> packageIdVec;
                     shop->getShopByType(9, packageIdVec);
-                    infoPackage.shopId = packageIdVec[0];
-                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                    infoPackage.missionId = completeMission;
-                    ClientLogic::instance()->pass2Engine(&infoPackage);
-                    continue;
+                    if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                  plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                        infoPackage.missionId = completeMission;
+                        ClientLogic::instance()->pass2Engine(&infoPackage);
+                        continue;
+                    }
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4584,11 +4608,14 @@ void SystemLogic::plotComplete(E2L_COMPLETE_PLOT info)
                     infoPackage.eProtocol = l2e_show_custom_package;
                     std::vector<int> packageIdVec;
                     shop->getShopByType(9, packageIdVec);
-                    infoPackage.shopId = packageIdVec[0];
-                    infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                    infoPackage.missionId = missionId;
-                    ClientLogic::instance()->pass2Engine(&infoPackage);
-                    continue;
+                    if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                  plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                        infoPackage.missionId = missionId;
+                        ClientLogic::instance()->pass2Engine(&infoPackage);
+                        continue;
+                    }
                 }
                 
                 L2E_START_PLOT infoPlot;
@@ -4654,11 +4681,14 @@ void SystemLogic::plotComplete(E2L_COMPLETE_PLOT info)
                             infoPackage.eProtocol = l2e_show_custom_package;
                             std::vector<int> packageIdVec;
                             shop->getShopByType(9, packageIdVec);
-                            infoPackage.shopId = packageIdVec[0];
-                            infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
-                            infoPackage.missionId = missionId;
-                            ClientLogic::instance()->pass2Engine(&infoPackage);
-                            continue;
+                            if (std::find(packageIdVec.begin(), packageIdVec.end(),
+                                          plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
+                                infoPackage.shopId = packageIdVec[0];
+                                infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
+                                infoPackage.missionId = missionId;
+                                ClientLogic::instance()->pass2Engine(&infoPackage);
+                                continue;
+                            }
                         }
                         
                         L2E_START_PLOT infoPlot;
