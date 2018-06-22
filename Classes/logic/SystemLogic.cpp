@@ -3889,7 +3889,7 @@ void SystemLogic::triggerUnlockFunc(E2L_UPDATE_ONE_VALUE info)
                     shop->getShopByType(9, packageIdVec);
                     if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                   plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.shopId = plot->plotMap[plotId].param[0];
                         infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                         infoPackage.missionId = completeMission;
                         ClientLogic::instance()->pass2Engine(&infoPackage);
@@ -3982,7 +3982,7 @@ void SystemLogic::triggerClickButton(E2L_TRIGGER_CLICK_BUTTON info)
                     shop->getShopByType(9, packageIdVec);
                     if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                   plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.shopId = plot->plotMap[plotId].param[0];
                         infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                         infoPackage.missionId = completeMission;
                         ClientLogic::instance()->pass2Engine(&infoPackage);
@@ -4074,7 +4074,7 @@ void SystemLogic::triggerOpenLayer(E2L_TRIGGER_OPEN_LAYER info)
                     shop->getShopByType(9, packageIdVec);
                     if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                   plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.shopId = plot->plotMap[plotId].param[0];
                         infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                         infoPackage.missionId = completeMission;
                         ClientLogic::instance()->pass2Engine(&infoPackage);
@@ -4165,7 +4165,7 @@ void SystemLogic::triggerSetupHero()
                     shop->getShopByType(9, packageIdVec);
                     if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                   plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.shopId = plot->plotMap[plotId].param[0];
                         infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                         infoPackage.missionId = completeMission;
                         ClientLogic::instance()->pass2Engine(&infoPackage);
@@ -4258,7 +4258,7 @@ void SystemLogic::triggerPassNpc(E2L_TRIGGER_PASS_NPC info)
                     shop->getShopByType(9, packageIdVec);
                     if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                   plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.shopId = plot->plotMap[plotId].param[0];
                         infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                         infoPackage.missionId = completeMission;
                         ClientLogic::instance()->pass2Engine(&infoPackage);
@@ -4351,7 +4351,7 @@ void SystemLogic::triggerCreateMonster(E2L_TRIGGER_CREATE_MONSTER info)
                     shop->getShopByType(9, packageIdVec);
                     if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                   plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.shopId = plot->plotMap[plotId].param[0];
                         infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                         infoPackage.missionId = completeMission;
                         ClientLogic::instance()->pass2Engine(&infoPackage);
@@ -4444,7 +4444,7 @@ bool SystemLogic::triggerKillMonster(E2L_TRIGGER_KILL_MONSTER info)
                     shop->getShopByType(9, packageIdVec);
                     if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                   plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.shopId = plot->plotMap[plotId].param[0];
                         infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                         infoPackage.missionId = completeMission;
                         ClientLogic::instance()->pass2Engine(&infoPackage);
@@ -4538,7 +4538,7 @@ void SystemLogic::triggerFightVictory()
                     shop->getShopByType(9, packageIdVec);
                     if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                   plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.shopId = plot->plotMap[plotId].param[0];
                         infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                         infoPackage.missionId = completeMission;
                         ClientLogic::instance()->pass2Engine(&infoPackage);
@@ -4610,7 +4610,7 @@ void SystemLogic::plotComplete(E2L_COMPLETE_PLOT info)
                     shop->getShopByType(9, packageIdVec);
                     if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                   plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                        infoPackage.shopId = packageIdVec[0];
+                        infoPackage.shopId = plot->plotMap[plotId].param[0];
                         infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                         infoPackage.missionId = missionId;
                         ClientLogic::instance()->pass2Engine(&infoPackage);
@@ -4683,7 +4683,7 @@ void SystemLogic::plotComplete(E2L_COMPLETE_PLOT info)
                             shop->getShopByType(9, packageIdVec);
                             if (std::find(packageIdVec.begin(), packageIdVec.end(),
                                           plot->plotMap[plotId].param[0]) != packageIdVec.end()) {
-                                infoPackage.shopId = packageIdVec[0];
+                                infoPackage.shopId = plot->plotMap[plotId].param[0];
                                 infoPackage.showRes = shop->shopConfigMap[infoPackage.shopId].showRes;
                                 infoPackage.missionId = missionId;
                                 ClientLogic::instance()->pass2Engine(&infoPackage);

@@ -90,6 +90,7 @@ void Monster::initFightData(int idx)
 //        getBlackActor()->initSkills(oppRobot.holySwordId, oppRobot.petId);
     }
     blackActor->readFile(idx, FIGHTER_CONFIG_FILE);
+    blackActor->setHp(10);//测试用
     blackActor->setAp(0);
     blackActor->initSelSkill();
     blackActor->initSelSkillTag();
