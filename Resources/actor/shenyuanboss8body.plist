@@ -7,11 +7,11 @@
             <key>jinx/bianzi_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{31,146},{14,25}}</string>
+                <string>{{2,291},{14,25}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{14,25}}</string>
                 <key>sourceSize</key>
@@ -20,7 +20,7 @@
             <key>jinx/bianzi_6.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{64,33},{41,33}}</string>
+                <string>{{2,67},{41,33}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -33,59 +33,59 @@
             <key>jinx/dabi_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{107,33},{17,27}}</string>
+                <string>{{50,38},{12,21}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{17,27}}</string>
+                <string>{{0,0},{12,21}}</string>
                 <key>sourceSize</key>
-                <string>{17,27}</string>
+                <string>{12,21}</string>
             </dict>
             <key>jinx/dabi_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,115},{19,26}}</string>
+                <string>{{22,327},{14,20}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{19,26}}</string>
+                <string>{{0,0},{14,20}}</string>
                 <key>sourceSize</key>
-                <string>{19,26}</string>
+                <string>{14,20}</string>
             </dict>
             <key>jinx/datui_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{64,68},{19,40}}</string>
+                <string>{{2,186},{15,34}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{19,40}}</string>
+                <string>{{0,0},{15,34}}</string>
                 <key>sourceSize</key>
-                <string>{19,40}</string>
+                <string>{15,34}</string>
             </dict>
             <key>jinx/datui_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,67},{24,40}}</string>
+                <string>{{42,103},{20,33}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{24,40}}</string>
+                <string>{{0,0},{20,33}}</string>
                 <key>sourceSize</key>
-                <string>{24,40}</string>
+                <string>{20,33}</string>
             </dict>
             <key>jinx/face_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{25,173},{21,18}}</string>
+                <string>{{2,307},{21,18}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -98,7 +98,7 @@
             <key>jinx/face_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,173},{21,18}}</string>
+                <string>{{29,295},{21,18}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -111,11 +111,11 @@
             <key>jinx/face_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{44,101},{21,18}}</string>
+                <string>{{38,201},{21,18}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{21,18}}</string>
                 <key>sourceSize</key>
@@ -124,11 +124,11 @@
             <key>jinx/jiqiang.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{72,27}}</string>
+                <string>{{33,221},{72,27}}</string>
                 <key>offset</key>
                 <string>{-2,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{72,27}}</string>
                 <key>sourceSize</key>
@@ -137,7 +137,7 @@
             <key>jinx/pao_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,31},{60,34}}</string>
+                <string>{{2,2},{60,34}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -150,11 +150,11 @@
             <key>jinx/pao_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{103,136},{35,21}}</string>
+                <string>{{2,163},{35,21}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{35,21}}</string>
                 <key>sourceSize</key>
@@ -163,7 +163,7 @@
             <key>jinx/pao_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,136},{23,13}}</string>
+                <string>{{39,166},{23,13}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -176,7 +176,7 @@
             <key>jinx/qiang.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{64,89},{38,26}}</string>
+                <string>{{2,135},{38,26}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -189,50 +189,50 @@
             <key>jinx/qunzi.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,93},{40,20}}</string>
+                <string>{{2,203},{29,19}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{40,20}}</string>
+                <string>{{0,0},{29,19}}</string>
                 <key>sourceSize</key>
-                <string>{40,20}</string>
+                <string>{29,19}</string>
             </dict>
             <key>jinx/shenti.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{76,2},{29,47}}</string>
+                <string>{{2,38},{27,46}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{6,4},{29,47}}</string>
+                <string>{{0,0},{27,46}}</string>
                 <key>sourceSize</key>
-                <string>{41,55}</string>
+                <string>{27,46}</string>
             </dict>
             <key>jinx/shou_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{107,62},{17,20}}</string>
-                <key>offset</key>
-                <string>{0,0}</string>
-                <key>rotated</key>
-                <false/>
-                <key>sourceColorRect</key>
-                <string>{{0,0},{17,20}}</string>
-                <key>sourceSize</key>
-                <string>{17,20}</string>
-            </dict>
-            <key>jinx/shou_2.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{106,84},{22,18}}</string>
+                <string>{{45,87},{14,17}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{14,17}}</string>
+                <key>sourceSize</key>
+                <string>{14,17}</string>
+            </dict>
+            <key>jinx/shou_2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{39,181},{22,18}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,1},{22,18}}</string>
                 <key>sourceSize</key>
@@ -241,20 +241,20 @@
             <key>jinx/shou_3.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{31,124},{20,15}}</string>
+                <string>{{2,271},{25,18}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,2},{20,15}}</string>
+                <string>{{0,0},{25,18}}</string>
                 <key>sourceSize</key>
-                <string>{20,19}</string>
+                <string>{25,18}</string>
             </dict>
             <key>jinx/shou_4.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{104,108},{26,20}}</string>
+                <string>{{42,138},{26,20}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -267,20 +267,20 @@
             <key>jinx/tou.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{64,117},{31,37}}</string>
+                <string>{{2,102},{31,38}}</string>
                 <key>offset</key>
-                <string>{-2,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{31,37}}</string>
+                <string>{{0,0},{31,38}}</string>
                 <key>sourceSize</key>
-                <string>{35,37}</string>
+                <string>{31,38}</string>
             </dict>
             <key>jinx/toufa.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,155},{16,27}}</string>
+                <string>{{2,224},{16,27}}</string>
                 <key>offset</key>
                 <string>{0,1}</string>
                 <key>rotated</key>
@@ -293,106 +293,106 @@
             <key>jinx/xb_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{48,124},{14,29}}</string>
+                <string>{{50,61},{11,24}}</string>
                 <key>offset</key>
-                <string>{-2,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{14,29}}</string>
+                <string>{{0,0},{11,24}}</string>
                 <key>sourceSize</key>
-                <string>{18,29}</string>
+                <string>{11,24}</string>
             </dict>
             <key>jinx/xiaobi_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{75,165},{22,24}}</string>
+                <string>{{2,327},{18,20}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{22,24}}</string>
+                <string>{{0,0},{18,20}}</string>
                 <key>sourceSize</key>
-                <string>{22,24}</string>
+                <string>{18,20}</string>
             </dict>
             <key>jinx/xiaotui_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{44,67},{18,32}}</string>
+                <string>{{2,242},{15,27}}</string>
                 <key>offset</key>
-                <string>{2,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{4,0},{18,32}}</string>
+                <string>{{0,0},{15,27}}</string>
                 <key>sourceSize</key>
-                <string>{22,32}</string>
+                <string>{15,27}</string>
             </dict>
             <key>jinx/xiaotui_2.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{69,150},{13,31}}</string>
+                <string>{{2,259},{10,26}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{13,31}}</string>
+                <string>{{0,0},{10,26}}</string>
                 <key>sourceSize</key>
-                <string>{13,31}</string>
+                <string>{10,26}</string>
             </dict>
             <key>jinx/xie_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{99,173},{23,13}}</string>
+                <string>{{52,295},{19,10}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{23,13}}</string>
+                <string>{{0,0},{19,10}}</string>
                 <key>sourceSize</key>
-                <string>{23,13}</string>
+                <string>{19,10}</string>
             </dict>
             <key>jinx/xie_1_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{47,155},{14,20}}</string>
-                <key>offset</key>
-                <string>{-1,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{0,1},{14,20}}</string>
-                <key>sourceSize</key>
-                <string>{16,22}</string>
-            </dict>
-            <key>jinx/xie_2_1.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{61,171},{12,19}}</string>
+                <string>{{38,329},{14,19}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{1,0},{12,19}}</string>
+                <string>{{0,0},{14,19}}</string>
                 <key>sourceSize</key>
                 <string>{14,19}</string>
             </dict>
-            <key>jinx/xie_2_2.png</key>
+            <key>jinx/xie_2_1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{48,171},{20,11}}</string>
+                <string>{{45,316},{11,16}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{0,0},{20,11}}</string>
+                <string>{{0,0},{11,16}}</string>
                 <key>sourceSize</key>
-                <string>{20,11}</string>
+                <string>{11,16}</string>
+            </dict>
+            <key>jinx/xie_2_2.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{25,315},{18,10}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{18,10}}</string>
+                <key>sourceSize</key>
+                <string>{18,10}</string>
             </dict>
         </dict>
         <key>metadata</key>
@@ -402,9 +402,9 @@
             <key>realTextureFileName</key>
             <string>shenyuanboss8body.png</string>
             <key>size</key>
-            <string>{126,193}</string>
+            <string>{64,350}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:14f5bc370b886813e31faddce721cb0f$</string>
+            <string>$TexturePacker:SmartUpdate:2659bb6946882e628e47e36b574a4ded$</string>
             <key>textureFileName</key>
             <string>shenyuanboss8body.png</string>
         </dict>
