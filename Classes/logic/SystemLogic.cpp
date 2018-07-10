@@ -6240,93 +6240,97 @@ void SystemLogic::showShop(E2L_UPDATE_ONE_VALUE info)
 void SystemLogic::showShopPackageDetail(E2L_UPDATE_ONE_VALUE info)
 {
     int packageId = info.value;
-    L2E_SHOW_PACKAGE_DETAIL infoOut;
-    infoOut.eProtocol = l2e_show_package_detail;
-    infoOut.packageId = packageId;
-    infoOut.packageImg = shop->shopConfigMap[packageId].packageImg;
-    infoOut.packageTitle = shop->shopConfigMap[packageId].packageTitle;
-    infoOut.price = shop->shopConfigMap[packageId].price;
-    infoOut.noviceState = shop->getCoreData().noviceRecharge;
-    memset(infoOut.count, 0, sizeof(int)*20);
-    if (shop->shopConfigMap[packageId].boundType == 1) {
-        infoOut.itemCount = 1;
-        infoOut.count[0] = shop->shopConfigMap[packageId].boundCount;
-        infoOut.icon[0] = GameUtils::format(COMMON_DIR, "drop-17.png");
-        ClientLogic::instance()->pass2Engine(&infoOut);
-        return;
-    }
-    std::vector<int> packageIdVec;
-    shop->getPackageById(shop->shopConfigMap[packageId].boundId, packageIdVec);
-    infoOut.itemCount = (int)packageIdVec.size();
-    if (infoOut.itemCount > 0) {
-        int index = 0;
-        for (auto packageId : packageIdVec) {
-            infoOut.count[index] = shop->packageConfigMap[packageId].boundCount;
-            int boundType = shop->packageConfigMap[packageId].boundType;
-            switch(boundType)
-            {
-                case 1:
-                {
-                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "drop-16.png");
-                }
-                    break;
-                case 2:
-                {
-                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "drop-17.png");
-                }
-                    break;
-                case 3:
-                {
-                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "tilibiao.png");
-
-                }
-                    break;
-                case 4:
-                {
-                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "hunshi.png");
-                }
-                    break;
-                case 5:
-                {
-                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "shengwang.png");
-                }
-                    break;
-                case 6:
-                {
-                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "saodangquan.png");
-                }
-                    break;
-                case 7:
-                {
-                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, arms->gemsConfigMap[shop->packageConfigMap[packageId].boundId].icon.c_str());
-                }
-                    break;
-                case 8:
-                {
-                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, equip->equipItemConfigMap[shop->packageConfigMap[packageId].boundId].icon.c_str());
-                }
-                    break;
-                case 9:
-                {
-                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, pet->petConfigMap[shop->packageConfigMap[packageId].boundId].icon.c_str());
-                }
-                    break;
-                case 10:
-                {
-                    infoOut.icon[index] = GameUtils::format(LUCKY_DIR, "chouqu1.png");
-                }
-                    break;
-                case 11:
-                {
-                    infoOut.icon[index] = GameUtils::format(LUCKY_DIR, "chouqu2.png");
-                }
-                    break;
-            }
-            index++;
-        }
-        
-    }
-    ClientLogic::instance()->pass2Engine(&infoOut);
+    E2L_UPDATE_ONE_VALUE infoOut;
+    infoOut.eProtocol = e2l_shop_buy_package;
+    infoOut.value = packageId;
+    buyShopPackage(infoOut);
+//    L2E_SHOW_PACKAGE_DETAIL infoOut;
+//    infoOut.eProtocol = l2e_show_package_detail;
+//    infoOut.packageId = packageId;
+//    infoOut.packageImg = shop->shopConfigMap[packageId].packageImg;
+//    infoOut.packageTitle = shop->shopConfigMap[packageId].packageTitle;
+//    infoOut.price = shop->shopConfigMap[packageId].price;
+//    infoOut.noviceState = shop->getCoreData().noviceRecharge;
+//    memset(infoOut.count, 0, sizeof(int)*20);
+//    if (shop->shopConfigMap[packageId].boundType == 1) {
+//        infoOut.itemCount = 1;
+//        infoOut.count[0] = shop->shopConfigMap[packageId].boundCount;
+//        infoOut.icon[0] = GameUtils::format(COMMON_DIR, "drop-17.png");
+//        ClientLogic::instance()->pass2Engine(&infoOut);
+//        return;
+//    }
+//    std::vector<int> packageIdVec;
+//    shop->getPackageById(shop->shopConfigMap[packageId].boundId, packageIdVec);
+//    infoOut.itemCount = (int)packageIdVec.size();
+//    if (infoOut.itemCount > 0) {
+//        int index = 0;
+//        for (auto packageId : packageIdVec) {
+//            infoOut.count[index] = shop->packageConfigMap[packageId].boundCount;
+//            int boundType = shop->packageConfigMap[packageId].boundType;
+//            switch(boundType)
+//            {
+//                case 1:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "drop-16.png");
+//                }
+//                    break;
+//                case 2:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "drop-17.png");
+//                }
+//                    break;
+//                case 3:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "tilibiao.png");
+//
+//                }
+//                    break;
+//                case 4:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "hunshi.png");
+//                }
+//                    break;
+//                case 5:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "shengwang.png");
+//                }
+//                    break;
+//                case 6:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, "saodangquan.png");
+//                }
+//                    break;
+//                case 7:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, arms->gemsConfigMap[shop->packageConfigMap[packageId].boundId].icon.c_str());
+//                }
+//                    break;
+//                case 8:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, equip->equipItemConfigMap[shop->packageConfigMap[packageId].boundId].icon.c_str());
+//                }
+//                    break;
+//                case 9:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(COMMON_DIR, pet->petConfigMap[shop->packageConfigMap[packageId].boundId].icon.c_str());
+//                }
+//                    break;
+//                case 10:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(LUCKY_DIR, "chouqu1.png");
+//                }
+//                    break;
+//                case 11:
+//                {
+//                    infoOut.icon[index] = GameUtils::format(LUCKY_DIR, "chouqu2.png");
+//                }
+//                    break;
+//            }
+//            index++;
+//        }
+//
+//    }
+//    ClientLogic::instance()->pass2Engine(&infoOut);
 }
 
 void SystemLogic::buyRevive()

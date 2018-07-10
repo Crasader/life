@@ -80,10 +80,10 @@ void ServiceManager::exitApp(void *pMsg)
     cocos2d::Director::getInstance()->end();
     exit(0);
 #elif CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
-//    AndroidHelper::exitGame();
-    S2C_EXIT_APP info;
-    info.eProtocol = s2c_exit;
-    ClientLogic::instance()->ProcessServiceResponse(&info);
+    AndroidHelper::exitGame();
+//    S2C_EXIT_APP info;
+//    info.eProtocol = s2c_exit;
+//    ClientLogic::instance()->ProcessServiceResponse(&info);
 #endif
 
 }

@@ -115,7 +115,7 @@ void AndroidHelper::exitGame()
     bool isHavere =JniHelper::getStaticMethodInfo(minfore,"org/cocos2dx/cpp/Depend", "exitGame", "()V");
     if (isHavere)
     {
-        minfore.env -> CallStaticBooleanMethod(minfore.classID,minfore.methodID);
+        minfore.env -> CallStaticVoidMethod(minfore.classID,minfore.methodID);
     }
     else
     {
