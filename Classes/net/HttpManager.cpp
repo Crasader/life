@@ -31,7 +31,8 @@ void HttpManager::reqServerTime()
     request->setUrl(SERVER_TIME_URL);
     request->setRequestType(HttpRequest::Type::GET);
     request->setResponseCallback(CC_CALLBACK_2(HttpManager::onHttpRequestCompleted, this));
-    request->setTag("GET server_time");
+//    request->setTag("GET server_time");
+    request->setTag("WebTime");
     HttpClient::getInstance()->send(request);
     request->release();
 }

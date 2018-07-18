@@ -30,6 +30,8 @@ public:
     
     static void setServerTime(std::string timeStr);
     static void updateServerTime(float dt);
+    
+//    static void splitString(std::vector<std::string> &contentVector,std::string content, std::string pattern);
 private:
     static double serverTime;
 };

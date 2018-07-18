@@ -79,7 +79,8 @@ enum LAYER_INDEX {
 
 static cocos2d::Size designResolutionSize = cocos2d::Size(960, 640);
 #define UMENG_APPKEY "5aadc630a40fa32f88000d97"
-#define SERVER_TIME_URL "http://miao.quleinfo.com:3700/forwardapi/time"
+//#define SERVER_TIME_URL "http://miao.quleinfo.com:3700/forwardapi/time"
+#define SERVER_TIME_URL "http://cgi.im.qq.com/cgi-bin/cgi_svrtime"
 
 #define STAGE_CONFIG_FILE                                   "data/dabao_stage.json"
 #define BATTLE_CONFIG_FILE                                  "data/dabao_battleField.json"

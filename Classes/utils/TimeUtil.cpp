@@ -14,8 +14,33 @@ void TimeUtil::setServerTime(std::string timeStr)
     tm_.tm_isdst = -1;
     t_  = mktime(&tm_); //将tm时间转换为秒时间
     
+    if (t_ <= 0) { //如解析错误，设为0
+        serverTime = 0;
+        return;
+    }
     serverTime = t_;
 }
+
+////切割字符串
+//void TimeUtil::splitString(std::vector<std::string> &contentVector,std::string content, std::string pattern)
+//{
+//    std::string::size_type pos;
+//    //std::vector<std::string> result;
+//    content += pattern;//扩展字符串以方便操作
+//    int size = content.size();
+//    
+//    for (int i = 0; i<size; i++)
+//    {
+//        pos = content.find(pattern, i);
+//        if (pos<size)
+//        {
+//            std::string s = content.substr(i, pos - i);
+//            // result.push_back(s);
+//            contentVector.push_back(s);
+//            i = pos + pattern.size() - 1;
+//        }
+//    }
+//}
 
 void TimeUtil::updateServerTime(float dt)
 {
